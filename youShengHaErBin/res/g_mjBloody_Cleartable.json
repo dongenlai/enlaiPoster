@@ -1,0 +1,630 @@
+{
+  "ID": "e167dec0-bf7e-44d6-97e6-7ac155a42c24",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_Cleartable",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "BackColorAlpha": 130,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/clearT_1.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 794,
+                "Scale9Height": 659,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 375.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.5952,
+                  "Y": 0.8787
+                },
+                "LeftMargin": 270.0,
+                "RightMargin": 270.0,
+                "TopMargin": 45.5,
+                "BottomMargin": 45.5,
+                "Tag": 3,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/ui/clearT_3.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 99,
+                    "Scale9Height": 55,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 404.8841,
+                      "Y": 610.6853
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5099,
+                      "Y": 0.9267
+                    },
+                    "PreSize": {
+                      "X": 0.1247,
+                      "Y": 0.0835
+                    },
+                    "LeftMargin": 355.3841,
+                    "RightMargin": 339.6159,
+                    "TopMargin": 20.8147,
+                    "BottomMargin": 583.1853,
+                    "Tag": 4,
+                    "ActionTag": -276571380,
+                    "Size": {
+                      "X": 99.0,
+                      "Y": 55.0
+                    },
+                    "Name": "Image_2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "玩家【***】申请解散房间",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 42.9166,
+                      "Y": 472.0719
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 100,
+                      "B": 52
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0541,
+                      "Y": 0.7163
+                    },
+                    "PreSize": {
+                      "X": 0.4345,
+                      "Y": 0.0455
+                    },
+                    "LeftMargin": 42.9166,
+                    "RightMargin": 406.0834,
+                    "TopMargin": 156.9281,
+                    "BottomMargin": 472.0719,
+                    "Tag": 5,
+                    "ActionTag": -1570145538,
+                    "Size": {
+                      "X": 345.0,
+                      "Y": 30.0
+                    },
+                    "Name": "_text_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "请在300秒内进行选择，超时未做选择则默认同意.",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 42.9166,
+                      "Y": 416.1975
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 100,
+                      "B": 52
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0541,
+                      "Y": 0.6316
+                    },
+                    "PreSize": {
+                      "X": 0.8312,
+                      "Y": 0.0455
+                    },
+                    "LeftMargin": 42.9166,
+                    "RightMargin": 91.0834,
+                    "TopMargin": 212.8025,
+                    "BottomMargin": 416.1975,
+                    "Tag": 7,
+                    "ActionTag": 1996935652,
+                    "Size": {
+                      "X": 660.0,
+                      "Y": 30.0
+                    },
+                    "Name": "_text_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "【***】等待选择",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 391.4973,
+                      "Y": 363.4888
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 100,
+                      "B": 52
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4931,
+                      "Y": 0.5516
+                    },
+                    "PreSize": {
+                      "X": 0.2834,
+                      "Y": 0.0455
+                    },
+                    "LeftMargin": 278.9973,
+                    "RightMargin": 290.0027,
+                    "TopMargin": 280.5112,
+                    "BottomMargin": 348.4888,
+                    "ActionTag": -433504551,
+                    "Size": {
+                      "X": 225.0,
+                      "Y": 30.0
+                    },
+                    "Name": "_textPlayer",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "【***】等待选择",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 391.4973,
+                      "Y": 307.6143
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 100,
+                      "B": 52
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4931,
+                      "Y": 0.4668
+                    },
+                    "PreSize": {
+                      "X": 0.2834,
+                      "Y": 0.0455
+                    },
+                    "LeftMargin": 278.9973,
+                    "RightMargin": 290.0027,
+                    "TopMargin": 336.3857,
+                    "BottomMargin": 292.6143,
+                    "Tag": 1,
+                    "ActionTag": 146122709,
+                    "Size": {
+                      "X": 225.0,
+                      "Y": 30.0
+                    },
+                    "Name": "_textPlayer",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "【***】等待选择",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 391.4973,
+                      "Y": 251.7399
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 100,
+                      "B": 52
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4931,
+                      "Y": 0.382
+                    },
+                    "PreSize": {
+                      "X": 0.2834,
+                      "Y": 0.0455
+                    },
+                    "LeftMargin": 278.9973,
+                    "RightMargin": 290.0027,
+                    "TopMargin": 392.2601,
+                    "BottomMargin": 236.7399,
+                    "Tag": 2,
+                    "ActionTag": 901856089,
+                    "Size": {
+                      "X": 225.0,
+                      "Y": 30.0
+                    },
+                    "Name": "_textPlayer",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/ui/clearT_4.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/ui/clearT_4.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 187,
+                    "Scale9Height": 49,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 223.6147,
+                      "Y": 97.6956
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2816,
+                      "Y": 0.1482
+                    },
+                    "PreSize": {
+                      "X": 0.2733,
+                      "Y": 0.1077
+                    },
+                    "LeftMargin": 115.1147,
+                    "RightMargin": 461.8853,
+                    "TopMargin": 525.8044,
+                    "BottomMargin": 62.1956,
+                    "CallBackType": "Click",
+                    "CallBackName": "onCancel",
+                    "Tag": 11,
+                    "ActionTag": -745831942,
+                    "Size": {
+                      "X": 217.0,
+                      "Y": 71.0
+                    },
+                    "Name": "_cancelBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/ui/clearT_5.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/ui/clearT_5.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 190,
+                    "Scale9Height": 51,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 571.7095,
+                      "Y": 96.6955
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.72,
+                      "Y": 0.1467
+                    },
+                    "PreSize": {
+                      "X": 0.2771,
+                      "Y": 0.1108
+                    },
+                    "LeftMargin": 461.7095,
+                    "RightMargin": 112.2905,
+                    "TopMargin": 525.8044,
+                    "BottomMargin": 60.1955,
+                    "CallBackType": "Click",
+                    "CallBackName": "onSure",
+                    "Tag": 12,
+                    "ActionTag": -639570362,
+                    "Size": {
+                      "X": 220.0,
+                      "Y": 73.0
+                    },
+                    "Name": "_sureBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "【***】等待选择",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 390.7039,
+                      "Y": 195.8655
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9929,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 100,
+                      "B": 52
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4921,
+                      "Y": 0.2972
+                    },
+                    "PreSize": {
+                      "X": 0.2834,
+                      "Y": 0.0455
+                    },
+                    "LeftMargin": 278.2039,
+                    "RightMargin": 290.7961,
+                    "TopMargin": 448.1345,
+                    "BottomMargin": 180.8655,
+                    "Tag": 3,
+                    "ActionTag": 565584071,
+                    "Size": {
+                      "X": 225.0,
+                      "Y": 30.0
+                    },
+                    "Name": "_textPlayer",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1186133192,
+                "Size": {
+                  "X": 794.0,
+                  "Y": 659.0
+                },
+                "Name": "_clearTableBG",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1531327869,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "clearTablePanel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "g/mjBloody/ui/clearT_1.png",
+        "g/mjBloody/ui/clearT_3.png",
+        "g/mjBloody/ui/clearT_4.png",
+        "g/mjBloody/ui/clearT_5.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

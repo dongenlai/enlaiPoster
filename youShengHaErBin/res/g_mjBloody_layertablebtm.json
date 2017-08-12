@@ -1,0 +1,347 @@
+{
+  "ID": "10ecab99-a281-4bec-bf82-5c4bb5c3781b",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_layertablebtm",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 127,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/d5.png",
+              "Plist": ""
+            },
+            "Scale9Width": 219,
+            "Scale9Height": 160,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 673.9969,
+              "Y": 444.2527
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5052,
+              "Y": 0.5923
+            },
+            "PreSize": {
+              "X": 0.1642,
+              "Y": 0.2133
+            },
+            "LeftMargin": 564.4969,
+            "RightMargin": 550.5031,
+            "TopMargin": 225.7473,
+            "BottomMargin": 364.2527,
+            "Tag": 312,
+            "ActionTag": 1996960442,
+            "Size": {
+              "X": 219.0,
+              "Y": 160.0
+            },
+            "Name": "_imgpan",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/d1.png",
+              "Plist": ""
+            },
+            "Scale9Width": 220,
+            "Scale9Height": 162,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 676.6924,
+              "Y": 436.9973
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5073,
+              "Y": 0.5827
+            },
+            "PreSize": {
+              "X": 0.1642,
+              "Y": 0.2133
+            },
+            "LeftMargin": 567.1924,
+            "RightMargin": 547.8076,
+            "TopMargin": 233.0027,
+            "BottomMargin": 356.9973,
+            "Tag": 311,
+            "ActionTag": -935543207,
+            "Size": {
+              "X": 219.0,
+              "Y": 160.0
+            },
+            "Name": "_imgdir1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/n4.png",
+              "Plist": ""
+            },
+            "Scale9Width": 220,
+            "Scale9Height": 162,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 680.5148,
+              "Y": 436.0533
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5101,
+              "Y": 0.5814
+            },
+            "PreSize": {
+              "X": 0.1649,
+              "Y": 0.216
+            },
+            "LeftMargin": 570.5148,
+            "RightMargin": 543.4852,
+            "TopMargin": 232.9467,
+            "BottomMargin": 355.0533,
+            "Tag": 310,
+            "ActionTag": -1196722910,
+            "Size": {
+              "X": 220.0,
+              "Y": 162.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_imgdir2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/x3.png",
+              "Plist": ""
+            },
+            "Scale9Width": 220,
+            "Scale9Height": 162,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 677.2103,
+              "Y": 434.2957
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5077,
+              "Y": 0.5791
+            },
+            "PreSize": {
+              "X": 0.1649,
+              "Y": 0.216
+            },
+            "LeftMargin": 567.2103,
+            "RightMargin": 546.7897,
+            "TopMargin": 234.7043,
+            "BottomMargin": 353.2957,
+            "Tag": 309,
+            "ActionTag": -146658127,
+            "Size": {
+              "X": 220.0,
+              "Y": 162.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_imgdir3",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/b2.png",
+              "Plist": ""
+            },
+            "Scale9Width": 220,
+            "Scale9Height": 162,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 675.1799,
+              "Y": 436.8279
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5061,
+              "Y": 0.5824
+            },
+            "PreSize": {
+              "X": 0.1649,
+              "Y": 0.216
+            },
+            "LeftMargin": 565.1799,
+            "RightMargin": 548.8201,
+            "TopMargin": 232.1721,
+            "BottomMargin": 355.8279,
+            "Tag": 308,
+            "ActionTag": 665811915,
+            "Size": {
+              "X": 220.0,
+              "Y": 162.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_imgdir4",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "CharWidth": 23,
+            "CharHeight": 38,
+            "LabelText": "09",
+            "StartChar": "0",
+            "LabelAtlasFileImage_CNB": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/Timer_num.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 677.0173,
+              "Y": 446.1964
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5075,
+              "Y": 0.5949
+            },
+            "PreSize": {
+              "X": 0.0345,
+              "Y": 0.0507
+            },
+            "LeftMargin": 654.0173,
+            "RightMargin": 633.9827,
+            "TopMargin": 284.8036,
+            "BottomMargin": 427.1964,
+            "Tag": 307,
+            "ActionTag": 848095799,
+            "Size": {
+              "X": 46.0,
+              "Y": 38.0
+            },
+            "Name": "_num1",
+            "ctype": "TextAtlasObjectData"
+          },
+          {
+            "CharWidth": 23,
+            "CharHeight": 38,
+            "LabelText": "09",
+            "StartChar": "0",
+            "LabelAtlasFileImage_CNB": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/Timer_redNum.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 677.02,
+              "Y": 446.2
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5075,
+              "Y": 0.5949
+            },
+            "PreSize": {
+              "X": 0.0345,
+              "Y": 0.0507
+            },
+            "LeftMargin": 654.02,
+            "RightMargin": 633.98,
+            "TopMargin": 284.8,
+            "BottomMargin": 427.2,
+            "Tag": 306,
+            "ActionTag": 1102606781,
+            "Size": {
+              "X": 46.0,
+              "Y": 38.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_num2",
+            "ctype": "TextAtlasObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ui/b2.png",
+        "g/mjBloody/ui/d1.png",
+        "g/mjBloody/ui/d5.png",
+        "g/mjBloody/ui/n4.png",
+        "g/mjBloody/ui/Timer_num.png",
+        "g/mjBloody/ui/Timer_redNum.png",
+        "g/mjBloody/ui/x3.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

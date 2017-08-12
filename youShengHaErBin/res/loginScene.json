@@ -1,0 +1,451 @@
+{
+  "ID": "2d89f0af-7a80-4233-98e9-174675b8e816",
+  "Version": "2.3.3.0",
+  "Name": "loginScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 142,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/f/f-4.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 143,
+            "ActionTag": 1170251057,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/f/f-1.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/f/f-1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/f/f-1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 160,
+            "Scale9Height": 34,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 661.9998,
+              "Y": 174.2866
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4963,
+              "Y": 0.2324
+            },
+            "PreSize": {
+              "X": 0.1424,
+              "Y": 0.0747
+            },
+            "LeftMargin": 566.9998,
+            "RightMargin": 577.0002,
+            "TopMargin": 547.7134,
+            "BottomMargin": 146.2866,
+            "CallBackType": "Click",
+            "CallBackName": "onWXLogin",
+            "Tag": 145,
+            "ActionTag": -192463218,
+            "Size": {
+              "X": 190.0,
+              "Y": 56.0
+            },
+            "Name": "_wxBtn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/f/f-2.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/f/f-2.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/f/f-2.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 286,
+            "Scale9Height": 84,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 987.187,
+              "Y": 144.3625
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.74,
+              "Y": 0.1925
+            },
+            "PreSize": {
+              "X": 0.2369,
+              "Y": 0.1413
+            },
+            "LeftMargin": 829.187,
+            "RightMargin": 188.813,
+            "TopMargin": 552.6375,
+            "BottomMargin": 91.3625,
+            "CallBackType": "Click",
+            "CallBackName": "onVisitorLogin",
+            "Tag": 146,
+            "ActionTag": -1844354054,
+            "Size": {
+              "X": 316.0,
+              "Y": 106.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_btnYK",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "CheckedState": true,
+            "NormalBackFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/2.png",
+              "Plist": ""
+            },
+            "PressedBackFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/2.png",
+              "Plist": ""
+            },
+            "NodeNormalFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/3.png",
+              "Plist": ""
+            },
+            "NodeDisableFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/3.png",
+              "Plist": ""
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 575.1395,
+              "Y": 83.5323
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4311,
+              "Y": 0.1114
+            },
+            "PreSize": {
+              "X": 0.0165,
+              "Y": 0.0293
+            },
+            "LeftMargin": 564.1395,
+            "RightMargin": 747.8605,
+            "TopMargin": 655.4677,
+            "BottomMargin": 72.5323,
+            "Tag": 432,
+            "ActionTag": 571769598,
+            "Size": {
+              "X": 22.0,
+              "Y": 22.0
+            },
+            "Name": "_checkBoxBtn",
+            "ctype": "CheckBoxObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 5,
+            "Scale9Width": 142,
+            "Scale9Height": 8,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 678.0875,
+              "Y": 84.05
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5083,
+              "Y": 0.1121
+            },
+            "PreSize": {
+              "X": 0.1289,
+              "Y": 0.024
+            },
+            "LeftMargin": 592.0875,
+            "RightMargin": 569.9125,
+            "TopMargin": 656.95,
+            "BottomMargin": 75.05,
+            "CallBackType": "Click",
+            "CallBackName": "_openProto",
+            "Tag": 444,
+            "ActionTag": -1794378783,
+            "Size": {
+              "X": 172.0,
+              "Y": 18.0
+            },
+            "Name": "Button_3",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/4.png",
+              "Plist": ""
+            },
+            "Scale9Width": 578,
+            "Scale9Height": 130,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0002,
+              "Y": 419.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5587
+            },
+            "PreSize": {
+              "X": 0.4333,
+              "Y": 0.1733
+            },
+            "LeftMargin": 378.0002,
+            "RightMargin": 377.9998,
+            "TopMargin": 265.9999,
+            "BottomMargin": 354.0001,
+            "Tag": 467,
+            "ActionTag": -572355061,
+            "Size": {
+              "X": 578.0,
+              "Y": 130.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 32,
+            "LabelText": "当前版本号：",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {},
+            "ShadowOffsetX": 1.0,
+            "ShadowOffsetY": -1.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 25.8774,
+              "Y": 714.5356
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0194,
+              "Y": 0.9527
+            },
+            "PreSize": {
+              "X": 0.1439,
+              "Y": 0.0493
+            },
+            "LeftMargin": 25.8774,
+            "RightMargin": 1116.1226,
+            "TopMargin": 16.9644,
+            "BottomMargin": 696.0356,
+            "Tag": 133,
+            "ActionTag": 1965936768,
+            "Size": {
+              "X": 192.0,
+              "Y": 37.0
+            },
+            "Name": "_lblText",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "hallUi/common/1.png",
+        "hallUi/common/2.png",
+        "hallUi/common/3.png",
+        "hallUi/common/4.png",
+        "hallUi/f/f-1.png",
+        "hallUi/f/f-2.png",
+        "hallUi/f/f-4.jpg"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

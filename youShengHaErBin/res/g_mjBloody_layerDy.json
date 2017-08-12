@@ -1,0 +1,121 @@
+{
+  "ID": "7ee1bff5-a520-4e0d-b7f6-643007d8739e",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_layerDy",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 172,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/z (2).png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 664.4547,
+              "Y": 522.548
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4981,
+              "Y": 0.6967
+            },
+            "PreSize": {
+              "X": 0.1072,
+              "Y": 0.092
+            },
+            "LeftMargin": 592.9547,
+            "RightMargin": 598.0453,
+            "TopMargin": 192.952,
+            "BottomMargin": 488.048,
+            "Tag": 173,
+            "ActionTag": 1767593414,
+            "Size": {
+              "X": 143.0,
+              "Y": 69.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/z (1).png",
+              "Plist": ""
+            },
+            "Scale9Width": 604,
+            "Scale9Height": 173,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.8996,
+              "Y": 0.2307
+            },
+            "LeftMargin": 67.0,
+            "RightMargin": 67.0,
+            "TopMargin": 288.5,
+            "BottomMargin": 288.5,
+            "Tag": 175,
+            "ActionTag": 141004479,
+            "Size": {
+              "X": 1200.0,
+              "Y": 173.0
+            },
+            "Name": "_imgBg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ui/z (1).png",
+        "g/mjBloody/ui/z (2).png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

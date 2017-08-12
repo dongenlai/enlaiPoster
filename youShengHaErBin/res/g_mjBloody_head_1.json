@@ -1,0 +1,916 @@
+{
+  "ID": "515807ba-b679-41fc-b2a8-dfbd73e62576",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_head_1",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 30,
+        "Speed": 1.0,
+        "ActivedAnimationName": "animation0",
+        "Timelines": [
+          {
+            "ActionTag": 1105874500,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 2.8135,
+                "Y": 141.4226,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 2.81,
+                "Y": 141.42,
+                "FrameIndex": 30,
+                "EasingData": {
+                  "Type": 16
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1105874500,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 30,
+                "EasingData": {
+                  "Type": 16
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1105874500,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 30,
+                "EasingData": {
+                  "Type": 16
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1105874500,
+            "Property": "Alpha",
+            "Frames": [
+              {
+                "Value": 255,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "IntFrameData"
+              },
+              {
+                "Value": 0,
+                "FrameIndex": 30,
+                "EasingData": {
+                  "Type": 16
+                },
+                "ctype": "IntFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -978871760,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 3.2527,
+                "Y": 145.6293,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 3.25,
+                "Y": 145.63,
+                "FrameIndex": 10,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 3.25,
+                "Y": 145.63,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -978871760,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 2.0,
+                "Y": 2.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.7,
+                "Y": 0.7,
+                "FrameIndex": 10,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -978871760,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 10,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 30,
+          "Name": "animation0",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 7,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/headai_1_03.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 56.4147,
+              "Y": 57.1378
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4701,
+              "Y": 0.3809
+            },
+            "PreSize": {
+              "X": 1.9333,
+              "Y": 1.8133
+            },
+            "LeftMargin": -59.5853,
+            "RightMargin": -52.4147,
+            "TopMargin": -43.1378,
+            "BottomMargin": -78.8622,
+            "Tag": 382,
+            "ActionTag": -610302319,
+            "Size": {
+              "X": 232.0,
+              "Y": 272.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_headWait",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "BackColorAlpha": 141,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1.5843,
+              "Y": -1.5846
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0132,
+              "Y": -0.0106
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 1.5843,
+            "RightMargin": -1.5843,
+            "TopMargin": 1.5846,
+            "BottomMargin": -1.5846,
+            "CallBackType": "Touch",
+            "CallBackName": "onHeadTouch",
+            "Tag": 12,
+            "Children": [
+              {
+                "CharWidth": 15,
+                "CharHeight": 21,
+                "LabelText": "0",
+                "StartChar": "/",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/changci_peoplenum.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 60.6328,
+                  "Y": 15.4263
+                },
+                "Scale": {
+                  "ScaleX": 1.5,
+                  "ScaleY": 1.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5053,
+                  "Y": 0.1028
+                },
+                "PreSize": {
+                  "X": 0.125,
+                  "Y": 0.14
+                },
+                "LeftMargin": 53.1328,
+                "RightMargin": 51.8672,
+                "TopMargin": 124.0737,
+                "BottomMargin": 4.9263,
+                "Tag": 20,
+                "ActionTag": -1521631963,
+                "Size": {
+                  "X": 15.0,
+                  "Y": 21.0
+                },
+                "Name": "_beanNum",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/head.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61.0,
+                  "Y": 87.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5083,
+                  "Y": 0.58
+                },
+                "PreSize": {
+                  "X": 0.8667,
+                  "Y": 0.7467
+                },
+                "LeftMargin": 9.0,
+                "RightMargin": 7.0,
+                "TopMargin": 7.0,
+                "BottomMargin": 31.0,
+                "Tag": 140,
+                "ActionTag": -1012194186,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 112.0
+                },
+                "Name": "_imgHead",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 124751416,
+            "Size": {
+              "X": 120.0,
+              "Y": 150.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/t.png",
+              "Plist": ""
+            },
+            "Scale9Width": 48,
+            "Scale9Height": 86,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -3.6829,
+              "Y": 74.8842
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0307,
+              "Y": 0.4992
+            },
+            "PreSize": {
+              "X": 0.4,
+              "Y": 0.5733
+            },
+            "LeftMargin": -27.6829,
+            "RightMargin": 99.6829,
+            "TopMargin": 32.1158,
+            "BottomMargin": 31.8842,
+            "Tag": 1122,
+            "ActionTag": -947068112,
+            "Size": {
+              "X": 48.0,
+              "Y": 86.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_tingState",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/PlayerState_guangquan_1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 2.8135,
+              "Y": 141.4226
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0234,
+              "Y": 0.9428
+            },
+            "PreSize": {
+              "X": 0.7667,
+              "Y": 0.6133
+            },
+            "LeftMargin": -43.1865,
+            "RightMargin": 71.1865,
+            "TopMargin": -37.4226,
+            "BottomMargin": 95.4226,
+            "Tag": 26,
+            "ActionTag": 1105874500,
+            "Size": {
+              "X": 92.0,
+              "Y": 92.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_imgLight",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/PlayerState_que0.png",
+              "Plist": ""
+            },
+            "Scale9Width": 29,
+            "Scale9Height": 29,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 3.2527,
+              "Y": 145.6293
+            },
+            "Scale": {
+              "ScaleX": 2.0,
+              "ScaleY": 2.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0271,
+              "Y": 0.9709
+            },
+            "PreSize": {
+              "X": 0.2417,
+              "Y": 0.1933
+            },
+            "LeftMargin": -11.2473,
+            "RightMargin": 102.2473,
+            "TopMargin": -10.1293,
+            "BottomMargin": 131.1293,
+            "CallBackType": "Click",
+            "Tag": 25,
+            "ActionTag": -978871760,
+            "Size": {
+              "X": 29.0,
+              "Y": 29.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_imgState",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 24,
+            "LabelText": "名称",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "hallUi/common/front.TTF",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 227,
+              "G": 183,
+              "B": 93
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 59.556,
+              "Y": 163.1136
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 227,
+              "G": 183,
+              "B": 93
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4963,
+              "Y": 1.0874
+            },
+            "PreSize": {
+              "X": 0.425,
+              "Y": 0.18
+            },
+            "LeftMargin": 34.056,
+            "RightMargin": 34.944,
+            "TopMargin": -26.6136,
+            "BottomMargin": 149.6136,
+            "Tag": 148,
+            "ActionTag": -12486574,
+            "Size": {
+              "X": 51.0,
+              "Y": 27.0
+            },
+            "Name": "_txtName",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/ui_hutishi1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 30,
+            "Scale9OriginY": 30,
+            "Scale9Width": 19,
+            "Scale9Height": 97,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -172.6794,
+              "Y": 73.5408
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -1.439,
+              "Y": 0.4903
+            },
+            "PreSize": {
+              "X": 2.9667,
+              "Y": 1.0467
+            },
+            "LeftMargin": -350.6794,
+            "RightMargin": 114.6794,
+            "TopMargin": -2.0408,
+            "BottomMargin": -4.9592,
+            "Tag": 766,
+            "Children": [
+              {
+                "FontSize": 34,
+                "LabelText": "ID:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/front.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 126,
+                  "G": 104,
+                  "B": 59
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 46.4997,
+                  "Y": 103.4109
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 126,
+                  "G": 104,
+                  "B": 59
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1306,
+                  "Y": 0.6587
+                },
+                "PreSize": {
+                  "X": 0.1039,
+                  "Y": 0.242
+                },
+                "LeftMargin": 27.9997,
+                "RightMargin": 291.0003,
+                "TopMargin": 34.5891,
+                "BottomMargin": 84.4109,
+                "Tag": 767,
+                "ActionTag": -1508182733,
+                "Size": {
+                  "X": 37.0,
+                  "Y": 38.0
+                },
+                "Name": "Text_10",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "IP:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/front.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 126,
+                  "G": 104,
+                  "B": 59
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 45.8103,
+                  "Y": 57.961
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 126,
+                  "G": 104,
+                  "B": 59
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1287,
+                  "Y": 0.3692
+                },
+                "PreSize": {
+                  "X": 0.0927,
+                  "Y": 0.242
+                },
+                "LeftMargin": 29.3103,
+                "RightMargin": 293.6897,
+                "TopMargin": 80.039,
+                "BottomMargin": 38.961,
+                "Tag": 768,
+                "ActionTag": -673008735,
+                "Size": {
+                  "X": 33.0,
+                  "Y": 38.0
+                },
+                "Name": "Text_10_0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "111111",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/front.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 126,
+                  "G": 104,
+                  "B": 59
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 72.4975,
+                  "Y": 101.499
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 126,
+                  "G": 104,
+                  "B": 59
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2036,
+                  "Y": 0.6465
+                },
+                "PreSize": {
+                  "X": 0.2022,
+                  "Y": 0.242
+                },
+                "LeftMargin": 72.4975,
+                "RightMargin": 211.5025,
+                "TopMargin": 36.501,
+                "BottomMargin": 82.499,
+                "Tag": 769,
+                "ActionTag": -1879858366,
+                "Size": {
+                  "X": 72.0,
+                  "Y": 38.0
+                },
+                "Name": "_userId",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "255.255.255.255",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/front.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 126,
+                  "G": 104,
+                  "B": 59
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.4984,
+                  "Y": 58.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 126,
+                  "G": 104,
+                  "B": 59
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2065,
+                  "Y": 0.3726
+                },
+                "PreSize": {
+                  "X": 0.6882,
+                  "Y": 0.242
+                },
+                "LeftMargin": 73.4984,
+                "RightMargin": 37.5016,
+                "TopMargin": 79.5,
+                "BottomMargin": 39.5,
+                "Tag": 770,
+                "ActionTag": 1094145426,
+                "Size": {
+                  "X": 245.0,
+                  "Y": 38.0
+                },
+                "Name": "_userIp",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 4451855,
+            "Size": {
+              "X": 356.0,
+              "Y": 157.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_userInfoCon",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 120.0,
+          "Y": 150.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ani/headai_1_03.png",
+        "g/mjBloody/ui/changci_peoplenum.png",
+        "g/mjBloody/ui/head.png",
+        "g/mjBloody/ui/PlayerState_guangquan_1.png",
+        "g/mjBloody/ui/PlayerState_que0.png",
+        "g/mjBloody/ui/t.png",
+        "g/mjBloody/ui/ui_hutishi1.png",
+        "hallUi/common/front.TTF"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

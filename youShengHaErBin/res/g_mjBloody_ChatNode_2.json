@@ -1,0 +1,138 @@
+{
+  "ID": "0b09e645-1078-44a7-924c-6882b190adde",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_ChatNode_2",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 2004,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/chat/frame_chatBg_2.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 20,
+            "Scale9OriginY": 23,
+            "Scale9Width": 4,
+            "Scale9Height": 6,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 37.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -37.0,
+            "RightMargin": -37.0,
+            "TopMargin": -36.0,
+            "BottomMargin": -36.0,
+            "Tag": 2005,
+            "Children": [
+              {
+                "FontSize": 26,
+                "LabelText": "你好",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/front.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 9.0,
+                  "Y": 45.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1216,
+                  "Y": 0.625
+                },
+                "PreSize": {
+                  "X": 0.7432,
+                  "Y": 0.4028
+                },
+                "LeftMargin": 9.0,
+                "RightMargin": 10.0,
+                "TopMargin": 12.5,
+                "BottomMargin": 30.5,
+                "Tag": 2007,
+                "ActionTag": 188607689,
+                "Size": {
+                  "X": 55.0,
+                  "Y": 29.0
+                },
+                "Name": "_chatText",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 930038928,
+            "Size": {
+              "X": 74.0,
+              "Y": 72.0
+            },
+            "Name": "_chatNode",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/chat/frame_chatBg_2.png",
+        "hallUi/common/front.TTF"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

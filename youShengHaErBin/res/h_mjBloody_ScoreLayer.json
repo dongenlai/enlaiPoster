@@ -1,0 +1,341 @@
+{
+  "ID": "dd9d5357-ea69-46e4-8d87-8a61e93cc4cd",
+  "Version": "2.3.3.0",
+  "Name": "h_mjBloody_ScoreLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 38,
+        "Children": [
+          {
+            "BackColorAlpha": 82,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 39,
+            "ActionTag": 1000371434,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/c-1.png",
+              "Plist": ""
+            },
+            "Scale9Width": 920,
+            "Scale9Height": 534,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 372.9329
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4972
+            },
+            "PreSize": {
+              "X": 0.6897,
+              "Y": 0.712
+            },
+            "LeftMargin": 207.0,
+            "RightMargin": 207.0,
+            "TopMargin": 110.0671,
+            "BottomMargin": 105.9329,
+            "Tag": 3,
+            "ActionTag": 2048043936,
+            "Size": {
+              "X": 920.0,
+              "Y": 534.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 45,
+            "LabelText": "当前积分：0",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 646.8732,
+              "Y": 382.6353
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4849,
+              "Y": 0.5102
+            },
+            "PreSize": {
+              "X": 0.1874,
+              "Y": 0.0693
+            },
+            "LeftMargin": 521.8732,
+            "RightMargin": 562.1268,
+            "TopMargin": 341.3647,
+            "BottomMargin": 356.6353,
+            "Tag": 17,
+            "ActionTag": 498171734,
+            "Size": {
+              "X": 250.0,
+              "Y": 52.0
+            },
+            "Name": "_scoreText",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/title.png",
+              "Plist": ""
+            },
+            "Scale9Width": 169,
+            "Scale9Height": 34,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 651.1119,
+              "Y": 582.9016
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4881,
+              "Y": 0.7772
+            },
+            "PreSize": {
+              "X": 0.1267,
+              "Y": 0.0453
+            },
+            "LeftMargin": 566.6119,
+            "RightMargin": 598.3881,
+            "TopMargin": 150.0984,
+            "BottomMargin": 565.9016,
+            "Tag": 16,
+            "ActionTag": 385479957,
+            "Size": {
+              "X": 169.0,
+              "Y": 34.0
+            },
+            "Name": "Image_4",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b-4.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b-4.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b-4.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 27,
+            "Scale9Height": 35,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1105.0387,
+              "Y": 619.0474
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8284,
+              "Y": 0.8254
+            },
+            "PreSize": {
+              "X": 0.0562,
+              "Y": 0.1013
+            },
+            "LeftMargin": 1067.5387,
+            "RightMargin": 191.4613,
+            "TopMargin": 92.9526,
+            "BottomMargin": 581.0474,
+            "CallBackType": "Click",
+            "CallBackName": "onBackGameScene",
+            "Tag": 15,
+            "ActionTag": -2116152504,
+            "Size": {
+              "X": 75.0,
+              "Y": 76.0
+            },
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 30,
+            "LabelText": "积分规则：好友场消耗房卡者可获得大量积分，参与者\n正常积分，积分可在积分商城获取丰厚奖品。",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 669.2795,
+              "Y": 273.4211
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5017,
+              "Y": 0.3646
+            },
+            "PreSize": {
+              "X": 0.5397,
+              "Y": 0.0907
+            },
+            "LeftMargin": 309.2795,
+            "RightMargin": 304.7205,
+            "TopMargin": 442.5789,
+            "BottomMargin": 239.4211,
+            "Tag": 18,
+            "ActionTag": -1474350736,
+            "Size": {
+              "X": 720.0,
+              "Y": 68.0
+            },
+            "Name": "_scoretext2",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "hallUi/common/b-4.png",
+        "hallUi/common/c-1.png",
+        "hallUi/common/title.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

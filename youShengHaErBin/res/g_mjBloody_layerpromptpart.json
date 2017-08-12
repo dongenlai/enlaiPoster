@@ -1,0 +1,287 @@
+{
+  "ID": "e6f8d4a7-01a5-4ce6-86d3-5ce57d70c0d8",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_layerpromptpart",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 45,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/tiao_7.png",
+              "Plist": ""
+            },
+            "Scale9Width": 96,
+            "Scale9Height": 128,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 38.0568,
+              "Y": 69.7386
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2798,
+              "Y": 0.5365
+            },
+            "PreSize": {
+              "X": 0.7059,
+              "Y": 0.9846
+            },
+            "LeftMargin": -9.9432,
+            "RightMargin": 49.9432,
+            "TopMargin": -3.7386,
+            "BottomMargin": 5.7386,
+            "Tag": 46,
+            "ActionTag": -1564167568,
+            "Size": {
+              "X": 96.0,
+              "Y": 128.0
+            },
+            "Name": "_cardImg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 26,
+            "LabelText": "1",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 97.3245,
+              "Y": 93.1016
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 146,
+              "G": 22,
+              "B": 16
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7156,
+              "Y": 0.7162
+            },
+            "PreSize": {
+              "X": 0.0956,
+              "Y": 0.2
+            },
+            "LeftMargin": 84.3245,
+            "RightMargin": 38.6755,
+            "TopMargin": 23.8984,
+            "BottomMargin": 80.1016,
+            "Tag": 47,
+            "ActionTag": -1122111781,
+            "Size": {
+              "X": 13.0,
+              "Y": 26.0
+            },
+            "Name": "_fanLable",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 26,
+            "LabelText": "2",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 96.8939,
+              "Y": 39.4921
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 146,
+              "G": 22,
+              "B": 16
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7125,
+              "Y": 0.3038
+            },
+            "PreSize": {
+              "X": 0.0956,
+              "Y": 0.2
+            },
+            "LeftMargin": 83.8939,
+            "RightMargin": 39.1061,
+            "TopMargin": 77.5079,
+            "BottomMargin": 26.4921,
+            "Tag": 48,
+            "ActionTag": 90681872,
+            "Size": {
+              "X": 13.0,
+              "Y": 26.0
+            },
+            "Name": "_numLabel",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 26,
+            "LabelText": "番",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 114.7965,
+              "Y": 93.1513
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 63,
+              "G": 18,
+              "B": 18
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8441,
+              "Y": 0.7165
+            },
+            "PreSize": {
+              "X": 0.1912,
+              "Y": 0.2
+            },
+            "LeftMargin": 101.7965,
+            "RightMargin": 8.2035,
+            "TopMargin": 23.8487,
+            "BottomMargin": 80.1513,
+            "Tag": 49,
+            "ActionTag": -1330848642,
+            "Size": {
+              "X": 26.0,
+              "Y": 26.0
+            },
+            "Name": "Text_3",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 26,
+            "LabelText": "张",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 115.4723,
+              "Y": 37.9541
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 63,
+              "G": 18,
+              "B": 18
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8491,
+              "Y": 0.292
+            },
+            "PreSize": {
+              "X": 0.1912,
+              "Y": 0.2
+            },
+            "LeftMargin": 102.4723,
+            "RightMargin": 7.5277,
+            "TopMargin": 79.0459,
+            "BottomMargin": 24.9541,
+            "Tag": 51,
+            "ActionTag": 2136383180,
+            "Size": {
+              "X": 26.0,
+              "Y": 26.0
+            },
+            "Name": "Text_4",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 136.0,
+          "Y": 130.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ui/tiao_7.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

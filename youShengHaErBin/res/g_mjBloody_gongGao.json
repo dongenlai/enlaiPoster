@@ -1,0 +1,128 @@
+{
+  "ID": "e7200505-234b-421a-bbcf-c16a5720cd4b",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_gongGao",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 29,
+        "Children": [
+          {
+            "BackColorAlpha": 56,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 30,
+            "Children": [
+              {
+                "FontSize": 36,
+                "LabelText": "计算咖啡色kf",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1227.83,
+                  "Y": 41.89
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9204,
+                  "Y": 0.5236
+                },
+                "PreSize": {
+                  "X": 0.1619,
+                  "Y": 0.45
+                },
+                "LeftMargin": 1119.83,
+                "RightMargin": -1.83,
+                "TopMargin": 20.11,
+                "BottomMargin": 23.89,
+                "Tag": 31,
+                "ActionTag": -298493658,
+                "Size": {
+                  "X": 216.0,
+                  "Y": 36.0
+                },
+                "Name": "_showText",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1260908874,
+            "Size": {
+              "X": 1334.0,
+              "Y": 80.0
+            },
+            "Name": "_showBG",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 80.0
+        },
+        "Name": "g_gongGaoLayer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

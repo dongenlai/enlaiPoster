@@ -1,0 +1,174 @@
+{
+  "ID": "5ebc4448-df46-44dd-92bd-2cb410e690b7",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_ui_huitip",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 629,
+        "Children": [
+          {
+            "FontSize": 34,
+            "LabelText": "宝:",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "hallUi/common/front.TTF",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {},
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.4,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 41.0289,
+              "Y": 571.0403
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0308,
+              "Y": 0.7614
+            },
+            "PreSize": {
+              "X": 0.0322,
+              "Y": 0.0507
+            },
+            "LeftMargin": 23.8289,
+            "RightMargin": 1267.171,
+            "TopMargin": 159.9597,
+            "BottomMargin": 552.0403,
+            "Tag": 630,
+            "ActionTag": -1973813207,
+            "Size": {
+              "X": 43.0,
+              "Y": 38.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/mjbg2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.4,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 100.0,
+              "Y": 570.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.075,
+              "Y": 0.76
+            },
+            "PreSize": {
+              "X": 0.0352,
+              "Y": 0.092
+            },
+            "LeftMargin": 81.2,
+            "RightMargin": 1205.8,
+            "TopMargin": 145.5,
+            "BottomMargin": 535.5,
+            "Tag": 632,
+            "ActionTag": -1779613625,
+            "Size": {
+              "X": 47.0,
+              "Y": 69.0
+            },
+            "Name": "mj_bg_148",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/tiao_7.png",
+              "Plist": ""
+            },
+            "Scale9Width": 96,
+            "Scale9Height": 128,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 209.9888,
+              "Y": 576.6154
+            },
+            "Scale": {
+              "ScaleX": 0.38,
+              "ScaleY": 0.38
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1574,
+              "Y": 0.7688
+            },
+            "PreSize": {
+              "X": 0.072,
+              "Y": 0.1707
+            },
+            "LeftMargin": 161.9888,
+            "RightMargin": 1076.0112,
+            "TopMargin": 109.3846,
+            "BottomMargin": 512.6154,
+            "Tag": 4116,
+            "ActionTag": 1386214115,
+            "Size": {
+              "X": 96.0,
+              "Y": 128.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_selCard0",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ui/mjbg2.png",
+        "g/mjBloody/ui/tiao_7.png",
+        "hallUi/common/front.TTF"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

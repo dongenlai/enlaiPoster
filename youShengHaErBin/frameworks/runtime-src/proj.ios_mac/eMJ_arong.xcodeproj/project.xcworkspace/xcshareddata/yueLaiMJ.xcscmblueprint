@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "035cd68f-eb99-2b4f-acbc-5a517caf9862++2148",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "035cd68f-eb99-2b4f-acbc-5a517caf9862++2148" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "035cd68f-eb99-2b4f-acbc-5a517caf9862++2148" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8D445AF9-652B-4B67-847B-577747E5BBA7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "035cd68f-eb99-2b4f-acbc-5a517caf9862++2148" : "client\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "yueLaiMJ",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "eMJ_DaDa\/frameworks\/runtime-src\/proj.ios_mac\/yueLaiMJ.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.2.18:81\/svn\/Mobile",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "035cd68f-eb99-2b4f-acbc-5a517caf9862++2148"
+    }
+  ]
+}

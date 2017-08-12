@@ -1,0 +1,3026 @@
+{
+  "ID": "76583477-4d0b-42c6-921a-73522ef1230d",
+  "Version": "2.3.3.0",
+  "Name": "createRoomLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 24,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/a/aa.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 373.125
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4975
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "TopMargin": 1.875,
+            "BottomMargin": -1.875,
+            "Tag": 80,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/bg2.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 991,
+                "Scale9Height": 196,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0015,
+                  "Y": 687.9325
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9172
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.168
+                },
+                "LeftMargin": 0.0015,
+                "RightMargin": -0.0015,
+                "TopMargin": -0.9325,
+                "BottomMargin": 624.9325,
+                "Tag": 81,
+                "ActionTag": -551638320,
+                "Size": {
+                  "X": 1334.0,
+                  "Y": 126.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/back.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/back.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 10,
+                "Scale9OriginY": 11,
+                "Scale9Width": 12,
+                "Scale9Height": 28,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 37.654,
+                  "Y": 687.241
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0282,
+                  "Y": 0.9163
+                },
+                "PreSize": {
+                  "X": 0.024,
+                  "Y": 0.0667
+                },
+                "LeftMargin": 21.654,
+                "RightMargin": 1280.3459,
+                "TopMargin": 37.759,
+                "BottomMargin": 662.241,
+                "CallBackType": "Click",
+                "CallBackName": "onBackGameScene",
+                "Tag": 82,
+                "ActionTag": -1061275708,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 50.0
+                },
+                "Name": "Button_3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/y.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 680.2408
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.907
+                },
+                "PreSize": {
+                  "X": 0.1267,
+                  "Y": 0.048
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 582.5,
+                "RightMargin": 582.5,
+                "TopMargin": 51.7592,
+                "BottomMargin": 662.2408,
+                "Tag": 83,
+                "ActionTag": -513813820,
+                "Size": {
+                  "X": 169.0,
+                  "Y": 36.0
+                },
+                "Name": "_logo",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/leftbar_title1.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 113,
+                "Scale9Height": 24,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 148.4547,
+                  "Y": 584.9747
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0411
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1113,
+                  "Y": 0.78
+                },
+                "PreSize": {
+                  "X": 0.0847,
+                  "Y": 0.032
+                },
+                "LeftMargin": 91.9547,
+                "RightMargin": 1129.0453,
+                "TopMargin": 153.0253,
+                "BottomMargin": 572.9747,
+                "Tag": 84,
+                "ActionTag": 1692001873,
+                "Size": {
+                  "X": 113.0,
+                  "Y": 24.0
+                },
+                "Name": "Image_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/leftbar_title2.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 113,
+                "Scale9Height": 24,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 148.4547,
+                  "Y": 496.1349
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0411
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1113,
+                  "Y": 0.6615
+                },
+                "PreSize": {
+                  "X": 0.0847,
+                  "Y": 0.032
+                },
+                "LeftMargin": 91.9547,
+                "RightMargin": 1129.0453,
+                "TopMargin": 241.8651,
+                "BottomMargin": 484.1349,
+                "Tag": 85,
+                "ActionTag": 2044426093,
+                "Size": {
+                  "X": 113.0,
+                  "Y": 24.0
+                },
+                "Name": "Image_4_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/leftbar_title3.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 113,
+                "Scale9Height": 24,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 148.4547,
+                  "Y": 407.2959
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0411
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1113,
+                  "Y": 0.5431
+                },
+                "PreSize": {
+                  "X": 0.0847,
+                  "Y": 0.032
+                },
+                "LeftMargin": 91.9547,
+                "RightMargin": 1129.0453,
+                "TopMargin": 330.7041,
+                "BottomMargin": 395.2959,
+                "Tag": 86,
+                "ActionTag": 2129817259,
+                "Size": {
+                  "X": 113.0,
+                  "Y": 24.0
+                },
+                "Name": "Image_4_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/leftbar_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 163,
+                "Scale9Height": 69,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 141.2879,
+                  "Y": 311.8303
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1059,
+                  "Y": 0.4158
+                },
+                "PreSize": {
+                  "X": 0.1222,
+                  "Y": 0.092
+                },
+                "LeftMargin": 59.7879,
+                "RightMargin": 1111.2122,
+                "TopMargin": 403.6697,
+                "BottomMargin": 277.3303,
+                "Tag": 87,
+                "ActionTag": -1959386646,
+                "Size": {
+                  "X": 163.0,
+                  "Y": 69.0
+                },
+                "Name": "_haErBinBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/leftbar_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 163,
+                "Scale9Height": 69,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 142.2879,
+                  "Y": 206.5571
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1067,
+                  "Y": 0.2754
+                },
+                "PreSize": {
+                  "X": 0.1222,
+                  "Y": 0.092
+                },
+                "LeftMargin": 60.7879,
+                "RightMargin": 1110.2122,
+                "TopMargin": 508.9429,
+                "BottomMargin": 172.0571,
+                "Tag": 88,
+                "ActionTag": -421717,
+                "Size": {
+                  "X": 163.0,
+                  "Y": 69.0
+                },
+                "VisibleForFrame": false,
+                "Name": "_haHeiLongJiangBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/leftbar_btn1.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/leftbar_btn1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/leftbar_btn1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 120,
+                "Scale9Height": 32,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 141.8575,
+                  "Y": 311.2569
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1063,
+                  "Y": 0.415
+                },
+                "PreSize": {
+                  "X": 0.1124,
+                  "Y": 0.072
+                },
+                "LeftMargin": 66.8575,
+                "RightMargin": 1117.1425,
+                "TopMargin": 411.7431,
+                "BottomMargin": 284.2569,
+                "CallBackType": "Click",
+                "CallBackName": "onHaErBin",
+                "Tag": 89,
+                "ActionTag": -999144531,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 54.0
+                },
+                "Name": "_haErBinBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/leftbar_btn2.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/leftbar_btn2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/leftbar_btn2.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 120,
+                "Scale9Height": 32,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 142.1447,
+                  "Y": 205.6957
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1066,
+                  "Y": 0.2743
+                },
+                "PreSize": {
+                  "X": 0.1124,
+                  "Y": 0.072
+                },
+                "LeftMargin": 67.1447,
+                "RightMargin": 1116.8553,
+                "TopMargin": 517.3043,
+                "BottomMargin": 178.6957,
+                "CallBackType": "Click",
+                "CallBackName": "onHeiLongJiang",
+                "Tag": 90,
+                "ActionTag": 1126666238,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 54.0
+                },
+                "Name": "_heiLongJiangBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 667.0029,
+                  "Y": 418.0018
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5573
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 667.0029,
+                "RightMargin": 666.9971,
+                "TopMargin": 331.9982,
+                "BottomMargin": 418.0018,
+                "Tag": 91,
+                "ActionTag": -1158960422,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "_playType1",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -847049730,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/a/bg1.png",
+              "Plist": ""
+            },
+            "Scale9Width": 994,
+            "Scale9Height": 66,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 760.6018,
+              "Y": 582.6359
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5702,
+              "Y": 0.7768
+            },
+            "PreSize": {
+              "X": 0.7451,
+              "Y": 0.088
+            },
+            "LeftMargin": 263.6018,
+            "RightMargin": 76.3982,
+            "TopMargin": 134.3641,
+            "BottomMargin": 549.6359,
+            "Tag": 75,
+            "Children": [
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 66.0374,
+                  "Y": 31.2026
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0664,
+                  "Y": 0.4728
+                },
+                "PreSize": {
+                  "X": 0.0352,
+                  "Y": 0.5303
+                },
+                "LeftMargin": 48.5374,
+                "RightMargin": 910.4626,
+                "TopMargin": 17.2974,
+                "BottomMargin": 13.7026,
+                "CallBackType": "Touch",
+                "CallBackName": "onInputRule",
+                "ActionTag": -265973786,
+                "Size": {
+                  "X": 35.0,
+                  "Y": 35.0
+                },
+                "Name": "_roomChekBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 372.2704,
+                  "Y": 31.2026
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3745,
+                  "Y": 0.4728
+                },
+                "PreSize": {
+                  "X": 0.0352,
+                  "Y": 0.5303
+                },
+                "LeftMargin": 354.7704,
+                "RightMargin": 604.2296,
+                "TopMargin": 17.2974,
+                "BottomMargin": 13.7026,
+                "CallBackType": "Touch",
+                "CallBackName": "onInputRule",
+                "Tag": 1,
+                "ActionTag": 908295747,
+                "Size": {
+                  "X": 35.0,
+                  "Y": 35.0
+                },
+                "Name": "_roomChekBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title1.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 213,
+                "Scale9Height": 28,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 194.0923,
+                  "Y": 33.1745
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1953,
+                  "Y": 0.5026
+                },
+                "PreSize": {
+                  "X": 0.2143,
+                  "Y": 0.4242
+                },
+                "LeftMargin": 87.5923,
+                "RightMargin": 693.4077,
+                "TopMargin": 18.8255,
+                "BottomMargin": 19.1745,
+                "CallBackType": "Touch",
+                "CallBackName": "onRoomTouch",
+                "ActionTag": -1944869621,
+                "Size": {
+                  "X": 213.0,
+                  "Y": 28.0
+                },
+                "Name": "_roomTouch",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title2.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 579,
+                "Scale9Height": 28,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 687.089,
+                  "Y": 33.1746
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6912,
+                  "Y": 0.5026
+                },
+                "PreSize": {
+                  "X": 0.5825,
+                  "Y": 0.4242
+                },
+                "LeftMargin": 397.589,
+                "RightMargin": 17.411,
+                "TopMargin": 18.8254,
+                "BottomMargin": 19.1746,
+                "CallBackType": "Touch",
+                "CallBackName": "onRoomTouch",
+                "Tag": 1,
+                "ActionTag": -1431605191,
+                "Size": {
+                  "X": 579.0,
+                  "Y": 28.0
+                },
+                "Name": "_roomTouch",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -313905756,
+            "Size": {
+              "X": 994.0,
+              "Y": 66.0
+            },
+            "Name": "_cellBg1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/a/bg1.png",
+              "Plist": ""
+            },
+            "Scale9Width": 994,
+            "Scale9Height": 66,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 760.6019,
+              "Y": 504.0197
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5702,
+              "Y": 0.672
+            },
+            "PreSize": {
+              "X": 0.7451,
+              "Y": 0.088
+            },
+            "LeftMargin": 263.6019,
+            "RightMargin": 76.3981,
+            "TopMargin": 212.9803,
+            "BottomMargin": 471.0197,
+            "Tag": 76,
+            "Children": [
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 66.0373,
+                  "Y": 34.7217
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0664,
+                  "Y": 0.5261
+                },
+                "PreSize": {
+                  "X": 0.0352,
+                  "Y": 0.5303
+                },
+                "LeftMargin": 48.5373,
+                "RightMargin": 910.4627,
+                "TopMargin": 13.7783,
+                "BottomMargin": 17.2217,
+                "CallBackType": "Touch",
+                "CallBackName": "onCircleRule",
+                "ActionTag": 354767593,
+                "Size": {
+                  "X": 35.0,
+                  "Y": 35.0
+                },
+                "Name": "_quanCheckBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 372.2703,
+                  "Y": 34.7217
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3745,
+                  "Y": 0.5261
+                },
+                "PreSize": {
+                  "X": 0.0352,
+                  "Y": 0.5303
+                },
+                "LeftMargin": 354.7703,
+                "RightMargin": 604.2297,
+                "TopMargin": 13.7783,
+                "BottomMargin": 17.2217,
+                "CallBackType": "Touch",
+                "CallBackName": "onCircleRule",
+                "Tag": 1,
+                "ActionTag": 591962122,
+                "Size": {
+                  "X": 35.0,
+                  "Y": 35.0
+                },
+                "Name": "_quanCheckBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title3.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 45,
+                "Scale9Height": 28,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5011,
+                  "ScaleY": 0.5194
+                },
+                "Position": {
+                  "X": 110.1415,
+                  "Y": 35.0262
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1108,
+                  "Y": 0.5307
+                },
+                "PreSize": {
+                  "X": 0.0453,
+                  "Y": 0.4242
+                },
+                "LeftMargin": 87.592,
+                "RightMargin": 861.408,
+                "TopMargin": 17.517,
+                "BottomMargin": 20.483,
+                "CallBackType": "Touch",
+                "CallBackName": "onCircleTouchText",
+                "ActionTag": 1487924890,
+                "Size": {
+                  "X": 45.0,
+                  "Y": 28.0
+                },
+                "Name": "_circleText",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title4.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 45,
+                "Scale9Height": 28,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 420.0881,
+                  "Y": 34.4822
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4226,
+                  "Y": 0.5225
+                },
+                "PreSize": {
+                  "X": 0.0453,
+                  "Y": 0.4242
+                },
+                "LeftMargin": 397.5881,
+                "RightMargin": 551.4119,
+                "TopMargin": 17.5178,
+                "BottomMargin": 20.4822,
+                "CallBackType": "Touch",
+                "CallBackName": "onCircleTouchText",
+                "Tag": 1,
+                "ActionTag": -759929989,
+                "Size": {
+                  "X": 45.0,
+                  "Y": 28.0
+                },
+                "Name": "_circleText",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 936075129,
+            "Size": {
+              "X": 994.0,
+              "Y": 66.0
+            },
+            "Name": "_cellBg2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/a/bg1.png",
+              "Plist": ""
+            },
+            "Scale9Width": 994,
+            "Scale9Height": 66,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 760.6019,
+              "Y": 425.4035
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5702,
+              "Y": 0.5672
+            },
+            "PreSize": {
+              "X": 0.7451,
+              "Y": 0.088
+            },
+            "LeftMargin": 263.6019,
+            "RightMargin": 76.3981,
+            "TopMargin": 291.5965,
+            "BottomMargin": 392.4035,
+            "Tag": 77,
+            "Children": [
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 66.0372,
+                  "Y": 35.7928
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0664,
+                  "Y": 0.5423
+                },
+                "PreSize": {
+                  "X": 0.0352,
+                  "Y": 0.5303
+                },
+                "LeftMargin": 48.5372,
+                "RightMargin": 910.4628,
+                "TopMargin": 12.7072,
+                "BottomMargin": 18.2928,
+                "CallBackType": "Touch",
+                "CallBackName": "onPeopleRule",
+                "ActionTag": 262544226,
+                "Size": {
+                  "X": 35.0,
+                  "Y": 35.0
+                },
+                "Name": "_peopleNumCheckBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.4839,
+                  "ScaleY": 0.4876
+                },
+                "Position": {
+                  "X": 371.7081,
+                  "Y": 35.3588
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.374,
+                  "Y": 0.5357
+                },
+                "PreSize": {
+                  "X": 0.0352,
+                  "Y": 0.5303
+                },
+                "LeftMargin": 354.7716,
+                "RightMargin": 604.2284,
+                "TopMargin": 12.7072,
+                "BottomMargin": 18.2928,
+                "CallBackType": "Touch",
+                "CallBackName": "onPeopleRule",
+                "Tag": 1,
+                "ActionTag": -1251981668,
+                "Size": {
+                  "X": 35.0,
+                  "Y": 35.0
+                },
+                "Name": "_peopleNumCheckBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/default.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/selected.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 660.5305,
+                  "Y": 35.7927
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6645,
+                  "Y": 0.5423
+                },
+                "PreSize": {
+                  "X": 0.0352,
+                  "Y": 0.5303
+                },
+                "LeftMargin": 643.0305,
+                "RightMargin": 315.9695,
+                "TopMargin": 12.7073,
+                "BottomMargin": 18.2927,
+                "CallBackType": "Touch",
+                "CallBackName": "onPeopleRule",
+                "Tag": 2,
+                "ActionTag": -1680049267,
+                "Size": {
+                  "X": 35.0,
+                  "Y": 35.0
+                },
+                "Name": "_peopleNumCheckBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title5.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 45,
+                "Scale9Height": 28,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.46,
+                  "ScaleY": 0.4072
+                },
+                "Position": {
+                  "X": 108.2932,
+                  "Y": 33.1732
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1089,
+                  "Y": 0.5026
+                },
+                "PreSize": {
+                  "X": 0.0453,
+                  "Y": 0.4242
+                },
+                "LeftMargin": 87.5932,
+                "RightMargin": 861.4068,
+                "TopMargin": 16.2284,
+                "BottomMargin": 21.7716,
+                "CallBackType": "Touch",
+                "CallBackName": "onPeopleTouch",
+                "ActionTag": -237385116,
+                "Size": {
+                  "X": 45.0,
+                  "Y": 28.0
+                },
+                "Name": "_peopleNum",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title6.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 45,
+                "Scale9Height": 28,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 420.0881,
+                  "Y": 35.7722
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4226,
+                  "Y": 0.542
+                },
+                "PreSize": {
+                  "X": 0.0453,
+                  "Y": 0.4242
+                },
+                "LeftMargin": 397.5881,
+                "RightMargin": 551.4119,
+                "TopMargin": 16.2278,
+                "BottomMargin": 21.7722,
+                "CallBackType": "Touch",
+                "CallBackName": "onPeopleTouch",
+                "Tag": 1,
+                "ActionTag": 1774062530,
+                "Size": {
+                  "X": 45.0,
+                  "Y": 28.0
+                },
+                "Name": "_peopleNum",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title7.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 45,
+                "Scale9Height": 27,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.7043,
+                  "ScaleY": 0.6645
+                },
+                "Position": {
+                  "X": 720.3751,
+                  "Y": 39.7135
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7247,
+                  "Y": 0.6017
+                },
+                "PreSize": {
+                  "X": 0.0453,
+                  "Y": 0.4091
+                },
+                "LeftMargin": 688.6816,
+                "RightMargin": 260.3184,
+                "TopMargin": 17.228,
+                "BottomMargin": 21.772,
+                "CallBackType": "Touch",
+                "CallBackName": "onPeopleTouch",
+                "Tag": 2,
+                "ActionTag": -21490746,
+                "Size": {
+                  "X": 45.0,
+                  "Y": 27.0
+                },
+                "Name": "_peopleNum",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1073731767,
+            "Size": {
+              "X": 994.0,
+              "Y": 66.0
+            },
+            "Name": "_cellBg3",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/a/bg2.png",
+              "Plist": ""
+            },
+            "Scale9Width": 991,
+            "Scale9Height": 196,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 759.1017,
+              "Y": 203.1711
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.569,
+              "Y": 0.2709
+            },
+            "PreSize": {
+              "X": 0.7429,
+              "Y": 0.2613
+            },
+            "LeftMargin": 263.6017,
+            "RightMargin": 79.3983,
+            "TopMargin": 448.8289,
+            "BottomMargin": 105.1711,
+            "Tag": 123,
+            "Children": [
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 59.5375,
+                  "Y": 153.5829
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0601,
+                  "Y": 0.7836
+                },
+                "PreSize": {
+                  "X": 0.0222,
+                  "Y": 0.1122
+                },
+                "LeftMargin": 48.5375,
+                "RightMargin": 920.4625,
+                "TopMargin": 31.4171,
+                "BottomMargin": 142.5829,
+                "ActionTag": -262640710,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 22.0
+                },
+                "Name": "_playTypeCheckBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 363.3481,
+                  "Y": 153.5829
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3666,
+                  "Y": 0.7836
+                },
+                "PreSize": {
+                  "X": 0.0222,
+                  "Y": 0.1122
+                },
+                "LeftMargin": 352.3481,
+                "RightMargin": 616.6519,
+                "TopMargin": 31.4171,
+                "BottomMargin": 142.5829,
+                "Tag": 1,
+                "ActionTag": 434708604,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 22.0
+                },
+                "Name": "_playTypeCheckBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.2352,
+                  "ScaleY": 0.719
+                },
+                "Position": {
+                  "X": 650.4581,
+                  "Y": 158.4008
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6564,
+                  "Y": 0.8082
+                },
+                "PreSize": {
+                  "X": 0.0222,
+                  "Y": 0.1122
+                },
+                "LeftMargin": 645.2838,
+                "RightMargin": 323.7162,
+                "TopMargin": 31.4172,
+                "BottomMargin": 142.5828,
+                "Tag": 2,
+                "ActionTag": -1577272162,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 22.0
+                },
+                "Name": "_playTypeCheckBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 59.5376,
+                  "Y": 82.5633
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0601,
+                  "Y": 0.4212
+                },
+                "PreSize": {
+                  "X": 0.0222,
+                  "Y": 0.1122
+                },
+                "LeftMargin": 48.5376,
+                "RightMargin": 920.4624,
+                "TopMargin": 102.4367,
+                "BottomMargin": 71.5633,
+                "Tag": 3,
+                "ActionTag": 1852538844,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 22.0
+                },
+                "Name": "_playTypeCheckBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 363.3481,
+                  "Y": 82.5633
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3666,
+                  "Y": 0.4212
+                },
+                "PreSize": {
+                  "X": 0.0222,
+                  "Y": 0.1122
+                },
+                "LeftMargin": 352.3481,
+                "RightMargin": 616.6519,
+                "TopMargin": 102.4367,
+                "BottomMargin": 71.5633,
+                "Tag": 4,
+                "ActionTag": -75170435,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 22.0
+                },
+                "Name": "_playTypeCheckBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 656.2834,
+                  "Y": 82.5633
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6622,
+                  "Y": 0.4212
+                },
+                "PreSize": {
+                  "X": 0.0222,
+                  "Y": 0.1122
+                },
+                "LeftMargin": 645.2834,
+                "RightMargin": 323.7166,
+                "TopMargin": 102.4367,
+                "BottomMargin": 71.5633,
+                "Tag": 5,
+                "ActionTag": -1602502385,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 22.0
+                },
+                "Name": "_playTypeCheckBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title17.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 115,
+                "Scale9Height": 29,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 146.1183,
+                  "Y": 154.5148
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1474,
+                  "Y": 0.7883
+                },
+                "PreSize": {
+                  "X": 0.116,
+                  "Y": 0.148
+                },
+                "LeftMargin": 88.6183,
+                "RightMargin": 787.3817,
+                "TopMargin": 26.9852,
+                "BottomMargin": 140.0148,
+                "CallBackType": "Touch",
+                "CallBackName": "onGameType",
+                "ActionTag": 1938109519,
+                "Size": {
+                  "X": 115.0,
+                  "Y": 29.0
+                },
+                "Name": "_playText",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title18.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 143,
+                "Scale9Height": 29,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5441,
+                  "ScaleY": 0.5216
+                },
+                "Position": {
+                  "X": 467.0056,
+                  "Y": 155.1403
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4712,
+                  "Y": 0.7915
+                },
+                "PreSize": {
+                  "X": 0.1443,
+                  "Y": 0.148
+                },
+                "LeftMargin": 389.1993,
+                "RightMargin": 458.8007,
+                "TopMargin": 26.9861,
+                "BottomMargin": 140.0139,
+                "CallBackType": "Touch",
+                "CallBackName": "onGameType",
+                "Tag": 1,
+                "ActionTag": 818006979,
+                "Size": {
+                  "X": 143.0,
+                  "Y": 29.0
+                },
+                "Name": "_playText",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title19.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 162,
+                "Scale9Height": 29,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 759.7219,
+                  "Y": 154.5148
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7666,
+                  "Y": 0.7883
+                },
+                "PreSize": {
+                  "X": 0.1635,
+                  "Y": 0.148
+                },
+                "LeftMargin": 678.7219,
+                "RightMargin": 150.2781,
+                "TopMargin": 26.9852,
+                "BottomMargin": 140.0148,
+                "CallBackType": "Touch",
+                "CallBackName": "onGameType",
+                "Tag": 2,
+                "ActionTag": -837482179,
+                "Size": {
+                  "X": 162.0,
+                  "Y": 29.0
+                },
+                "Name": "_playText",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title20.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 115,
+                "Scale9Height": 29,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 146.1183,
+                  "Y": 82.6862
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1474,
+                  "Y": 0.4219
+                },
+                "PreSize": {
+                  "X": 0.116,
+                  "Y": 0.148
+                },
+                "LeftMargin": 88.6183,
+                "RightMargin": 787.3817,
+                "TopMargin": 98.8138,
+                "BottomMargin": 68.1862,
+                "CallBackType": "Touch",
+                "CallBackName": "onGameType",
+                "Tag": 3,
+                "ActionTag": 1899155575,
+                "Size": {
+                  "X": 115.0,
+                  "Y": 29.0
+                },
+                "Name": "_playText",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title21.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 86,
+                "Scale9Height": 28,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 432.1924,
+                  "Y": 82.1862
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4361,
+                  "Y": 0.4193
+                },
+                "PreSize": {
+                  "X": 0.0868,
+                  "Y": 0.1429
+                },
+                "LeftMargin": 389.1924,
+                "RightMargin": 515.8076,
+                "TopMargin": 99.8138,
+                "BottomMargin": 68.1862,
+                "CallBackType": "Touch",
+                "CallBackName": "onGameType",
+                "Tag": 4,
+                "ActionTag": -1896367627,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 28.0
+                },
+                "Name": "_playText",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title22.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 86,
+                "Scale9Height": 28,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 721.7218,
+                  "Y": 83.1862
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.124
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7283,
+                  "Y": 0.4244
+                },
+                "PreSize": {
+                  "X": 0.0868,
+                  "Y": 0.1429
+                },
+                "LeftMargin": 678.7218,
+                "RightMargin": 226.2782,
+                "TopMargin": 98.8138,
+                "BottomMargin": 69.1862,
+                "CallBackType": "Touch",
+                "CallBackName": "onGameType",
+                "Tag": 5,
+                "ActionTag": -320653416,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 28.0
+                },
+                "Name": "_playText",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/2.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Default",
+                  "Path": "Default/CheckBox_Disable.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/3.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 59.5378,
+                  "Y": 21.9155
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0601,
+                  "Y": 0.1118
+                },
+                "PreSize": {
+                  "X": 0.0222,
+                  "Y": 0.1122
+                },
+                "LeftMargin": 48.5378,
+                "RightMargin": 920.4622,
+                "TopMargin": 163.0845,
+                "BottomMargin": 10.9155,
+                "Tag": 6,
+                "ActionTag": 219251331,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 22.0
+                },
+                "VisibleForFrame": false,
+                "Name": "_playTypeCheckBox",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/title12.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 57,
+                "Scale9Height": 29,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.1183,
+                  "Y": 24.4895
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1182,
+                  "Y": 0.1249
+                },
+                "PreSize": {
+                  "X": 0.0575,
+                  "Y": 0.148
+                },
+                "LeftMargin": 88.6183,
+                "RightMargin": 845.3817,
+                "TopMargin": 157.0105,
+                "BottomMargin": 9.9895,
+                "CallBackType": "Touch",
+                "CallBackName": "onGameType",
+                "Tag": 6,
+                "ActionTag": -515282443,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 29.0
+                },
+                "VisibleForFrame": false,
+                "Name": "_playText",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 847248825,
+            "Size": {
+              "X": 991.0,
+              "Y": 196.0
+            },
+            "Name": "_cellBg5",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 1334.0,
+            "TopMargin": 750.0,
+            "Tag": 74,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/bg1.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 994,
+                "Scale9Height": 66,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 760.6018,
+                  "Y": 346.7873
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 263.6018,
+                "RightMargin": -1257.6018,
+                "TopMargin": -379.7873,
+                "BottomMargin": 313.7873,
+                "Tag": 78,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/b/title8.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 115,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.46,
+                      "ScaleY": 0.4072
+                    },
+                    "Position": {
+                      "X": 106.2303,
+                      "Y": 31.2959
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1069,
+                      "Y": 0.4742
+                    },
+                    "PreSize": {
+                      "X": 0.1157,
+                      "Y": 0.4242
+                    },
+                    "LeftMargin": 53.3303,
+                    "RightMargin": 825.6697,
+                    "TopMargin": 18.1057,
+                    "BottomMargin": 19.8943,
+                    "Tag": 106,
+                    "ActionTag": 466913146,
+                    "Size": {
+                      "X": 115.0,
+                      "Y": 28.0
+                    },
+                    "Name": "Image_12_1_0_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/b/title9.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 57,
+                    "Scale9Height": 27,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 324.1987,
+                      "Y": 33.3922
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3262,
+                      "Y": 0.5059
+                    },
+                    "PreSize": {
+                      "X": 0.0573,
+                      "Y": 0.4091
+                    },
+                    "LeftMargin": 295.6987,
+                    "RightMargin": 641.3013,
+                    "TopMargin": 19.1078,
+                    "BottomMargin": 19.8922,
+                    "Tag": 107,
+                    "ActionTag": -1323957387,
+                    "Size": {
+                      "X": 57.0,
+                      "Y": 27.0
+                    },
+                    "Name": "Image_12_0_0_0_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/b/title10.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 86,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 467.9548,
+                      "Y": 33.8919
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4708,
+                      "Y": 0.5135
+                    },
+                    "PreSize": {
+                      "X": 0.0865,
+                      "Y": 0.4242
+                    },
+                    "LeftMargin": 424.9548,
+                    "RightMargin": 483.0452,
+                    "TopMargin": 18.1081,
+                    "BottomMargin": 19.8919,
+                    "Tag": 110,
+                    "ActionTag": 1388796235,
+                    "Size": {
+                      "X": 86.0,
+                      "Y": 28.0
+                    },
+                    "Name": "Image_12_0_0_0_0_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/b/title11.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 55,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.3827,
+                      "ScaleY": 0.8169
+                    },
+                    "Position": {
+                      "X": 701.4371,
+                      "Y": 42.7644
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7057,
+                      "Y": 0.6479
+                    },
+                    "PreSize": {
+                      "X": 0.0553,
+                      "Y": 0.4242
+                    },
+                    "LeftMargin": 680.3885,
+                    "RightMargin": 258.6115,
+                    "TopMargin": 18.1088,
+                    "BottomMargin": 19.8912,
+                    "Tag": 111,
+                    "ActionTag": 900418617,
+                    "Size": {
+                      "X": 55.0,
+                      "Y": 28.0
+                    },
+                    "Name": "Image_12_0_0_0_0_0_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/2.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/2.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Default",
+                      "Path": "Default/CheckBox_Disable.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/3.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/3.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 656.2834,
+                      "Y": 31.6718
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6602,
+                      "Y": 0.4799
+                    },
+                    "PreSize": {
+                      "X": 0.0221,
+                      "Y": 0.3333
+                    },
+                    "LeftMargin": 645.2834,
+                    "RightMargin": 326.7166,
+                    "TopMargin": 23.3282,
+                    "BottomMargin": 20.6718,
+                    "Tag": 120,
+                    "ActionTag": -422851935,
+                    "Size": {
+                      "X": 22.0,
+                      "Y": 22.0
+                    },
+                    "Name": "_anBaoCheck",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": -669382916,
+                "Size": {
+                  "X": 994.0,
+                  "Y": 66.0
+                },
+                "Name": "_cellBg4",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1975971625,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "_haErBinNode",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 1334.0,
+            "TopMargin": 750.0,
+            "Tag": 99,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/bg1.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 994,
+                "Scale9Height": 66,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 758.8279,
+                  "Y": 346.7872
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 261.8279,
+                "RightMargin": -1255.8279,
+                "TopMargin": -379.7872,
+                "BottomMargin": 313.7872,
+                "Tag": 117,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/b/title13.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 115,
+                    "Scale9Height": 27,
+                    "AnchorPoint": {
+                      "ScaleX": 0.46,
+                      "ScaleY": 0.4072
+                    },
+                    "Position": {
+                      "X": 106.2303,
+                      "Y": 29.2518
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1069,
+                      "Y": 0.4432
+                    },
+                    "PreSize": {
+                      "X": 0.1157,
+                      "Y": 0.4091
+                    },
+                    "LeftMargin": 53.3303,
+                    "RightMargin": 825.6697,
+                    "TopMargin": 20.7426,
+                    "BottomMargin": 18.2574,
+                    "Tag": 118,
+                    "ActionTag": -460254191,
+                    "Size": {
+                      "X": 115.0,
+                      "Y": 27.0
+                    },
+                    "Name": "Image_12_1_0_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/b/title14.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 58,
+                    "Scale9Height": 29,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 324.1987,
+                      "Y": 32.7574
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3262,
+                      "Y": 0.4963
+                    },
+                    "PreSize": {
+                      "X": 0.0584,
+                      "Y": 0.4394
+                    },
+                    "LeftMargin": 295.1987,
+                    "RightMargin": 640.8013,
+                    "TopMargin": 18.7426,
+                    "BottomMargin": 18.2574,
+                    "Tag": 119,
+                    "ActionTag": 208763179,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 29.0
+                    },
+                    "Name": "Image_12_0_0_0_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/b/title15.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 86,
+                    "Scale9Height": 28,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 467.9548,
+                      "Y": 32.2574
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4708,
+                      "Y": 0.4887
+                    },
+                    "PreSize": {
+                      "X": 0.0865,
+                      "Y": 0.4242
+                    },
+                    "LeftMargin": 424.9548,
+                    "RightMargin": 483.0452,
+                    "TopMargin": 19.7426,
+                    "BottomMargin": 18.2574,
+                    "Tag": 120,
+                    "ActionTag": -1439454281,
+                    "Size": {
+                      "X": 86.0,
+                      "Y": 28.0
+                    },
+                    "Name": "Image_12_0_0_0_0_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/b/title16.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 59,
+                    "Scale9Height": 30,
+                    "AnchorPoint": {
+                      "ScaleX": 0.3827,
+                      "ScaleY": 0.8169
+                    },
+                    "Position": {
+                      "X": 701.4371,
+                      "Y": 42.7644
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7057,
+                      "Y": 0.6479
+                    },
+                    "PreSize": {
+                      "X": 0.0594,
+                      "Y": 0.4545
+                    },
+                    "LeftMargin": 678.8578,
+                    "RightMargin": 256.1422,
+                    "TopMargin": 17.7426,
+                    "BottomMargin": 18.2574,
+                    "Tag": 121,
+                    "ActionTag": 1609665784,
+                    "Size": {
+                      "X": 59.0,
+                      "Y": 30.0
+                    },
+                    "Name": "Image_12_0_0_0_0_0_0",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 2034285223,
+                "Size": {
+                  "X": 994.0,
+                  "Y": 66.0
+                },
+                "Name": "_cellBg4",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 882186814,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_heiLongJiangNode",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/a/a-8.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/a/a-8.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/a/a-8.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 228,
+            "Scale9Height": 52,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 51.0134
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.068
+            },
+            "PreSize": {
+              "X": 0.1934,
+              "Y": 0.0987
+            },
+            "LeftMargin": 538.0,
+            "RightMargin": 538.0,
+            "TopMargin": 661.9866,
+            "BottomMargin": 14.0134,
+            "CallBackType": "Click",
+            "CallBackName": "onSure",
+            "Tag": 134,
+            "ActionTag": 473441293,
+            "Size": {
+              "X": 258.0,
+              "Y": 74.0
+            },
+            "Name": "_createRoomBtn",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/CheckBox_Disable.png",
+        "hallUi/a/a-8.png",
+        "hallUi/a/aa.jpg",
+        "hallUi/a/back.png",
+        "hallUi/a/bg1.png",
+        "hallUi/a/bg2.png",
+        "hallUi/a/leftbar_bg.png",
+        "hallUi/a/leftbar_btn1.png",
+        "hallUi/a/leftbar_btn2.png",
+        "hallUi/a/leftbar_title1.png",
+        "hallUi/a/leftbar_title2.png",
+        "hallUi/a/leftbar_title3.png",
+        "hallUi/a/y.png",
+        "hallUi/b/default.png",
+        "hallUi/b/selected.png",
+        "hallUi/b/title1.png",
+        "hallUi/b/title10.png",
+        "hallUi/b/title11.png",
+        "hallUi/b/title12.png",
+        "hallUi/b/title13.png",
+        "hallUi/b/title14.png",
+        "hallUi/b/title15.png",
+        "hallUi/b/title16.png",
+        "hallUi/b/title17.png",
+        "hallUi/b/title18.png",
+        "hallUi/b/title19.png",
+        "hallUi/b/title2.png",
+        "hallUi/b/title20.png",
+        "hallUi/b/title21.png",
+        "hallUi/b/title22.png",
+        "hallUi/b/title3.png",
+        "hallUi/b/title4.png",
+        "hallUi/b/title5.png",
+        "hallUi/b/title6.png",
+        "hallUi/b/title7.png",
+        "hallUi/b/title8.png",
+        "hallUi/b/title9.png",
+        "hallUi/common/2.png",
+        "hallUi/common/3.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

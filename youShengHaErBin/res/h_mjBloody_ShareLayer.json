@@ -1,0 +1,1687 @@
+{
+  "ID": "d8fffc94-366d-45d3-9788-673272b24e78",
+  "Version": "2.3.3.0",
+  "Name": "h_mjBloody_ShareLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 39,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/a/aa.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 40,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/bg2.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 991,
+                "Scale9Height": 196,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0015,
+                  "Y": 687.9325
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9172
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.168
+                },
+                "LeftMargin": 0.0015,
+                "RightMargin": -0.0015,
+                "TopMargin": -0.9325,
+                "BottomMargin": 624.9325,
+                "Tag": 41,
+                "ActionTag": -1498065190,
+                "Size": {
+                  "X": 1334.0,
+                  "Y": 126.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/back.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/back.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 10,
+                "Scale9OriginY": 11,
+                "Scale9Width": 12,
+                "Scale9Height": 28,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 37.654,
+                  "Y": 687.241
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0282,
+                  "Y": 0.9163
+                },
+                "PreSize": {
+                  "X": 0.024,
+                  "Y": 0.0667
+                },
+                "LeftMargin": 21.654,
+                "RightMargin": 1280.3459,
+                "TopMargin": 37.759,
+                "BottomMargin": 662.241,
+                "CallBackType": "Click",
+                "CallBackName": "onBackGameScene",
+                "Tag": 42,
+                "ActionTag": 1933505618,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 50.0
+                },
+                "Name": "Button_3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/h/title1 2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 680.2408
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.907
+                },
+                "PreSize": {
+                  "X": 0.1274,
+                  "Y": 0.048
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 582.0,
+                "RightMargin": 582.0,
+                "TopMargin": 51.7592,
+                "BottomMargin": 662.2408,
+                "Tag": 43,
+                "ActionTag": -1364514490,
+                "Size": {
+                  "X": 170.0,
+                  "Y": 36.0
+                },
+                "Name": "_logo",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/leftbar_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 163,
+                "Scale9Height": 69,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 985.7114,
+                  "Y": 682.9464
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7389,
+                  "Y": 0.9106
+                },
+                "PreSize": {
+                  "X": 0.1222,
+                  "Y": 0.092
+                },
+                "LeftMargin": 904.2114,
+                "RightMargin": 266.7886,
+                "TopMargin": 32.5536,
+                "BottomMargin": 648.4464,
+                "Tag": 44,
+                "ActionTag": -845710821,
+                "Size": {
+                  "X": 163.0,
+                  "Y": 69.0
+                },
+                "Name": "_haErBinBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/h/btn1.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/h/btn1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/h/btn1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 120,
+                "Scale9Height": 33,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5693,
+                  "ScaleY": 0.3558
+                },
+                "Position": {
+                  "X": 996.6786,
+                  "Y": 674.4442
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7471,
+                  "Y": 0.8993
+                },
+                "PreSize": {
+                  "X": 0.1124,
+                  "Y": 0.0733
+                },
+                "LeftMargin": 911.2836,
+                "RightMargin": 272.7164,
+                "TopMargin": 40.1248,
+                "BottomMargin": 654.8752,
+                "CallBackType": "Click",
+                "CallBackName": "onShare",
+                "Tag": 46,
+                "ActionTag": 849313195,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 55.0
+                },
+                "Name": "_haErBinBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 634.529,
+                  "Y": 328.4863
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.4757,
+                  "Y": 0.438
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 634.529,
+                "RightMargin": 699.471,
+                "TopMargin": 421.5137,
+                "BottomMargin": 328.4863,
+                "Tag": 48,
+                "ActionTag": 230972188,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "_playType1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/bg1.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 1268,
+                "Scale9Height": 578,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 671.9189,
+                  "Y": 312.4347
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5037,
+                  "Y": 0.4166
+                },
+                "PreSize": {
+                  "X": 0.925,
+                  "Y": 0.7333
+                },
+                "LeftMargin": 54.9189,
+                "RightMargin": 45.0811,
+                "TopMargin": 162.5653,
+                "BottomMargin": 37.4347,
+                "Tag": 49,
+                "ActionTag": -1014106397,
+                "Size": {
+                  "X": 1234.0,
+                  "Y": 550.0
+                },
+                "Name": "bg1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 667.0,
+                  "Y": 375.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 667.0,
+                "RightMargin": 667.0,
+                "TopMargin": 375.0,
+                "BottomMargin": 375.0,
+                "Tag": 54,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/h/logo1.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/h/logo1.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/h/logo1.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 105,
+                    "Scale9Height": 88,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.527,
+                      "ScaleY": 0.5402
+                    },
+                    "Position": {
+                      "X": -236.4826,
+                      "Y": -63.6276
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 0.0323,
+                    "RotationSkewY": 0.0323,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -307.6276,
+                    "RightMargin": 172.6276,
+                    "TopMargin": 13.0496,
+                    "BottomMargin": -123.0496,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnShareClick",
+                    "ActionTag": 1205345868,
+                    "Size": {
+                      "X": 135.0,
+                      "Y": 110.0
+                    },
+                    "Name": "_shareBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/h/image1.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 259,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -32.4721,
+                      "Y": -72.5178
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -32.9721,
+                    "RightMargin": 31.9721,
+                    "TopMargin": -56.9822,
+                    "BottomMargin": -202.0178,
+                    "Tag": 56,
+                    "ActionTag": 272052110,
+                    "Size": {
+                      "X": 1.0,
+                      "Y": 259.0
+                    },
+                    "Name": "Image_7",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/h/logo2.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/h/logo2.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/h/logo2.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 82,
+                    "Scale9Height": 92,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.4959,
+                      "ScaleY": 0.62
+                    },
+                    "Position": {
+                      "X": 182.6147,
+                      "Y": -52.3996
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 127.0739,
+                    "RightMargin": -239.0739,
+                    "TopMargin": 9.0796,
+                    "BottomMargin": -123.0796,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnShareClick",
+                    "Tag": 1,
+                    "ActionTag": -1665922644,
+                    "Size": {
+                      "X": 112.0,
+                      "Y": 114.0
+                    },
+                    "Name": "_shareBtn",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -59863541,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "VisibleForFrame": false,
+                "Name": "_sharePanel",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 31.0882,
+                  "Y": -126.5434
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0233,
+                  "Y": -0.1687
+                },
+                "PreSize": {
+                  "X": 0.91,
+                  "Y": 0.12
+                },
+                "LeftMargin": 31.0882,
+                "RightMargin": 88.9117,
+                "TopMargin": 786.5434,
+                "BottomMargin": -126.5434,
+                "Tag": 839,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/image.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 199,
+                    "Scale9Height": 57,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 153.5536,
+                      "Y": 44.6284
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1265,
+                      "Y": 0.4959
+                    },
+                    "PreSize": {
+                      "X": 0.1639,
+                      "Y": 0.6333
+                    },
+                    "LeftMargin": 54.0536,
+                    "RightMargin": 960.9464,
+                    "TopMargin": 16.8716,
+                    "BottomMargin": 16.1284,
+                    "Tag": 65,
+                    "Children": [
+                      {
+                        "FontSize": 28,
+                        "LabelText": "第一局",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 93.9822,
+                          "Y": 23.8943
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4723,
+                          "Y": 0.4192
+                        },
+                        "PreSize": {
+                          "X": 0.4221,
+                          "Y": 0.5614
+                        },
+                        "LeftMargin": 51.9822,
+                        "RightMargin": 63.0178,
+                        "TopMargin": 17.1057,
+                        "BottomMargin": 7.8943,
+                        "Tag": 74,
+                        "ActionTag": -1349490350,
+                        "Size": {
+                          "X": 84.0,
+                          "Y": 32.0
+                        },
+                        "Name": "_numCell",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 906048526,
+                    "Size": {
+                      "X": 199.0,
+                      "Y": 57.0
+                    },
+                    "Name": "Image_10",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "盛友麻将",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 358.7427,
+                      "Y": 62.2934
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2955,
+                      "Y": 0.6921
+                    },
+                    "PreSize": {
+                      "X": 0.0988,
+                      "Y": 0.3778
+                    },
+                    "LeftMargin": 298.7427,
+                    "RightMargin": 795.2573,
+                    "TopMargin": 10.7066,
+                    "BottomMargin": 45.2934,
+                    "ActionTag": -184500144,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 34.0
+                    },
+                    "Name": "_nameText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "＋100",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 352.5011,
+                      "Y": 17.1258
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2904,
+                      "Y": 0.1903
+                    },
+                    "PreSize": {
+                      "X": 0.0659,
+                      "Y": 0.3778
+                    },
+                    "LeftMargin": 312.5011,
+                    "RightMargin": 821.4989,
+                    "TopMargin": 55.8742,
+                    "BottomMargin": 0.1258,
+                    "ActionTag": -412273336,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 34.0
+                    },
+                    "Name": "_scoreText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "盛友麻将",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 601.4564,
+                      "Y": 62.2934
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4954,
+                      "Y": 0.6921
+                    },
+                    "PreSize": {
+                      "X": 0.0988,
+                      "Y": 0.3778
+                    },
+                    "LeftMargin": 541.4564,
+                    "RightMargin": 552.5436,
+                    "TopMargin": 10.7066,
+                    "BottomMargin": 45.2934,
+                    "Tag": 1,
+                    "ActionTag": -1808797551,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 34.0
+                    },
+                    "Name": "_nameText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "＋100",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 596.2174,
+                      "Y": 17.1258
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4911,
+                      "Y": 0.1903
+                    },
+                    "PreSize": {
+                      "X": 0.0659,
+                      "Y": 0.3778
+                    },
+                    "LeftMargin": 556.2174,
+                    "RightMargin": 577.7826,
+                    "TopMargin": 55.8742,
+                    "BottomMargin": 0.1258,
+                    "Tag": 1,
+                    "ActionTag": -1740506151,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 34.0
+                    },
+                    "Name": "_scoreText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "盛友麻将",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 844.1696,
+                      "Y": 62.2934
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6954,
+                      "Y": 0.6921
+                    },
+                    "PreSize": {
+                      "X": 0.0988,
+                      "Y": 0.3778
+                    },
+                    "LeftMargin": 784.1696,
+                    "RightMargin": 309.8304,
+                    "TopMargin": 10.7066,
+                    "BottomMargin": 45.2934,
+                    "Tag": 2,
+                    "ActionTag": 26351624,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 34.0
+                    },
+                    "Name": "_nameText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "＋100",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 839.9305,
+                      "Y": 17.1258
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6919,
+                      "Y": 0.1903
+                    },
+                    "PreSize": {
+                      "X": 0.0659,
+                      "Y": 0.3778
+                    },
+                    "LeftMargin": 799.9305,
+                    "RightMargin": 334.0695,
+                    "TopMargin": 55.8742,
+                    "BottomMargin": 0.1258,
+                    "Tag": 2,
+                    "ActionTag": 494772245,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 34.0
+                    },
+                    "Name": "_scoreText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "盛友麻将",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1086.8809,
+                      "Y": 62.2934
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8953,
+                      "Y": 0.6921
+                    },
+                    "PreSize": {
+                      "X": 0.0988,
+                      "Y": 0.3778
+                    },
+                    "LeftMargin": 1026.8809,
+                    "RightMargin": 67.1191,
+                    "TopMargin": 10.7066,
+                    "BottomMargin": 45.2934,
+                    "Tag": 3,
+                    "ActionTag": -1979561931,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 34.0
+                    },
+                    "Name": "_nameText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "＋100",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 1083.6392,
+                      "Y": 17.1258
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8926,
+                      "Y": 0.1903
+                    },
+                    "PreSize": {
+                      "X": 0.0659,
+                      "Y": 0.3778
+                    },
+                    "LeftMargin": 1043.6392,
+                    "RightMargin": 90.3608,
+                    "TopMargin": 55.8742,
+                    "BottomMargin": 0.1258,
+                    "Tag": 3,
+                    "ActionTag": 1931747639,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 34.0
+                    },
+                    "Name": "_scoreText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/image2.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 1214,
+                    "Scale9Height": 2,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 613.8352,
+                      "Y": 2.5585
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5056,
+                      "Y": 0.0284
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.0222
+                    },
+                    "LeftMargin": 6.8352,
+                    "RightMargin": -6.8352,
+                    "TopMargin": 86.4415,
+                    "BottomMargin": 1.5585,
+                    "Tag": 840,
+                    "ActionTag": -1573589246,
+                    "Size": {
+                      "X": 1214.0,
+                      "Y": 2.0
+                    },
+                    "Name": "Image_5",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 2093471400,
+                "Size": {
+                  "X": 1214.0,
+                  "Y": 90.0
+                },
+                "Name": "_cellPanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 677.0,
+                  "Y": 365.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.5075,
+                  "Y": 0.4867
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 677.0,
+                "RightMargin": 657.0,
+                "TopMargin": 384.9999,
+                "BottomMargin": 365.0001,
+                "Tag": 59,
+                "Children": [
+                  {
+                    "DirectionType": "Vertical",
+                    "ScrollDirectionType": 0,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": -620.1384,
+                      "Y": -323.7211
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -620.1384,
+                    "RightMargin": -603.8616,
+                    "TopMargin": -216.2789,
+                    "BottomMargin": -323.7211,
+                    "Tag": 63,
+                    "ActionTag": -448293164,
+                    "Size": {
+                      "X": 1224.0,
+                      "Y": 540.0
+                    },
+                    "Name": "_listView",
+                    "ctype": "ListViewObjectData"
+                  }
+                ],
+                "ActionTag": -1838793497,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "_zhanJiPanel",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/b/icon.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 163,
+                "Scale9Height": 261,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1179.3818,
+                  "Y": 588.9229
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8841,
+                  "Y": 0.7852
+                },
+                "PreSize": {
+                  "X": 0.1222,
+                  "Y": 0.348
+                },
+                "LeftMargin": 1097.8818,
+                "RightMargin": 73.1182,
+                "TopMargin": 30.5771,
+                "BottomMargin": 458.4229,
+                "Tag": 1754,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "ButtonText": "2人",
+                    "TextColor": {},
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 6,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 9,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 82.0065,
+                      "Y": 168.3751
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5031,
+                      "Y": 0.6451
+                    },
+                    "PreSize": {
+                      "X": 0.7423,
+                      "Y": 0.1533
+                    },
+                    "LeftMargin": 21.5065,
+                    "RightMargin": 20.4935,
+                    "TopMargin": 72.6249,
+                    "BottomMargin": 148.3751,
+                    "CallBackType": "Click",
+                    "CallBackName": "on2Ren",
+                    "Tag": 1755,
+                    "ActionTag": 1584145556,
+                    "Size": {
+                      "X": 121.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Button_1",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "ButtonText": "3人",
+                    "TextColor": {},
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 6,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 9,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 79.5479,
+                      "Y": 105.3432
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.488,
+                      "Y": 0.4036
+                    },
+                    "PreSize": {
+                      "X": 0.7423,
+                      "Y": 0.1533
+                    },
+                    "LeftMargin": 19.0479,
+                    "RightMargin": 22.9521,
+                    "TopMargin": 135.6568,
+                    "BottomMargin": 85.3432,
+                    "CallBackType": "Click",
+                    "CallBackName": "on3Ren",
+                    "Tag": 1756,
+                    "ActionTag": -543231122,
+                    "Size": {
+                      "X": 121.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Button_2",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "ButtonText": "4人",
+                    "TextColor": {},
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 6,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 9,
+                    "Scale9Height": 8,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 80.1809,
+                      "Y": 42.3113
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4919,
+                      "Y": 0.1621
+                    },
+                    "PreSize": {
+                      "X": 0.7423,
+                      "Y": 0.1533
+                    },
+                    "LeftMargin": 19.6809,
+                    "RightMargin": 22.3191,
+                    "TopMargin": 198.6887,
+                    "BottomMargin": 22.3113,
+                    "CallBackType": "Click",
+                    "CallBackName": "on4Ren",
+                    "Tag": 1757,
+                    "ActionTag": 1116553004,
+                    "Size": {
+                      "X": 121.0,
+                      "Y": 40.0
+                    },
+                    "Name": "Button_4",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 714292460,
+                "Size": {
+                  "X": 163.0,
+                  "Y": 261.0
+                },
+                "Name": "_zhanjiPanel",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/a/leftbar_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 163,
+                "Scale9Height": 69,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1177.6472,
+                  "Y": 682.5537
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8828,
+                  "Y": 0.9101
+                },
+                "PreSize": {
+                  "X": 0.1222,
+                  "Y": 0.092
+                },
+                "LeftMargin": 1096.1472,
+                "RightMargin": 74.8528,
+                "TopMargin": 32.9463,
+                "BottomMargin": 648.0537,
+                "Tag": 45,
+                "ActionTag": 463792098,
+                "Size": {
+                  "X": 163.0,
+                  "Y": 69.0
+                },
+                "VisibleForFrame": false,
+                "Name": "_haHeiLongJiangBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/h/btn2.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/h/btn2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/h/btn2.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 120,
+                "Scale9Height": 33,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1177.5038,
+                  "Y": 681.6921
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8827,
+                  "Y": 0.9089
+                },
+                "PreSize": {
+                  "X": 0.1124,
+                  "Y": 0.0733
+                },
+                "LeftMargin": 1102.5038,
+                "RightMargin": 81.4962,
+                "TopMargin": 40.8079,
+                "BottomMargin": 654.1921,
+                "CallBackType": "Click",
+                "CallBackName": "onZhanJi",
+                "Tag": 47,
+                "ActionTag": 982703160,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 55.0
+                },
+                "Name": "_heiLongJiangBtn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1487572815,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "hallUi/a/aa.jpg",
+        "hallUi/a/back.png",
+        "hallUi/a/bg2.png",
+        "hallUi/a/leftbar_bg.png",
+        "hallUi/b/icon.png",
+        "hallUi/common/bg1.png",
+        "hallUi/common/image.png",
+        "hallUi/common/image2.png",
+        "hallUi/h/btn1.png",
+        "hallUi/h/btn2.png",
+        "hallUi/h/image1.png",
+        "hallUi/h/logo1.png",
+        "hallUi/h/logo2.png",
+        "hallUi/h/title1 2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

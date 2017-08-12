@@ -1,0 +1,273 @@
+{
+  "ID": "39097af6-43ca-4f1d-995c-5ed36da80e41",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_loading",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 209,
+        "Children": [
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 210,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/loadingbg.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 324,
+                "Scale9Height": 56,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 688.6193,
+                  "Y": 289.7677
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5162,
+                  "Y": 0.3864
+                },
+                "PreSize": {
+                  "X": 0.2429,
+                  "Y": 0.0747
+                },
+                "LeftMargin": 526.6193,
+                "RightMargin": 483.3807,
+                "TopMargin": 432.2323,
+                "BottomMargin": 261.7677,
+                "Tag": 211,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/ui/loading10.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 198,
+                    "Scale9Height": 37,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 162.0,
+                      "Y": 28.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6111,
+                      "Y": 0.6607
+                    },
+                    "LeftMargin": 63.0,
+                    "RightMargin": 63.0,
+                    "TopMargin": 9.5,
+                    "BottomMargin": 9.5,
+                    "ActionTag": 1214387050,
+                    "Size": {
+                      "X": 198.0,
+                      "Y": 37.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "_imgArry",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/ui/loading9.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 45,
+                    "Scale9OriginY": 12,
+                    "Scale9Width": 49,
+                    "Scale9Height": 13,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 162.0,
+                      "Y": 28.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.429,
+                      "Y": 0.6607
+                    },
+                    "LeftMargin": 92.5,
+                    "RightMargin": 92.5,
+                    "TopMargin": 9.5,
+                    "BottomMargin": 9.5,
+                    "Tag": 1,
+                    "ActionTag": -230159322,
+                    "Size": {
+                      "X": 139.0,
+                      "Y": 37.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "_imgArry",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 23,
+                    "LabelText": "错误信息",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 162.0,
+                      "Y": 28.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2932,
+                      "Y": 0.4643
+                    },
+                    "LeftMargin": 114.5,
+                    "RightMargin": 114.5,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 1310,
+                    "ActionTag": -1894133307,
+                    "Size": {
+                      "X": 95.0,
+                      "Y": 26.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "_autoLabel",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1610078455,
+                "Size": {
+                  "X": 324.0,
+                  "Y": 56.0
+                },
+                "Name": "_Image_1",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1733957252,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "_Panel_1",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ui/loading10.png",
+        "g/mjBloody/ui/loading9.png",
+        "g/mjBloody/ui/loadingbg.png",
+        "hallUi/common/zhunyuan.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

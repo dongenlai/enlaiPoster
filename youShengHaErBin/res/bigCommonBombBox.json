@@ -1,0 +1,209 @@
+{
+  "ID": "f6ddb601-ccce-480f-a0d5-5a2cf5f3627c",
+  "Version": "2.3.3.0",
+  "Name": "bigCommonBombBox",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 439,
+        "Children": [
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 441,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/i/6.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 616,
+                "Scale9Height": 274,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 667.0,
+                  "Y": 375.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.4618,
+                  "Y": 0.0893
+                },
+                "LeftMargin": 359.0,
+                "RightMargin": 359.0,
+                "TopMargin": 341.5,
+                "BottomMargin": 341.5,
+                "Tag": 440,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/4.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 840,
+                    "Scale9Height": 67,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 308.0,
+                      "Y": 33.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.3636,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": -112.0,
+                    "RightMargin": -112.0,
+                    "ActionTag": 1114168382,
+                    "Size": {
+                      "X": 840.0,
+                      "Y": 67.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "_imgArry",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/8.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 297,
+                    "Scale9Height": 43,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 308.0,
+                      "Y": 33.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4821,
+                      "Y": 0.6418
+                    },
+                    "LeftMargin": 159.5,
+                    "RightMargin": 159.5,
+                    "TopMargin": 12.0,
+                    "BottomMargin": 12.0,
+                    "Tag": 1,
+                    "ActionTag": 1639955067,
+                    "Size": {
+                      "X": 297.0,
+                      "Y": 43.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "_imgArry",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1273617073,
+                "Size": {
+                  "X": 616.0,
+                  "Y": 67.0
+                },
+                "Name": "_Image_1",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 522251041,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "hallUi/common/4.png",
+        "hallUi/common/8.png",
+        "hallUi/i/6.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

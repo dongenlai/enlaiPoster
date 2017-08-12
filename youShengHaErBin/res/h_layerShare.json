@@ -1,0 +1,474 @@
+{
+  "ID": "330c725a-8e8e-4c09-9cc9-43de0223ed30",
+  "Version": "2.3.3.0",
+  "Name": "h_layerShare",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 111,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/c-1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0001,
+              "Y": 373.7177
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4983
+            },
+            "PreSize": {
+              "X": 0.587,
+              "Y": 0.6547
+            },
+            "LeftMargin": 275.5001,
+            "RightMargin": 275.4999,
+            "TopMargin": 130.7823,
+            "BottomMargin": 128.2177,
+            "Tag": 112,
+            "ActionTag": -1655832644,
+            "Size": {
+              "X": 783.0,
+              "Y": 491.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b (2).png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 570.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.76
+            },
+            "PreSize": {
+              "X": 0.0757,
+              "Y": 0.048
+            },
+            "LeftMargin": 616.5,
+            "RightMargin": 616.5,
+            "TopMargin": 162.0,
+            "BottomMargin": 552.0,
+            "Tag": 113,
+            "ActionTag": -1568799307,
+            "Size": {
+              "X": 101.0,
+              "Y": 36.0
+            },
+            "Name": "Sprite_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b (1).png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b (1).png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 76,
+            "Scale9Height": 84,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 814.2422,
+              "Y": 403.4161
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6104,
+              "Y": 0.5379
+            },
+            "PreSize": {
+              "X": 0.0795,
+              "Y": 0.1413
+            },
+            "LeftMargin": 761.2422,
+            "RightMargin": 466.7578,
+            "TopMargin": 293.5839,
+            "BottomMargin": 350.4161,
+            "CallBackType": "Click",
+            "CallBackName": "onBtnShareClick",
+            "Tag": 1,
+            "ActionTag": -2063670762,
+            "Size": {
+              "X": 106.0,
+              "Y": 106.0
+            },
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b (5).png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b (5).png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 76,
+            "Scale9Height": 84,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 516.0987,
+              "Y": 403.4161
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3869,
+              "Y": 0.5379
+            },
+            "PreSize": {
+              "X": 0.0795,
+              "Y": 0.1413
+            },
+            "LeftMargin": 463.0987,
+            "RightMargin": 764.9013,
+            "TopMargin": 293.5839,
+            "BottomMargin": 350.4161,
+            "CallBackType": "Click",
+            "CallBackName": "onBtnShareClick",
+            "ActionTag": -1059376703,
+            "Size": {
+              "X": 106.0,
+              "Y": 106.0
+            },
+            "Name": "sha",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "微信好友",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "hallUi/common/front.TTF",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 512.1455,
+              "Y": 292.2766
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 222,
+              "G": 168,
+              "B": 64
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3839,
+              "Y": 0.3897
+            },
+            "PreSize": {
+              "X": 0.1102,
+              "Y": 0.0547
+            },
+            "LeftMargin": 438.6455,
+            "RightMargin": 748.3545,
+            "TopMargin": 437.2234,
+            "BottomMargin": 271.7766,
+            "Tag": 118,
+            "ActionTag": -1805489660,
+            "Size": {
+              "X": 147.0,
+              "Y": 41.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "微信朋友圈",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "hallUi/common/front.TTF",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 816.6426,
+              "Y": 292.2766
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 222,
+              "G": 168,
+              "B": 64
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6122,
+              "Y": 0.3897
+            },
+            "PreSize": {
+              "X": 0.1364,
+              "Y": 0.0547
+            },
+            "LeftMargin": 725.6426,
+            "RightMargin": 426.3574,
+            "TopMargin": 437.2234,
+            "BottomMargin": 271.7766,
+            "Tag": 119,
+            "ActionTag": 1472491225,
+            "Size": {
+              "X": 182.0,
+              "Y": 41.0
+            },
+            "Name": "Text_1_0",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b-4.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b-4.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 50,
+            "Scale9Height": 58,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1043.2267,
+              "Y": 596.5386
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.782,
+              "Y": 0.7954
+            },
+            "PreSize": {
+              "X": 0.06,
+              "Y": 0.1067
+            },
+            "LeftMargin": 1003.2267,
+            "RightMargin": 250.7733,
+            "TopMargin": 113.4614,
+            "BottomMargin": 556.5386,
+            "CallBackType": "Click",
+            "CallBackName": "onBtnCloseClick",
+            "Tag": 120,
+            "ActionTag": 1390082499,
+            "Size": {
+              "X": 80.0,
+              "Y": 80.0
+            },
+            "Name": "Button_3",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "hallUi/common/b (1).png",
+        "hallUi/common/b (2).png",
+        "hallUi/common/b (5).png",
+        "hallUi/common/b-4.png",
+        "hallUi/common/c-1.png",
+        "hallUi/common/front.TTF"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

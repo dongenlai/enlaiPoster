@@ -1,0 +1,479 @@
+{
+  "ID": "4b4e2419-0f26-436c-8cbf-0f18786f70d5",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_ui_paiju",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "BackColorAlpha": 128,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2,
+            "ActionTag": -1604440793,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/ui_paiju1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 676.22,
+              "Y": 317.3398
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5069,
+              "Y": 0.4231
+            },
+            "PreSize": {
+              "X": 0.5472,
+              "Y": 0.6427
+            },
+            "LeftMargin": 311.22,
+            "RightMargin": 292.78,
+            "TopMargin": 191.6602,
+            "BottomMargin": 76.3398,
+            "Tag": 3,
+            "ActionTag": -1976965459,
+            "Size": {
+              "X": 730.0,
+              "Y": 482.0
+            },
+            "Name": "ui_paiju1_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b-2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 696.9192,
+              "Y": 590.5976
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5224,
+              "Y": 0.7875
+            },
+            "PreSize": {
+              "X": 0.2976,
+              "Y": 0.112
+            },
+            "LeftMargin": 498.4192,
+            "RightMargin": 438.5808,
+            "TopMargin": 117.4024,
+            "BottomMargin": 548.5976,
+            "Tag": 5,
+            "ActionTag": -1909934988,
+            "Size": {
+              "X": 397.0,
+              "Y": 84.0
+            },
+            "Name": "Sprite_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/ui_paiju2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 698.2745,
+              "Y": 582.4165
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5234,
+              "Y": 0.7766
+            },
+            "PreSize": {
+              "X": 0.1574,
+              "Y": 0.08
+            },
+            "LeftMargin": 593.2745,
+            "RightMargin": 530.7255,
+            "TopMargin": 137.5835,
+            "BottomMargin": 552.4165,
+            "Tag": 4,
+            "ActionTag": -240887675,
+            "Size": {
+              "X": 210.0,
+              "Y": 60.0
+            },
+            "Name": "ui_paiju2_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b-4.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b-4.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 27,
+            "Scale9Height": 35,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1017.6208,
+              "Y": 546.1032
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7628,
+              "Y": 0.7281
+            },
+            "PreSize": {
+              "X": 0.0427,
+              "Y": 0.076
+            },
+            "LeftMargin": 989.1208,
+            "RightMargin": 287.8792,
+            "TopMargin": 175.3968,
+            "BottomMargin": 517.6032,
+            "CallBackType": "Click",
+            "CallBackName": "onPaiJuClose",
+            "Tag": 7,
+            "ActionTag": 1320433101,
+            "Size": {
+              "X": 57.0,
+              "Y": 57.0
+            },
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/ui_paiju3.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/ui_paiju3.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 276,
+            "Scale9Height": 49,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 679.1293,
+              "Y": 208.4626
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5091,
+              "Y": 0.278
+            },
+            "PreSize": {
+              "X": 0.2294,
+              "Y": 0.0947
+            },
+            "LeftMargin": 526.1293,
+            "RightMargin": 501.8707,
+            "TopMargin": 506.0374,
+            "BottomMargin": 172.9626,
+            "CallBackType": "Click",
+            "CallBackName": "onPaiJuClose",
+            "Tag": 8,
+            "ActionTag": -1984324499,
+            "Size": {
+              "X": 306.0,
+              "Y": 71.0
+            },
+            "Name": "button2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 40,
+            "LabelText": "系统检测到您有未解散的房间，已\n帮您自动返回。若您想加入其他房\n间，请先申请解散本房间",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "hallUi/common/front.TTF",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 676.7213,
+              "Y": 377.3965
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 127,
+              "G": 100,
+              "B": 52
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5073,
+              "Y": 0.5032
+            },
+            "PreSize": {
+              "X": 0.4513,
+              "Y": 0.18
+            },
+            "LeftMargin": 375.7213,
+            "RightMargin": 356.2787,
+            "TopMargin": 305.1035,
+            "BottomMargin": 309.8965,
+            "Tag": 143,
+            "ActionTag": -1193783056,
+            "Size": {
+              "X": 602.0,
+              "Y": 135.0
+            },
+            "Name": "_des1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 39,
+            "LabelText": "如果您是房主，返回大厅后本房间将\n会为您保留（输入任意房间号即可回\n到本房间）。\n如果您不是房主，返回大厅后需重新\n输入本房间号才可回到本房间。",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "hallUi/common/front.TTF",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 681.3552,
+              "Y": 366.9485
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 127,
+              "G": 100,
+              "B": 52
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5108,
+              "Y": 0.4893
+            },
+            "PreSize": {
+              "X": 0.4708,
+              "Y": 0.2933
+            },
+            "LeftMargin": 367.3552,
+            "RightMargin": 338.6448,
+            "TopMargin": 273.0515,
+            "BottomMargin": 256.9485,
+            "Tag": 144,
+            "ActionTag": 1817270755,
+            "Size": {
+              "X": 628.0,
+              "Y": 220.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_des2",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ui/ui_paiju1.png",
+        "g/mjBloody/ui/ui_paiju2.png",
+        "g/mjBloody/ui/ui_paiju3.png",
+        "hallUi/common/b-2.png",
+        "hallUi/common/b-4.png",
+        "hallUi/common/front.TTF"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

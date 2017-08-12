@@ -1,0 +1,75 @@
+{
+  "ID": "6f6baec7-120c-43a9-ad9c-f7d8c98072bf",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_ani_xp",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 17,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/ani_xupai.png",
+              "Plist": ""
+            },
+            "Scale9Width": 186,
+            "Scale9Height": 59,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 88.8887,
+              "Y": 40.6349
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4938,
+              "Y": 0.5079
+            },
+            "PreSize": {
+              "X": 1.0333,
+              "Y": 0.7375
+            },
+            "LeftMargin": -4.1113,
+            "RightMargin": -1.8887,
+            "TopMargin": 9.8651,
+            "BottomMargin": 11.1349,
+            "Tag": 155,
+            "ActionTag": -148291726,
+            "Size": {
+              "X": 186.0,
+              "Y": 59.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 180.0,
+          "Y": 80.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ani/ani_xupai.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

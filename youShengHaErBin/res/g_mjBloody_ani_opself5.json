@@ -1,0 +1,249 @@
+{
+  "ID": "1807d837-c7ad-4a27-87a2-a29602a5529c",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_ani_opself5",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 999,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/ui_desbg.png",
+              "Plist": ""
+            },
+            "Scale9Width": 405,
+            "Scale9Height": 147,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 666.3619,
+              "Y": 271.1528
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4995,
+              "Y": 0.9038
+            },
+            "PreSize": {
+              "X": 0.5997,
+              "Y": 0.59
+            },
+            "LeftMargin": 266.3619,
+            "RightMargin": 267.6381,
+            "TopMargin": -59.6528,
+            "BottomMargin": 182.6528,
+            "Tag": 133,
+            "Children": [
+              {
+                "ItemMargin": 3,
+                "IsBounceEnabled": true,
+                "ScrollDirectionType": 0,
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 24.0816,
+                  "Y": 5.9234
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0301,
+                  "Y": 0.0335
+                },
+                "PreSize": {
+                  "X": 0.925,
+                  "Y": 0.6497
+                },
+                "LeftMargin": 24.0816,
+                "RightMargin": 35.9184,
+                "TopMargin": 56.0766,
+                "BottomMargin": 5.9234,
+                "Tag": 132,
+                "ActionTag": 1670611082,
+                "Size": {
+                  "X": 740.0,
+                  "Y": 115.0
+                },
+                "Name": "_listView",
+                "ctype": "ListViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_opselectTip.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 392.0958,
+                  "Y": 146.6661
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4901,
+                  "Y": 0.8286
+                },
+                "PreSize": {
+                  "X": 0.215,
+                  "Y": 0.2147
+                },
+                "LeftMargin": 306.0958,
+                "RightMargin": 321.9042,
+                "TopMargin": 11.3339,
+                "BottomMargin": 127.6661,
+                "Tag": 1009,
+                "ActionTag": -1309364961,
+                "Size": {
+                  "X": 172.0,
+                  "Y": 38.0
+                },
+                "Name": "ui_opselectTip_3",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1793969641,
+            "Size": {
+              "X": 800.0,
+              "Y": 177.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/mj_bg.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/mj_bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 45,
+            "Scale9Height": 86,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 517.8956,
+              "Y": -125.9169
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3882,
+              "Y": -0.4197
+            },
+            "PreSize": {
+              "X": 0.0562,
+              "Y": 0.36
+            },
+            "LeftMargin": 480.3956,
+            "RightMargin": 778.6044,
+            "TopMargin": 371.9169,
+            "BottomMargin": -179.9169,
+            "CallBackType": "Click",
+            "CallBackName": "onCardSelected",
+            "Tag": 1010,
+            "ActionTag": -631303401,
+            "Size": {
+              "X": 75.0,
+              "Y": 108.0
+            },
+            "Name": "_selCardBtn",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 300.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ui/mj_bg.png",
+        "g/mjBloody/ui/ui_desbg.png",
+        "g/mjBloody/ui/ui_opselectTip.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

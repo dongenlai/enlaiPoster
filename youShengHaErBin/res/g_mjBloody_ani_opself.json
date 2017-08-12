@@ -1,0 +1,1776 @@
+{
+  "ID": "f60a236e-758c-4d98-8dad-9be7ba6fe272",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_ani_opself",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 150,
+        "Speed": 0.1667,
+        "ActivedAnimationName": "animation0",
+        "Timelines": [
+          {
+            "ActionTag": 489733348,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 78.2581,
+                "Y": 80.6233,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 78.2581,
+                "Y": 80.6233,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 489733348,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 489733348,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 720.0,
+                "Y": 720.0,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 489733348,
+            "Property": "VisibleForFrame",
+            "Frames": [
+              {
+                "Value": false,
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "BoolFrameData"
+              },
+              {
+                "Value": true,
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "BoolFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -658442998,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 70.4521,
+                "Y": 69.5722,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 70.4521,
+                "Y": 69.5722,
+                "FrameIndex": 40,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -658442998,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 40,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -658442998,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 720.0,
+                "Y": 720.0,
+                "FrameIndex": 40,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1260866285,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 70.2573,
+                "Y": 70.6232,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 70.2573,
+                "Y": 69.6233,
+                "FrameIndex": 40,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 70.2573,
+                "Y": 69.6233,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1260866285,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 40,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1260866285,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 720.0,
+                "Y": 720.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 40,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 720.0,
+                "Y": 720.0,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1703213595,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 72.258,
+                "Y": 70.6234,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 72.258,
+                "Y": 70.6234,
+                "FrameIndex": 80,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1703213595,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 80,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1703213595,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 720.0,
+                "Y": 720.0,
+                "FrameIndex": 80,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -2076117949,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 72.2581,
+                "Y": 69.623,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 72.2581,
+                "Y": 69.623,
+                "FrameIndex": 100,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 72.2581,
+                "Y": 69.623,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -2076117949,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 100,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -2076117949,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 100,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 720.0,
+                "Y": 720.0,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -474601216,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 64.2538,
+                "Y": 63.6232,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 64.2538,
+                "Y": 63.6232,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 64.2538,
+                "Y": 63.6232,
+                "FrameIndex": 150,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -474601216,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 150,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -474601216,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 120,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 720.0,
+                "Y": 720.0,
+                "FrameIndex": 150,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1611706642,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 77.6495,
+                "Y": 82.0903,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 78.2581,
+                "Y": 80.6233,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1611706642,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1611706642,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 720.0,
+                "Y": 720.0,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1611706642,
+            "Property": "VisibleForFrame",
+            "Frames": [
+              {
+                "Value": false,
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "BoolFrameData"
+              },
+              {
+                "Value": true,
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "BoolFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1207644971,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 78.3787,
+                "Y": 82.0902,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 78.2581,
+                "Y": 80.6233,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1207644971,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1207644971,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 720.0,
+                "Y": 720.0,
+                "FrameIndex": 20,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": -1207644971,
+            "Property": "VisibleForFrame",
+            "Frames": [
+              {
+                "Value": false,
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "BoolFrameData"
+              },
+              {
+                "Value": true,
+                "FrameIndex": 20,
+                "Tween": false,
+                "ctype": "BoolFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 120,
+          "EndIndex": 150,
+          "Name": "animation0",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 3503,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_ting.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_ting.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_ting.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 4,
+            "Scale9Width": 147,
+            "Scale9Height": 150,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 104.5322,
+              "Y": 218.8044
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": 720.0,
+            "RotationSkewY": 720.0,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0784,
+              "Y": 0.7293
+            },
+            "PreSize": {
+              "X": 0.1297,
+              "Y": 0.5267
+            },
+            "LeftMargin": 18.0322,
+            "RightMargin": 1142.9678,
+            "TopMargin": 2.1956,
+            "BottomMargin": 139.8044,
+            "CallBackType": "Click",
+            "CallBackName": "onTingTouch",
+            "Tag": 1348,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ani/penghuan1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 1
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 78.2581,
+                  "Y": 80.6233
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4524,
+                  "Y": 0.5103
+                },
+                "PreSize": {
+                  "X": 0.7399,
+                  "Y": 0.8101
+                },
+                "LeftMargin": 14.2581,
+                "RightMargin": 30.7419,
+                "TopMargin": 13.3767,
+                "BottomMargin": 16.6233,
+                "Tag": 265,
+                "ActionTag": 489733348,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 128.0
+                },
+                "VisibleForFrame": false,
+                "Name": "_aniBg0",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1843827481,
+            "Size": {
+              "X": 173.0,
+              "Y": 158.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_img0",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_chi.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_chi.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 4,
+            "Scale9Width": 125,
+            "Scale9Height": 133,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 245.4971,
+              "Y": 221.3048
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.184,
+              "Y": 0.7377
+            },
+            "PreSize": {
+              "X": 0.1132,
+              "Y": 0.47
+            },
+            "LeftMargin": 169.9971,
+            "RightMargin": 1013.0029,
+            "TopMargin": 8.1952,
+            "BottomMargin": 150.8048,
+            "CallBackType": "Click",
+            "CallBackName": "onEatTouch",
+            "Tag": 10,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ani/penghuan1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 1
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.4521,
+                  "Y": 69.5722
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4666,
+                  "Y": 0.4934
+                },
+                "PreSize": {
+                  "X": 0.8477,
+                  "Y": 0.9078
+                },
+                "LeftMargin": 6.4521,
+                "RightMargin": 16.5479,
+                "TopMargin": 7.4278,
+                "BottomMargin": 5.5722,
+                "Tag": 266,
+                "ActionTag": -658442998,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 128.0
+                },
+                "VisibleForFrame": false,
+                "Name": "_aniBg1",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1933779679,
+            "Size": {
+              "X": 151.0,
+              "Y": 141.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_img1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_peng.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_peng.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 126,
+            "Scale9Height": 120,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 390.9636,
+              "Y": 222.181
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2931,
+              "Y": 0.7406
+            },
+            "PreSize": {
+              "X": 0.1169,
+              "Y": 0.4733
+            },
+            "LeftMargin": 312.9636,
+            "RightMargin": 865.0364,
+            "TopMargin": 6.819,
+            "BottomMargin": 151.181,
+            "CallBackType": "Click",
+            "CallBackName": "onCollideTouch",
+            "Tag": 11,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ani/penghuan1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 1
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.2573,
+                  "Y": 70.6232
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 720.0,
+                "RotationSkewY": 720.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4504,
+                  "Y": 0.4973
+                },
+                "PreSize": {
+                  "X": 0.8205,
+                  "Y": 0.9014
+                },
+                "LeftMargin": 6.2573,
+                "RightMargin": 21.7427,
+                "TopMargin": 7.3768,
+                "BottomMargin": 6.6232,
+                "Tag": 267,
+                "ActionTag": -1260866285,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 128.0
+                },
+                "VisibleForFrame": false,
+                "Name": "_aniBg2",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1244249144,
+            "Size": {
+              "X": 156.0,
+              "Y": 142.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_img2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_gang.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_gang.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 129,
+            "Scale9Height": 118,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 538.4327,
+              "Y": 221.1805
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4036,
+              "Y": 0.7373
+            },
+            "PreSize": {
+              "X": 0.1192,
+              "Y": 0.4667
+            },
+            "LeftMargin": 458.9327,
+            "RightMargin": 716.0673,
+            "TopMargin": 8.8195,
+            "BottomMargin": 151.1805,
+            "CallBackType": "Click",
+            "CallBackName": "onBarTouch",
+            "Tag": 12,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ani/penghuan1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 1
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 72.258,
+                  "Y": 70.6234
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4545,
+                  "Y": 0.5045
+                },
+                "PreSize": {
+                  "X": 0.805,
+                  "Y": 0.9143
+                },
+                "LeftMargin": 8.258,
+                "RightMargin": 22.742,
+                "TopMargin": 5.3766,
+                "BottomMargin": 6.6234,
+                "Tag": 268,
+                "ActionTag": 1703213595,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 128.0
+                },
+                "VisibleForFrame": false,
+                "Name": "_aniBg3",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1883642008,
+            "Size": {
+              "X": 159.0,
+              "Y": 140.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_img3",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_hu.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_hu.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 138,
+            "Scale9Height": 119,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 689.8875,
+              "Y": 221.3048
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5172,
+              "Y": 0.7377
+            },
+            "PreSize": {
+              "X": 0.1259,
+              "Y": 0.47
+            },
+            "LeftMargin": 605.8875,
+            "RightMargin": 560.1125,
+            "TopMargin": 8.1952,
+            "BottomMargin": 150.8048,
+            "CallBackType": "Click",
+            "CallBackName": "onWinTouch",
+            "Tag": 13,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ani/penghuan1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 1
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 72.2581,
+                  "Y": 69.623
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4301,
+                  "Y": 0.4938
+                },
+                "PreSize": {
+                  "X": 0.7619,
+                  "Y": 0.9078
+                },
+                "LeftMargin": 8.2581,
+                "RightMargin": 31.7419,
+                "TopMargin": 7.377,
+                "BottomMargin": 5.623,
+                "Tag": 270,
+                "ActionTag": -2076117949,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 128.0
+                },
+                "VisibleForFrame": false,
+                "Name": "_aniBg4",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 310847035,
+            "Size": {
+              "X": 168.0,
+              "Y": 141.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_img4",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_guo.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_guo.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 98,
+            "Scale9Height": 108,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1115.4951,
+              "Y": 216.1815
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8362,
+              "Y": 0.7206
+            },
+            "PreSize": {
+              "X": 0.096,
+              "Y": 0.4333
+            },
+            "LeftMargin": 1051.4951,
+            "RightMargin": 154.5049,
+            "TopMargin": 18.8185,
+            "BottomMargin": 151.1815,
+            "CallBackType": "Click",
+            "CallBackName": "onPassTouch",
+            "Tag": 14,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ani/penghuan1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 1
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 64.2538,
+                  "Y": 63.6232
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.502,
+                  "Y": 0.4894
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.9846
+                },
+                "LeftMargin": 0.2538,
+                "RightMargin": -0.2538,
+                "TopMargin": 2.3768,
+                "BottomMargin": -0.3768,
+                "Tag": 271,
+                "ActionTag": -474601216,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 128.0
+                },
+                "Name": "_aniBg5",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1116950104,
+            "Size": {
+              "X": 128.0,
+              "Y": 130.0
+            },
+            "Name": "_img5",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_ting_chi.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_ting_chi.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_ting_chi.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 4,
+            "Scale9Width": 147,
+            "Scale9Height": 150,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 836.3647,
+              "Y": 218.808
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": 720.0,
+            "RotationSkewY": 720.0,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.627,
+              "Y": 0.7294
+            },
+            "PreSize": {
+              "X": 0.1297,
+              "Y": 0.5267
+            },
+            "LeftMargin": 749.8647,
+            "RightMargin": 411.1353,
+            "TopMargin": 2.192,
+            "BottomMargin": 139.808,
+            "CallBackType": "Click",
+            "CallBackName": "onTingChiTouch",
+            "Tag": 17,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ani/penghuan1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 1
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 77.6495,
+                  "Y": 82.0903
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4488,
+                  "Y": 0.5196
+                },
+                "PreSize": {
+                  "X": 0.7399,
+                  "Y": 0.8101
+                },
+                "LeftMargin": 13.6495,
+                "RightMargin": 31.3505,
+                "TopMargin": 11.9097,
+                "BottomMargin": 18.0903,
+                "Tag": 18,
+                "ActionTag": 1611706642,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 128.0
+                },
+                "VisibleForFrame": false,
+                "Name": "_aniBg6",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1004436244,
+            "Size": {
+              "X": 173.0,
+              "Y": 158.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_img6",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_ting_peng.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_ting_peng.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ani/tray_word_ting_peng.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 4,
+            "Scale9Width": 147,
+            "Scale9Height": 150,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 979.8356,
+              "Y": 218.808
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": 720.0,
+            "RotationSkewY": 720.0,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7345,
+              "Y": 0.7294
+            },
+            "PreSize": {
+              "X": 0.1297,
+              "Y": 0.5267
+            },
+            "LeftMargin": 893.3356,
+            "RightMargin": 267.6643,
+            "TopMargin": 2.192,
+            "BottomMargin": 139.808,
+            "CallBackType": "Click",
+            "CallBackName": "onTingPengTouch",
+            "Tag": 19,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ani/penghuan1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 1
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 78.3787,
+                  "Y": 82.0902
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4531,
+                  "Y": 0.5196
+                },
+                "PreSize": {
+                  "X": 0.7399,
+                  "Y": 0.8101
+                },
+                "LeftMargin": 14.3787,
+                "RightMargin": 30.6213,
+                "TopMargin": 11.9098,
+                "BottomMargin": 18.0902,
+                "Tag": 20,
+                "ActionTag": -1207644971,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 128.0
+                },
+                "VisibleForFrame": false,
+                "Name": "_aniBg7",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1058716782,
+            "Size": {
+              "X": 173.0,
+              "Y": 158.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_img7",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 300.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ani/penghuan1.png",
+        "g/mjBloody/ani/tray_guo.png",
+        "g/mjBloody/ani/tray_hu.png",
+        "g/mjBloody/ani/tray_word_chi.png",
+        "g/mjBloody/ani/tray_word_gang.png",
+        "g/mjBloody/ani/tray_word_peng.png",
+        "g/mjBloody/ani/tray_word_ting.png",
+        "g/mjBloody/ani/tray_word_ting_chi.png",
+        "g/mjBloody/ani/tray_word_ting_peng.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

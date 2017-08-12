@@ -1,0 +1,7 @@
+{ 
+    "packageUrl" : "http://123.206.21.231/update/",
+    "remoteManifestUrl" : "http://123.206.21.231/update/project.manifest",
+    "remoteVersionUrl" : "http://123.206.21.231/update/version.manifest",
+    "version" : "1.0.0",
+    "engineVersion" : "3.9"
+}

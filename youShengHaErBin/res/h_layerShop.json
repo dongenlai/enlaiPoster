@@ -1,0 +1,1512 @@
+{
+  "ID": "a8bb80c3-7186-405e-8310-2a330e42ef3b",
+  "Version": "2.3.3.0",
+  "Name": "h_layerShop",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 47,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "h/shop/d (1).png",
+              "Plist": ""
+            },
+            "Scale9Width": 1280,
+            "Scale9Height": 720,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 48,
+            "ActionTag": -1207019875,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "h/shop/d (7).png",
+              "Plist": ""
+            },
+            "Scale9Width": 505,
+            "Scale9Height": 204,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 410.8013,
+              "Y": 411.0299
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3079,
+              "Y": 0.548
+            },
+            "PreSize": {
+              "X": 0.3786,
+              "Y": 0.272
+            },
+            "LeftMargin": 158.3013,
+            "RightMargin": 670.6987,
+            "TopMargin": 236.9701,
+            "BottomMargin": 309.0299,
+            "CallBackType": "Touch",
+            "CallBackName": "onGoodsItemTouch",
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (3).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 251.0649,
+                  "Y": 142.793
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4972,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 0.1149,
+                  "Y": 0.152
+                },
+                "LeftMargin": 222.0649,
+                "RightMargin": 224.9351,
+                "TopMargin": 45.707,
+                "BottomMargin": 127.293,
+                "Tag": 52,
+                "ActionTag": 1287266602,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 31.0
+                },
+                "Name": "Sprite_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 22,
+                "CharHeight": 30,
+                "LabelText": "3",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (9).png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 347.0778,
+                  "Y": 142.2107
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6873,
+                  "Y": 0.6971
+                },
+                "PreSize": {
+                  "X": 0.0436,
+                  "Y": 0.1471
+                },
+                "LeftMargin": 347.0778,
+                "RightMargin": 135.9222,
+                "TopMargin": 46.7893,
+                "BottomMargin": 127.2107,
+                "Tag": 53,
+                "ActionTag": 1885958303,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 30.0
+                },
+                "Name": "_cardNum",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (8).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 373.0831,
+                  "Y": 142.2107
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7388,
+                  "Y": 0.6971
+                },
+                "PreSize": {
+                  "X": 0.0515,
+                  "Y": 0.1324
+                },
+                "LeftMargin": 373.0831,
+                "RightMargin": 105.9169,
+                "TopMargin": 48.2893,
+                "BottomMargin": 128.7107,
+                "Tag": 54,
+                "ActionTag": -197698239,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 27.0
+                },
+                "Name": "_cardNumSp",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (4).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 339.7209,
+                  "Y": 68.8375
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6727,
+                  "Y": 0.3374
+                },
+                "PreSize": {
+                  "X": 0.4693,
+                  "Y": 0.2402
+                },
+                "LeftMargin": 221.2209,
+                "RightMargin": 46.7791,
+                "TopMargin": 110.6625,
+                "BottomMargin": 44.3375,
+                "Tag": 55,
+                "ActionTag": -1781056057,
+                "Size": {
+                  "X": 237.0,
+                  "Y": 49.0
+                },
+                "Name": "Sprite_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 22,
+                "CharHeight": 31,
+                "LabelText": "5",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (2).png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 292.4657,
+                  "Y": 67.6455
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5791,
+                  "Y": 0.3316
+                },
+                "PreSize": {
+                  "X": 0.0436,
+                  "Y": 0.152
+                },
+                "LeftMargin": 292.4657,
+                "RightMargin": 190.5343,
+                "TopMargin": 120.8545,
+                "BottomMargin": 52.1455,
+                "Tag": 56,
+                "ActionTag": 832911964,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 31.0
+                },
+                "Name": "_moneyNum",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (6).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 339.9061,
+                  "Y": 67.6455
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6731,
+                  "Y": 0.3316
+                },
+                "PreSize": {
+                  "X": 0.0634,
+                  "Y": 0.1471
+                },
+                "LeftMargin": 339.9061,
+                "RightMargin": 133.0939,
+                "TopMargin": 121.3545,
+                "BottomMargin": 52.6455,
+                "Tag": 57,
+                "ActionTag": 1267276773,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 30.0
+                },
+                "Name": "_moneySp",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 729861305,
+            "Size": {
+              "X": 505.0,
+              "Y": 204.0
+            },
+            "Name": "_goods",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "h/shop/d (7).png",
+              "Plist": ""
+            },
+            "Scale9Width": 505,
+            "Scale9Height": 204,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 952.5962,
+              "Y": 411.0298
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7141,
+              "Y": 0.548
+            },
+            "PreSize": {
+              "X": 0.3786,
+              "Y": 0.272
+            },
+            "LeftMargin": 700.0962,
+            "RightMargin": 128.9038,
+            "TopMargin": 236.9702,
+            "BottomMargin": 309.0298,
+            "CallBackType": "Touch",
+            "CallBackName": "onGoodsItemTouch",
+            "Tag": 1,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (3).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 251.0649,
+                  "Y": 142.793
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4972,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 0.1149,
+                  "Y": 0.152
+                },
+                "LeftMargin": 222.0649,
+                "RightMargin": 224.9351,
+                "TopMargin": 45.707,
+                "BottomMargin": 127.293,
+                "Tag": 59,
+                "ActionTag": -1094416662,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 31.0
+                },
+                "Name": "Sprite_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 22,
+                "CharHeight": 30,
+                "LabelText": "3",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (9).png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 347.0778,
+                  "Y": 142.2107
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6873,
+                  "Y": 0.6971
+                },
+                "PreSize": {
+                  "X": 0.0436,
+                  "Y": 0.1471
+                },
+                "LeftMargin": 347.0778,
+                "RightMargin": 135.9222,
+                "TopMargin": 46.7893,
+                "BottomMargin": 127.2107,
+                "Tag": 60,
+                "ActionTag": -1635300184,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 30.0
+                },
+                "Name": "_cardNum",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (8).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 373.0831,
+                  "Y": 142.2107
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7388,
+                  "Y": 0.6971
+                },
+                "PreSize": {
+                  "X": 0.0515,
+                  "Y": 0.1324
+                },
+                "LeftMargin": 373.0831,
+                "RightMargin": 105.9169,
+                "TopMargin": 48.2893,
+                "BottomMargin": 128.7107,
+                "Tag": 61,
+                "ActionTag": 1562235429,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 27.0
+                },
+                "Name": "_cardNumSp",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (4).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 339.7209,
+                  "Y": 68.8375
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6727,
+                  "Y": 0.3374
+                },
+                "PreSize": {
+                  "X": 0.4693,
+                  "Y": 0.2402
+                },
+                "LeftMargin": 221.2209,
+                "RightMargin": 46.7791,
+                "TopMargin": 110.6625,
+                "BottomMargin": 44.3375,
+                "Tag": 62,
+                "ActionTag": 1358379728,
+                "Size": {
+                  "X": 237.0,
+                  "Y": 49.0
+                },
+                "Name": "Sprite_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 22,
+                "CharHeight": 31,
+                "LabelText": "5",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (2).png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 292.4657,
+                  "Y": 67.6455
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5791,
+                  "Y": 0.3316
+                },
+                "PreSize": {
+                  "X": 0.0436,
+                  "Y": 0.152
+                },
+                "LeftMargin": 292.4657,
+                "RightMargin": 190.5343,
+                "TopMargin": 120.8545,
+                "BottomMargin": 52.1455,
+                "Tag": 63,
+                "ActionTag": -481139995,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 31.0
+                },
+                "Name": "_moneyNum",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (6).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 339.9061,
+                  "Y": 67.6455
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6731,
+                  "Y": 0.3316
+                },
+                "PreSize": {
+                  "X": 0.0634,
+                  "Y": 0.1471
+                },
+                "LeftMargin": 339.9061,
+                "RightMargin": 133.0939,
+                "TopMargin": 121.3545,
+                "BottomMargin": 52.6455,
+                "Tag": 64,
+                "ActionTag": 647161889,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 30.0
+                },
+                "Name": "_moneySp",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 148344193,
+            "Size": {
+              "X": 505.0,
+              "Y": 204.0
+            },
+            "Name": "_goods",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "h/shop/d (7).png",
+              "Plist": ""
+            },
+            "Scale9Width": 505,
+            "Scale9Height": 204,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 410.8016,
+              "Y": 166.6117
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3079,
+              "Y": 0.2221
+            },
+            "PreSize": {
+              "X": 0.3786,
+              "Y": 0.272
+            },
+            "LeftMargin": 158.3016,
+            "RightMargin": 670.6984,
+            "TopMargin": 481.3883,
+            "BottomMargin": 64.6117,
+            "CallBackType": "Touch",
+            "CallBackName": "onGoodsItemTouch",
+            "Tag": 2,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (3).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 251.0649,
+                  "Y": 142.793
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4972,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 0.1149,
+                  "Y": 0.152
+                },
+                "LeftMargin": 222.0649,
+                "RightMargin": 224.9351,
+                "TopMargin": 45.707,
+                "BottomMargin": 127.293,
+                "Tag": 66,
+                "ActionTag": 1437520037,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 31.0
+                },
+                "Name": "Sprite_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 22,
+                "CharHeight": 30,
+                "LabelText": "3",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (9).png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 347.0778,
+                  "Y": 142.2107
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6873,
+                  "Y": 0.6971
+                },
+                "PreSize": {
+                  "X": 0.0436,
+                  "Y": 0.1471
+                },
+                "LeftMargin": 347.0778,
+                "RightMargin": 135.9222,
+                "TopMargin": 46.7893,
+                "BottomMargin": 127.2107,
+                "Tag": 67,
+                "ActionTag": -9365138,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 30.0
+                },
+                "Name": "_cardNum",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (8).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 373.0831,
+                  "Y": 142.2107
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7388,
+                  "Y": 0.6971
+                },
+                "PreSize": {
+                  "X": 0.0515,
+                  "Y": 0.1324
+                },
+                "LeftMargin": 373.0831,
+                "RightMargin": 105.9169,
+                "TopMargin": 48.2893,
+                "BottomMargin": 128.7107,
+                "Tag": 68,
+                "ActionTag": -177773200,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 27.0
+                },
+                "Name": "_cardNumSp",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (4).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 339.7209,
+                  "Y": 68.8375
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6727,
+                  "Y": 0.3374
+                },
+                "PreSize": {
+                  "X": 0.4693,
+                  "Y": 0.2402
+                },
+                "LeftMargin": 221.2209,
+                "RightMargin": 46.7791,
+                "TopMargin": 110.6625,
+                "BottomMargin": 44.3375,
+                "Tag": 69,
+                "ActionTag": 1277038380,
+                "Size": {
+                  "X": 237.0,
+                  "Y": 49.0
+                },
+                "Name": "Sprite_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 22,
+                "CharHeight": 31,
+                "LabelText": "5",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (2).png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 292.4657,
+                  "Y": 67.6455
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5791,
+                  "Y": 0.3316
+                },
+                "PreSize": {
+                  "X": 0.0436,
+                  "Y": 0.152
+                },
+                "LeftMargin": 292.4657,
+                "RightMargin": 190.5343,
+                "TopMargin": 120.8545,
+                "BottomMargin": 52.1455,
+                "Tag": 70,
+                "ActionTag": 49791586,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 31.0
+                },
+                "Name": "_moneyNum",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (6).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 339.9061,
+                  "Y": 67.6455
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6731,
+                  "Y": 0.3316
+                },
+                "PreSize": {
+                  "X": 0.0634,
+                  "Y": 0.1471
+                },
+                "LeftMargin": 339.9061,
+                "RightMargin": 133.0939,
+                "TopMargin": 121.3545,
+                "BottomMargin": 52.6455,
+                "Tag": 71,
+                "ActionTag": 1730425149,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 30.0
+                },
+                "Name": "_moneySp",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1064824564,
+            "Size": {
+              "X": 505.0,
+              "Y": 204.0
+            },
+            "Name": "_goods",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "h/shop/d (7).png",
+              "Plist": ""
+            },
+            "Scale9Width": 505,
+            "Scale9Height": 204,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 952.5961,
+              "Y": 166.6117
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7141,
+              "Y": 0.2221
+            },
+            "PreSize": {
+              "X": 0.3786,
+              "Y": 0.272
+            },
+            "LeftMargin": 700.0961,
+            "RightMargin": 128.9038,
+            "TopMargin": 481.3883,
+            "BottomMargin": 64.6117,
+            "CallBackType": "Touch",
+            "CallBackName": "onGoodsItemTouch",
+            "Tag": 3,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (3).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 251.0649,
+                  "Y": 142.793
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4972,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 0.1149,
+                  "Y": 0.152
+                },
+                "LeftMargin": 222.0649,
+                "RightMargin": 224.9351,
+                "TopMargin": 45.707,
+                "BottomMargin": 127.293,
+                "Tag": 73,
+                "ActionTag": -1742731658,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 31.0
+                },
+                "Name": "Sprite_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 22,
+                "CharHeight": 30,
+                "LabelText": "3",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (9).png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 347.0778,
+                  "Y": 142.2107
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6873,
+                  "Y": 0.6971
+                },
+                "PreSize": {
+                  "X": 0.0436,
+                  "Y": 0.1471
+                },
+                "LeftMargin": 347.0778,
+                "RightMargin": 135.9222,
+                "TopMargin": 46.7893,
+                "BottomMargin": 127.2107,
+                "Tag": 74,
+                "ActionTag": -2072586829,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 30.0
+                },
+                "Name": "_cardNum",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (8).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 373.0831,
+                  "Y": 142.2107
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7388,
+                  "Y": 0.6971
+                },
+                "PreSize": {
+                  "X": 0.0515,
+                  "Y": 0.1324
+                },
+                "LeftMargin": 373.0831,
+                "RightMargin": 105.9169,
+                "TopMargin": 48.2893,
+                "BottomMargin": 128.7107,
+                "Tag": 75,
+                "ActionTag": 1713424577,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 27.0
+                },
+                "Name": "_cardNumSp",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (4).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 339.7209,
+                  "Y": 68.8375
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6727,
+                  "Y": 0.3374
+                },
+                "PreSize": {
+                  "X": 0.4693,
+                  "Y": 0.2402
+                },
+                "LeftMargin": 221.2209,
+                "RightMargin": 46.7791,
+                "TopMargin": 110.6625,
+                "BottomMargin": 44.3375,
+                "Tag": 76,
+                "ActionTag": 2106137600,
+                "Size": {
+                  "X": 237.0,
+                  "Y": 49.0
+                },
+                "Name": "Sprite_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "CharWidth": 22,
+                "CharHeight": 31,
+                "LabelText": "5",
+                "StartChar": "0",
+                "LabelAtlasFileImage_CNB": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (2).png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 292.4657,
+                  "Y": 67.6455
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5791,
+                  "Y": 0.3316
+                },
+                "PreSize": {
+                  "X": 0.0436,
+                  "Y": 0.152
+                },
+                "LeftMargin": 292.4657,
+                "RightMargin": 190.5343,
+                "TopMargin": 120.8545,
+                "BottomMargin": 52.1455,
+                "Tag": 77,
+                "ActionTag": -1057428332,
+                "Size": {
+                  "X": 22.0,
+                  "Y": 31.0
+                },
+                "Name": "_moneyNum",
+                "ctype": "TextAtlasObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/shop/d (6).png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 339.9061,
+                  "Y": 67.6455
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6731,
+                  "Y": 0.3316
+                },
+                "PreSize": {
+                  "X": 0.0634,
+                  "Y": 0.1471
+                },
+                "LeftMargin": 339.9061,
+                "RightMargin": 133.0939,
+                "TopMargin": 121.3545,
+                "BottomMargin": 52.6455,
+                "Tag": 78,
+                "ActionTag": 958951665,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 30.0
+                },
+                "Name": "_moneySp",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1649310587,
+            "Size": {
+              "X": 505.0,
+              "Y": 204.0
+            },
+            "Name": "_goods",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b (8).png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 663.8235,
+              "Y": 563.0986
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4976,
+              "Y": 0.7508
+            },
+            "PreSize": {
+              "X": 0.8118,
+              "Y": 0.0667
+            },
+            "LeftMargin": 122.3235,
+            "RightMargin": 128.6765,
+            "TopMargin": 161.9014,
+            "BottomMargin": 538.0986,
+            "Tag": 147,
+            "ActionTag": -1065013540,
+            "Size": {
+              "X": 1083.0,
+              "Y": 50.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 25,
+            "LabelText": "系统小提示:充值赠送，充50额外赠送10",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "hallUi/common/front.TTF",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 396.5965,
+              "Y": 561.1192
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2973,
+              "Y": 0.7482
+            },
+            "PreSize": {
+              "X": 0.3238,
+              "Y": 0.0373
+            },
+            "LeftMargin": 396.5965,
+            "RightMargin": 505.4034,
+            "TopMargin": 174.8808,
+            "BottomMargin": 547.1192,
+            "Tag": 149,
+            "ActionTag": 1964826983,
+            "Size": {
+              "X": 432.0,
+              "Y": 28.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/l (1).png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/l (1).png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 50,
+            "Scale9Height": 57,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1247.3118,
+              "Y": 671.8723
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.935,
+              "Y": 0.8958
+            },
+            "PreSize": {
+              "X": 0.06,
+              "Y": 0.1053
+            },
+            "LeftMargin": 1207.3118,
+            "RightMargin": 46.6882,
+            "TopMargin": 38.6277,
+            "BottomMargin": 632.3723,
+            "CallBackType": "Click",
+            "CallBackName": "onBtnClClick",
+            "Tag": 150,
+            "ActionTag": -1648418528,
+            "Size": {
+              "X": 80.0,
+              "Y": 79.0
+            },
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "h/shop/d (1).png",
+        "h/shop/d (2).png",
+        "h/shop/d (3).png",
+        "h/shop/d (4).png",
+        "h/shop/d (6).png",
+        "h/shop/d (7).png",
+        "h/shop/d (8).png",
+        "h/shop/d (9).png",
+        "hallUi/common/b (8).png",
+        "hallUi/common/front.TTF",
+        "hallUi/common/l (1).png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

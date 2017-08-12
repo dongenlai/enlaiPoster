@@ -1,0 +1,1652 @@
+{
+  "ID": "1239bb8b-15af-4557-9c64-e926b3cbf4f7",
+  "Version": "2.3.3.0",
+  "Name": "personInfoLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 148,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/c-6.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 15,
+            "Scale9Width": 32,
+            "Scale9Height": 32,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 375.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 149,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hallUi/common/c-1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 658.4341,
+                  "Y": 352.1044
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4936,
+                  "Y": 0.4695
+                },
+                "PreSize": {
+                  "X": 0.5952,
+                  "Y": 0.7787
+                },
+                "LeftMargin": 261.4341,
+                "RightMargin": 278.5659,
+                "TopMargin": 105.8956,
+                "BottomMargin": 60.1044,
+                "Tag": 151,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/b-2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 406.6797,
+                      "Y": 616.1768
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5122,
+                      "Y": 1.0551
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.1438
+                    },
+                    "LeftMargin": 208.1797,
+                    "RightMargin": 188.8203,
+                    "TopMargin": -74.1768,
+                    "BottomMargin": 574.1768,
+                    "Tag": 153,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "hallUi/g/g-1.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 195.4178,
+                          "Y": 38.7313
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4922,
+                          "Y": 0.4611
+                        },
+                        "PreSize": {
+                          "X": 0.4912,
+                          "Y": 0.6548
+                        },
+                        "LeftMargin": 97.9178,
+                        "RightMargin": 104.0822,
+                        "TopMargin": 17.7687,
+                        "BottomMargin": 11.2313,
+                        "Tag": 154,
+                        "ActionTag": 938337937,
+                        "Size": {
+                          "X": 195.0,
+                          "Y": 55.0
+                        },
+                        "Name": "Sprite_4",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 730535253,
+                    "Size": {
+                      "X": 397.0,
+                      "Y": 84.0
+                    },
+                    "Name": "Sprite_3",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/g/g-4.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 151.4041,
+                      "Y": 420.762
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1907,
+                      "Y": 0.7205
+                    },
+                    "PreSize": {
+                      "X": 0.199,
+                      "Y": 0.2705
+                    },
+                    "LeftMargin": 72.4041,
+                    "RightMargin": 563.5959,
+                    "TopMargin": 84.238,
+                    "BottomMargin": 341.762,
+                    "Tag": 155,
+                    "ActionTag": -1209929477,
+                    "Size": {
+                      "X": 158.0,
+                      "Y": 158.0
+                    },
+                    "Name": "_headIcon",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/g/g-3.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/g/g-3.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/g/g-3.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 121,
+                    "Scale9Height": 13,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 153.1455,
+                      "Y": 318.6542
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1929,
+                      "Y": 0.5456
+                    },
+                    "PreSize": {
+                      "X": 0.1902,
+                      "Y": 0.0599
+                    },
+                    "LeftMargin": 77.6455,
+                    "RightMargin": 565.3545,
+                    "TopMargin": 247.8458,
+                    "BottomMargin": 301.1542,
+                    "CallBackType": "Click",
+                    "CallBackName": "onChangeIcon",
+                    "Tag": 156,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "点击修改头像",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/front.TTF",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 74.7705,
+                          "Y": 17.8027
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4952,
+                          "Y": 0.5086
+                        },
+                        "PreSize": {
+                          "X": 0.8146,
+                          "Y": 0.6571
+                        },
+                        "LeftMargin": 13.2705,
+                        "RightMargin": 14.7295,
+                        "TopMargin": 5.6973,
+                        "BottomMargin": 6.3027,
+                        "Tag": 157,
+                        "ActionTag": 1847876241,
+                        "Size": {
+                          "X": 123.0,
+                          "Y": 23.0
+                        },
+                        "Name": "Text_1",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -2087274138,
+                    "Size": {
+                      "X": 151.0,
+                      "Y": 35.0
+                    },
+                    "Name": "Button_2",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "游客用户",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/front.TTF",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 148.4906,
+                      "Y": 273.6643
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 100,
+                      "B": 52
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.187,
+                      "Y": 0.4686
+                    },
+                    "PreSize": {
+                      "X": 0.1524,
+                      "Y": 0.0582
+                    },
+                    "LeftMargin": 87.9906,
+                    "RightMargin": 585.0094,
+                    "TopMargin": 293.3357,
+                    "BottomMargin": 256.6643,
+                    "Tag": 158,
+                    "ActionTag": 1193306050,
+                    "Size": {
+                      "X": 121.0,
+                      "Y": 34.0
+                    },
+                    "Name": "_typeTxt",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "ID:43503",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/front.TTF",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 150.945,
+                      "Y": 238.0765
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 127,
+                      "G": 100,
+                      "B": 52
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1901,
+                      "Y": 0.4077
+                    },
+                    "PreSize": {
+                      "X": 0.1448,
+                      "Y": 0.0582
+                    },
+                    "LeftMargin": 93.445,
+                    "RightMargin": 585.555,
+                    "TopMargin": 328.9235,
+                    "BottomMargin": 221.0765,
+                    "Tag": 159,
+                    "ActionTag": -1376742793,
+                    "Size": {
+                      "X": 115.0,
+                      "Y": 34.0
+                    },
+                    "Name": "_userIdTxt",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/g/g-2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 493.328,
+                      "Y": 420.9242
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6213,
+                      "Y": 0.7208
+                    },
+                    "PreSize": {
+                      "X": 0.5982,
+                      "Y": 0.2723
+                    },
+                    "LeftMargin": 255.828,
+                    "RightMargin": 63.172,
+                    "TopMargin": 83.5758,
+                    "BottomMargin": 341.4242,
+                    "Tag": 160,
+                    "Children": [
+                      {
+                        "FontSize": 32,
+                        "LabelText": "昵称：",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/front.TTF",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 56.4488,
+                          "Y": 110.4465
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 127,
+                          "G": 100,
+                          "B": 52
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1188,
+                          "Y": 0.6946
+                        },
+                        "PreSize": {
+                          "X": 0.1642,
+                          "Y": 0.2264
+                        },
+                        "LeftMargin": 17.4488,
+                        "RightMargin": 379.5512,
+                        "TopMargin": 30.5535,
+                        "BottomMargin": 92.4465,
+                        "Tag": 163,
+                        "ActionTag": 1436340074,
+                        "Size": {
+                          "X": 78.0,
+                          "Y": 36.0
+                        },
+                        "Name": "Text_5",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 30,
+                        "LabelText": "乐乐乐",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/front.TTF",
+                          "Plist": ""
+                        },
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 157.0794,
+                          "Y": 110.4476
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 127,
+                          "G": 100,
+                          "B": 52
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3307,
+                          "Y": 0.6946
+                        },
+                        "PreSize": {
+                          "X": 0.1958,
+                          "Y": 0.2138
+                        },
+                        "LeftMargin": 110.5794,
+                        "RightMargin": 271.4206,
+                        "TopMargin": 31.5524,
+                        "BottomMargin": 93.4476,
+                        "Tag": 164,
+                        "ActionTag": -1849888237,
+                        "Size": {
+                          "X": 93.0,
+                          "Y": 34.0
+                        },
+                        "Name": "_nameTxt",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/front.TTF",
+                          "Plist": ""
+                        },
+                        "FontSize": 30,
+                        "IsCustomSize": true,
+                        "LabelText": "",
+                        "PlaceHolderText": "请输入名字！",
+                        "MaxLengthText": 10,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.0,
+                          "Y": 110.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 127,
+                          "G": 100,
+                          "B": 52
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3895,
+                          "Y": 0.6918
+                        },
+                        "PreSize": {
+                          "X": 0.3432,
+                          "Y": 0.2138
+                        },
+                        "LeftMargin": 103.5,
+                        "RightMargin": 208.5,
+                        "TopMargin": 32.0,
+                        "BottomMargin": 93.0,
+                        "CallBackName": "onPutName",
+                        "Tag": 250,
+                        "ActionTag": 748049934,
+                        "Size": {
+                          "X": 163.0,
+                          "Y": 34.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "_putName",
+                        "ctype": "TextFieldObjectData"
+                      },
+                      {
+                        "FontSize": 32,
+                        "LabelText": "性别：",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/front.TTF",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 57.8575,
+                          "Y": 45.2224
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 127,
+                          "G": 100,
+                          "B": 52
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1218,
+                          "Y": 0.2844
+                        },
+                        "PreSize": {
+                          "X": 0.1642,
+                          "Y": 0.2264
+                        },
+                        "LeftMargin": 18.8575,
+                        "RightMargin": 378.1425,
+                        "TopMargin": 95.7776,
+                        "BottomMargin": 27.2224,
+                        "Tag": 165,
+                        "ActionTag": -1375907552,
+                        "Size": {
+                          "X": 78.0,
+                          "Y": 36.0
+                        },
+                        "Name": "Text_5_0",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 30,
+                        "LabelText": "女",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/front.TTF",
+                          "Plist": ""
+                        },
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 131.4883,
+                          "Y": 45.2228
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 127,
+                          "G": 100,
+                          "B": 52
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2768,
+                          "Y": 0.2844
+                        },
+                        "PreSize": {
+                          "X": 0.0716,
+                          "Y": 0.2138
+                        },
+                        "LeftMargin": 114.4883,
+                        "RightMargin": 326.5117,
+                        "TopMargin": 96.7772,
+                        "BottomMargin": 28.2228,
+                        "Tag": 166,
+                        "ActionTag": 1363701112,
+                        "Size": {
+                          "X": 34.0,
+                          "Y": 34.0
+                        },
+                        "Name": "_sexTxt",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Normal",
+                          "Path": "hallUi/g/g-5.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "hallUi/g/g-6.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "hallUi/g/g-5.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 95,
+                        "Scale9Height": 104,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 396.3837,
+                          "Y": 79.7674
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.8345,
+                          "Y": 0.5017
+                        },
+                        "PreSize": {
+                          "X": 0.2632,
+                          "Y": 0.7925
+                        },
+                        "LeftMargin": 333.8837,
+                        "RightMargin": 16.1163,
+                        "TopMargin": 16.2326,
+                        "BottomMargin": 16.7674,
+                        "CallBackType": "Click",
+                        "CallBackName": "onSureInfo",
+                        "Tag": 161,
+                        "Children": [
+                          {
+                            "FontSize": 35,
+                            "LabelText": "修改",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "hallUi/common/front.TTF",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "VerticalAlignmentType": "VT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 58.9078,
+                              "Y": 62.5826
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4713,
+                              "Y": 0.4967
+                            },
+                            "PreSize": {
+                              "X": 0.584,
+                              "Y": 0.3175
+                            },
+                            "LeftMargin": 22.4078,
+                            "RightMargin": 29.5922,
+                            "TopMargin": 43.4174,
+                            "BottomMargin": 42.5826,
+                            "Tag": 162,
+                            "ActionTag": -1205253485,
+                            "Size": {
+                              "X": 73.0,
+                              "Y": 40.0
+                            },
+                            "Name": "Text_4",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -1070149281,
+                        "Size": {
+                          "X": 125.0,
+                          "Y": 126.0
+                        },
+                        "Name": "Button_3",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": -2056123752,
+                    "Size": {
+                      "X": 475.0,
+                      "Y": 159.0
+                    },
+                    "Name": "Sprite_6",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/g/g-10.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 509.2853,
+                      "Y": 272.4357
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6414,
+                      "Y": 0.4665
+                    },
+                    "PreSize": {
+                      "X": 0.3413,
+                      "Y": 0.0873
+                    },
+                    "LeftMargin": 373.7853,
+                    "RightMargin": 149.2147,
+                    "TopMargin": 286.0643,
+                    "BottomMargin": 246.9357,
+                    "Tag": 169,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/a-4.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 13.4985,
+                          "Y": 29.4517
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0498,
+                          "Y": 0.5775
+                        },
+                        "PreSize": {
+                          "X": 0.1476,
+                          "Y": 0.902
+                        },
+                        "LeftMargin": -6.5015,
+                        "RightMargin": 237.5015,
+                        "TopMargin": -1.4517,
+                        "BottomMargin": 6.4517,
+                        "Tag": 170,
+                        "ActionTag": -11014568,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 46.0
+                        },
+                        "Name": "Sprite_8",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FontSize": 30,
+                        "LabelText": "0",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/front.TTF",
+                          "Plist": ""
+                        },
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 84.675,
+                          "Y": 24.5424
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 127,
+                          "G": 100,
+                          "B": 52
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3125,
+                          "Y": 0.4812
+                        },
+                        "PreSize": {
+                          "X": 0.0701,
+                          "Y": 0.6667
+                        },
+                        "LeftMargin": 75.175,
+                        "RightMargin": 176.825,
+                        "TopMargin": 9.4576,
+                        "BottomMargin": 7.5424,
+                        "Tag": 172,
+                        "ActionTag": -260631176,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 34.0
+                        },
+                        "Name": "_volumeNum",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/a-7.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/a-7.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/a-7.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 21,
+                        "Scale9Height": 32,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 245.437,
+                          "Y": 26.9969
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.9057,
+                          "Y": 0.5294
+                        },
+                        "PreSize": {
+                          "X": 0.1882,
+                          "Y": 1.0588
+                        },
+                        "LeftMargin": 219.937,
+                        "RightMargin": 0.063,
+                        "TopMargin": -2.9969,
+                        "BottomMargin": -0.0031,
+                        "CallBackType": "Click",
+                        "CallBackName": "onAddVolume",
+                        "Tag": 171,
+                        "ActionTag": -1319739503,
+                        "Size": {
+                          "X": 51.0,
+                          "Y": 54.0
+                        },
+                        "Name": "Button_4",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 33,
+                        "LabelText": "奖券",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/front.TTF",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -54.7789,
+                          "Y": 28.271
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 127,
+                          "G": 100,
+                          "B": 52
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.2021,
+                          "Y": 0.5543
+                        },
+                        "PreSize": {
+                          "X": 0.2546,
+                          "Y": 0.7255
+                        },
+                        "LeftMargin": -89.2789,
+                        "RightMargin": 291.2789,
+                        "TopMargin": 4.229,
+                        "BottomMargin": 9.771,
+                        "Tag": 167,
+                        "ActionTag": -123051351,
+                        "Size": {
+                          "X": 69.0,
+                          "Y": 37.0
+                        },
+                        "Name": "Text_9",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -1021754154,
+                    "Size": {
+                      "X": 271.0,
+                      "Y": 51.0
+                    },
+                    "Name": "_volumePanel",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/g/g-10.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 509.4662,
+                      "Y": 203.5293
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6416,
+                      "Y": 0.3485
+                    },
+                    "PreSize": {
+                      "X": 0.3413,
+                      "Y": 0.0873
+                    },
+                    "LeftMargin": 373.9662,
+                    "RightMargin": 149.0338,
+                    "TopMargin": 354.9707,
+                    "BottomMargin": 178.0293,
+                    "Tag": 173,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/a-5.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 13.4985,
+                          "Y": 29.4517
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0498,
+                          "Y": 0.5775
+                        },
+                        "PreSize": {
+                          "X": 0.1734,
+                          "Y": 0.9412
+                        },
+                        "LeftMargin": -10.0015,
+                        "RightMargin": 234.0015,
+                        "TopMargin": -2.4517,
+                        "BottomMargin": 5.4517,
+                        "Tag": 174,
+                        "ActionTag": 412915216,
+                        "Size": {
+                          "X": 47.0,
+                          "Y": 48.0
+                        },
+                        "Name": "Sprite_8",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FontSize": 30,
+                        "LabelText": "0",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/front.TTF",
+                          "Plist": ""
+                        },
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 84.675,
+                          "Y": 24.5424
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 127,
+                          "G": 100,
+                          "B": 52
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3125,
+                          "Y": 0.4812
+                        },
+                        "PreSize": {
+                          "X": 0.0701,
+                          "Y": 0.6667
+                        },
+                        "LeftMargin": 75.175,
+                        "RightMargin": 176.825,
+                        "TopMargin": 9.4576,
+                        "BottomMargin": 7.5424,
+                        "Tag": 175,
+                        "ActionTag": 254879382,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 34.0
+                        },
+                        "Name": "_cardNum",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/a-7.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/a-7.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/a-7.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 21,
+                        "Scale9Height": 32,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 245.437,
+                          "Y": 26.9969
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.9057,
+                          "Y": 0.5294
+                        },
+                        "PreSize": {
+                          "X": 0.1882,
+                          "Y": 1.0588
+                        },
+                        "LeftMargin": 219.937,
+                        "RightMargin": 0.063,
+                        "TopMargin": -2.9969,
+                        "BottomMargin": -0.0031,
+                        "CallBackType": "Click",
+                        "CallBackName": "onAddCard",
+                        "Tag": 176,
+                        "ActionTag": 1782597294,
+                        "Size": {
+                          "X": 51.0,
+                          "Y": 54.0
+                        },
+                        "Name": "Button_4",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "FontSize": 33,
+                        "LabelText": "房卡",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "hallUi/common/front.TTF",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": -55.9598,
+                          "Y": 26.5164
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 127,
+                          "G": 100,
+                          "B": 52
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": -0.2065,
+                          "Y": 0.5199
+                        },
+                        "PreSize": {
+                          "X": 0.2472,
+                          "Y": 0.7255
+                        },
+                        "LeftMargin": -89.4598,
+                        "RightMargin": 293.4598,
+                        "TopMargin": 5.9836,
+                        "BottomMargin": 8.0164,
+                        "Tag": 168,
+                        "ActionTag": -818565129,
+                        "Size": {
+                          "X": 67.0,
+                          "Y": 37.0
+                        },
+                        "Name": "Text_9_0",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1426860518,
+                    "Size": {
+                      "X": 271.0,
+                      "Y": 51.0
+                    },
+                    "Name": "_cardPanel",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/b-4.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/b-4.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "hallUi/common/b-4.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 45,
+                    "Scale9Height": 54,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 772.8694,
+                      "Y": 573.929
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9734,
+                      "Y": 0.9828
+                    },
+                    "PreSize": {
+                      "X": 0.0945,
+                      "Y": 0.1301
+                    },
+                    "LeftMargin": 735.3694,
+                    "RightMargin": -16.3694,
+                    "TopMargin": -27.929,
+                    "BottomMargin": 535.929,
+                    "CallBackType": "Click",
+                    "CallBackName": "onClose",
+                    "Tag": 152,
+                    "ActionTag": 1109294795,
+                    "Size": {
+                      "X": 75.0,
+                      "Y": 76.0
+                    },
+                    "Name": "Button_1",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 128612811,
+                "Size": {
+                  "X": 794.0,
+                  "Y": 584.0
+                },
+                "Name": "Sprite_2",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 2111884502,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "hallUi/common/a-4.png",
+        "hallUi/common/a-5.png",
+        "hallUi/common/a-7.png",
+        "hallUi/common/b-2.png",
+        "hallUi/common/b-4.png",
+        "hallUi/common/c-1.png",
+        "hallUi/common/c-6.png",
+        "hallUi/common/front.TTF",
+        "hallUi/g/g-1.png",
+        "hallUi/g/g-10.png",
+        "hallUi/g/g-2.png",
+        "hallUi/g/g-3.png",
+        "hallUi/g/g-4.png",
+        "hallUi/g/g-5.png",
+        "hallUi/g/g-6.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

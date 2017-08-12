@@ -1,0 +1,1573 @@
+{
+  "ID": "2627acf5-a334-4260-bb54-af88ff621ff8",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_ani_opself6",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 999,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/ui_desbg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 879.0287,
+              "Y": 299.9681
+            },
+            "Scale": {
+              "ScaleX": 2.4634,
+              "ScaleY": 1.2
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6589,
+              "Y": 0.9999
+            },
+            "PreSize": {
+              "X": 0.3036,
+              "Y": 0.49
+            },
+            "LeftMargin": 676.5287,
+            "RightMargin": 252.4713,
+            "TopMargin": -73.4681,
+            "BottomMargin": 226.4681,
+            "Tag": 1007,
+            "ActionTag": -627601718,
+            "Size": {
+              "X": 405.0,
+              "Y": 147.0
+            },
+            "Name": "ui_desbg_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "ui/z(2).png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 884.7198,
+              "Y": 356.3297
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6632,
+              "Y": 1.1878
+            },
+            "PreSize": {
+              "X": 0.0345,
+              "Y": 0.1533
+            },
+            "LeftMargin": 861.7198,
+            "RightMargin": 426.2802,
+            "TopMargin": -79.3297,
+            "BottomMargin": 333.3297,
+            "Tag": 1009,
+            "ActionTag": -1309364961,
+            "Size": {
+              "X": 172.0,
+              "Y": 38.0
+            },
+            "Name": "ui_opselectTip_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 10.0,
+              "Y": -10.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0075,
+              "Y": -0.0333
+            },
+            "PreSize": {
+              "X": 0.1499,
+              "Y": 0.6667
+            },
+            "LeftMargin": 10.0,
+            "RightMargin": 1124.0,
+            "TopMargin": 110.0,
+            "BottomMargin": -10.0,
+            "Tag": 196,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 517.9394,
+                  "Y": 288.3623
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 2.5897,
+                  "Y": 1.4418
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 480.4394,
+                "RightMargin": -355.4394,
+                "TopMargin": -142.3623,
+                "BottomMargin": 234.3623,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "ActionTag": -722339786,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 602.199,
+                  "Y": 288.3623
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 3.011,
+                  "Y": 1.4418
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 564.699,
+                "RightMargin": -439.699,
+                "TopMargin": -142.3623,
+                "BottomMargin": 234.3623,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 1,
+                "ActionTag": -1734037999,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 686.4607,
+                  "Y": 288.3623
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 3.4323,
+                  "Y": 1.4418
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 648.9607,
+                "RightMargin": -523.9607,
+                "TopMargin": -142.3623,
+                "BottomMargin": 234.3623,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 2,
+                "ActionTag": 90408412,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 782.7261,
+                  "Y": 288.3624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 3.9136,
+                  "Y": 1.4418
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 745.2261,
+                "RightMargin": -620.2261,
+                "TopMargin": -142.3624,
+                "BottomMargin": 234.3624,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 3,
+                "ActionTag": -577294902,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 866.985,
+                  "Y": 288.3624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 4.3349,
+                  "Y": 1.4418
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 829.485,
+                "RightMargin": -704.485,
+                "TopMargin": -142.3624,
+                "BottomMargin": 234.3624,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 4,
+                "ActionTag": 2059880405,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 951.244,
+                  "Y": 288.3624
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 4.7562,
+                  "Y": 1.4418
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 913.744,
+                "RightMargin": -788.744,
+                "TopMargin": -142.3624,
+                "BottomMargin": 234.3624,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 5,
+                "ActionTag": -457788803,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1045.1954,
+                  "Y": 288.8432
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 5.226,
+                  "Y": 1.4442
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 1007.6954,
+                "RightMargin": -882.6954,
+                "TopMargin": -142.8432,
+                "BottomMargin": 234.8432,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 6,
+                "ActionTag": -551207046,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1129.4545,
+                  "Y": 288.8432
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 5.6473,
+                  "Y": 1.4442
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 1091.9545,
+                "RightMargin": -966.9545,
+                "TopMargin": -142.8432,
+                "BottomMargin": 234.8432,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 7,
+                "ActionTag": -1520672363,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1213.7139,
+                  "Y": 288.8432
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 6.0686,
+                  "Y": 1.4442
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 1176.2139,
+                "RightMargin": -1051.2139,
+                "TopMargin": -142.8432,
+                "BottomMargin": 234.8432,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 8,
+                "ActionTag": 748643547,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn3",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -222365590,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_Panel_3",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 10.0,
+              "Y": -10.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0075,
+              "Y": -0.0333
+            },
+            "PreSize": {
+              "X": 0.1499,
+              "Y": 0.6667
+            },
+            "LeftMargin": 10.0,
+            "RightMargin": 1124.0,
+            "TopMargin": 110.0,
+            "BottomMargin": -10.0,
+            "Tag": 189,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 792.4888,
+                  "Y": 288.9722
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 3.9624,
+                  "Y": 1.4449
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 754.9888,
+                "RightMargin": -629.9888,
+                "TopMargin": -142.9722,
+                "BottomMargin": 234.9722,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "ActionTag": 1786435056,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn1",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 880.4907,
+                  "Y": 288.9722
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 4.4025,
+                  "Y": 1.4449
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 842.9907,
+                "RightMargin": -717.9907,
+                "TopMargin": -142.9722,
+                "BottomMargin": 234.9722,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 1,
+                "ActionTag": 624282583,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn1",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 968.4926,
+                  "Y": 288.9722
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 4.8425,
+                  "Y": 1.4449
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 930.9926,
+                "RightMargin": -805.9926,
+                "TopMargin": -142.9722,
+                "BottomMargin": 234.9722,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 2,
+                "ActionTag": -1316128067,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn1",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1245343264,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_Panel_1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 10.0,
+              "Y": -10.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0075,
+              "Y": -0.0333
+            },
+            "PreSize": {
+              "X": 0.1499,
+              "Y": 0.6667
+            },
+            "LeftMargin": 10.0,
+            "RightMargin": 1124.0,
+            "TopMargin": 110.0,
+            "BottomMargin": -10.0,
+            "Tag": 188,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 669.0948,
+                  "Y": 279.8078
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 3.3455,
+                  "Y": 1.399
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 631.5948,
+                "RightMargin": -506.5948,
+                "TopMargin": -133.8078,
+                "BottomMargin": 225.8078,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "ActionTag": -631303401,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 753.355,
+                  "Y": 279.8078
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 3.7668,
+                  "Y": 1.399
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 715.855,
+                "RightMargin": -590.855,
+                "TopMargin": -133.8078,
+                "BottomMargin": 225.8078,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 1,
+                "ActionTag": 1858615248,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 837.6162,
+                  "Y": 279.8078
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 4.1881,
+                  "Y": 1.399
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 800.1162,
+                "RightMargin": -675.1162,
+                "TopMargin": -133.8078,
+                "BottomMargin": 225.8078,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 2,
+                "ActionTag": 621119737,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 933.881,
+                  "Y": 279.8078
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 4.6694,
+                  "Y": 1.399
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 896.381,
+                "RightMargin": -771.381,
+                "TopMargin": -133.8078,
+                "BottomMargin": 225.8078,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 3,
+                "ActionTag": -509706317,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1018.1393,
+                  "Y": 279.8078
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 5.0907,
+                  "Y": 1.399
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 980.6393,
+                "RightMargin": -855.6393,
+                "TopMargin": -133.8078,
+                "BottomMargin": 225.8078,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 4,
+                "ActionTag": -1008289420,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 45,
+                "Scale9Height": 86,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1102.3973,
+                  "Y": 279.8078
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 5.512,
+                  "Y": 1.399
+                },
+                "PreSize": {
+                  "X": 0.375,
+                  "Y": 0.54
+                },
+                "LeftMargin": 1064.8973,
+                "RightMargin": -939.8973,
+                "TopMargin": -133.8078,
+                "BottomMargin": 225.8078,
+                "CallBackType": "Click",
+                "CallBackName": "onCardSelected",
+                "Tag": 5,
+                "ActionTag": 165687979,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "_selCardBtn2",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -749830318,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_Panel_2",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 300.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ui/mj_bg.png",
+        "g/mjBloody/ui/ui_desbg.png",
+        "ui/z(2).png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

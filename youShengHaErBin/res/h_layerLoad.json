@@ -1,0 +1,580 @@
+{
+  "ID": "f62eae90-c490-41df-ae1b-a9d0d7624d25",
+  "Version": "2.3.3.0",
+  "Name": "h_layerLoad",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 60,
+        "Speed": 1.0,
+        "ActivedAnimationName": "animation0",
+        "Timelines": [
+          {
+            "ActionTag": 1056084303,
+            "Property": "Position",
+            "Frames": [
+              {
+                "X": 357.37,
+                "Y": 51.2097,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 357.37,
+                "Y": 51.2097,
+                "FrameIndex": 30,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              },
+              {
+                "X": 357.37,
+                "Y": 51.2097,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "PointFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1056084303,
+            "Property": "Scale",
+            "Frames": [
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 30,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 1.0,
+                "Y": 1.0,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1056084303,
+            "Property": "RotationSkew",
+            "Frames": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 0,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 30,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "FrameIndex": 60,
+                "EasingData": {
+                  "Type": 0
+                },
+                "ctype": "ScaleValueFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1056084303,
+            "Property": "FileData",
+            "Frames": [
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "h/load/loading6.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "h/load/loading7.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 30,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              },
+              {
+                "TextureFile": {
+                  "Type": "Normal",
+                  "Path": "h/load/loading8.png",
+                  "Plist": ""
+                },
+                "FrameIndex": 60,
+                "Tween": false,
+                "ctype": "TextureFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          },
+          {
+            "ActionTag": 1056084303,
+            "Property": "BlendFunc",
+            "Frames": [
+              {
+                "Src": 770,
+                "Dst": 771,
+                "FrameIndex": 0,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 770,
+                "Dst": 771,
+                "FrameIndex": 30,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              },
+              {
+                "Src": 770,
+                "Dst": 771,
+                "FrameIndex": 60,
+                "Tween": false,
+                "ctype": "BlendFuncFrameData"
+              }
+            ],
+            "ctype": "TimelineData"
+          }
+        ],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 90,
+          "Name": "animation0",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 472,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "h/load/Shop_Pic.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0171,
+              "Y": 374.6401
+            },
+            "Scale": {
+              "ScaleX": 1.3025,
+              "ScaleY": 0.7362
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4995
+            },
+            "PreSize": {
+              "X": 0.7676,
+              "Y": 1.3653
+            },
+            "LeftMargin": 155.0171,
+            "RightMargin": 154.9829,
+            "TopMargin": -136.6401,
+            "BottomMargin": -137.3599,
+            "Tag": 473,
+            "ActionTag": -673382200,
+            "Size": {
+              "X": 1024.0,
+              "Y": 1024.0
+            },
+            "Name": "Shop_Pic_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 427.2605,
+              "Y": 168.1421
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3203,
+              "Y": 0.2242
+            },
+            "PreSize": {
+              "X": 0.3748,
+              "Y": 0.1333
+            },
+            "LeftMargin": 427.2605,
+            "RightMargin": 406.7395,
+            "TopMargin": 481.8579,
+            "BottomMargin": 168.1421,
+            "Tag": 477,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/load/loading1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 161.9004,
+                  "Y": 50.0221
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3238,
+                  "Y": 0.5002
+                },
+                "PreSize": {
+                  "X": 0.076,
+                  "Y": 0.42
+                },
+                "LeftMargin": 142.9004,
+                "RightMargin": 319.0996,
+                "TopMargin": 28.9779,
+                "BottomMargin": 29.0221,
+                "Tag": 475,
+                "ActionTag": 1980817147,
+                "Size": {
+                  "X": 38.0,
+                  "Y": 42.0
+                },
+                "Name": "loading1_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/load/loading5.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 334.6949,
+                  "Y": 49.0202
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6694,
+                  "Y": 0.4902
+                },
+                "PreSize": {
+                  "X": 0.072,
+                  "Y": 0.42
+                },
+                "LeftMargin": 316.6949,
+                "RightMargin": 147.3051,
+                "TopMargin": 29.9798,
+                "BottomMargin": 28.0202,
+                "Tag": 481,
+                "ActionTag": -52021526,
+                "Size": {
+                  "X": 36.0,
+                  "Y": 42.0
+                },
+                "Name": "loading5_7",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/load/loading4.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.6535,
+                  "ScaleY": 0.4141
+                },
+                "Position": {
+                  "X": 300.5078,
+                  "Y": 47.0203
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.601,
+                  "Y": 0.4702
+                },
+                "PreSize": {
+                  "X": 0.078,
+                  "Y": 0.42
+                },
+                "LeftMargin": 275.0213,
+                "RightMargin": 185.9787,
+                "TopMargin": 28.3719,
+                "BottomMargin": 29.6281,
+                "Tag": 480,
+                "ActionTag": -1094806414,
+                "Size": {
+                  "X": 39.0,
+                  "Y": 42.0
+                },
+                "Name": "loading4_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/load/loading3.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.6675,
+                  "Y": 50.0202
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5013,
+                  "Y": 0.5002
+                },
+                "PreSize": {
+                  "X": 0.082,
+                  "Y": 0.38
+                },
+                "LeftMargin": 230.1675,
+                "RightMargin": 228.8325,
+                "TopMargin": 30.9798,
+                "BottomMargin": 31.0202,
+                "Tag": 479,
+                "ActionTag": -1648910347,
+                "Size": {
+                  "X": 41.0,
+                  "Y": 38.0
+                },
+                "Name": "loading3_5",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/load/loading2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 205.6704,
+                  "Y": 50.0201
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4113,
+                  "Y": 0.5002
+                },
+                "PreSize": {
+                  "X": 0.07,
+                  "Y": 0.4
+                },
+                "LeftMargin": 188.1704,
+                "RightMargin": 276.8296,
+                "TopMargin": 29.9799,
+                "BottomMargin": 30.0201,
+                "Tag": 478,
+                "ActionTag": -922048967,
+                "Size": {
+                  "X": 35.0,
+                  "Y": 40.0
+                },
+                "Name": "loading2_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "h/load/loading6.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 357.37,
+                  "Y": 51.2097
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7147,
+                  "Y": 0.5121
+                },
+                "PreSize": {
+                  "X": 0.072,
+                  "Y": 0.14
+                },
+                "LeftMargin": 357.37,
+                "RightMargin": 128.63,
+                "TopMargin": 41.7903,
+                "BottomMargin": 44.2097,
+                "Tag": 482,
+                "ActionTag": 1056084303,
+                "Size": {
+                  "X": 14.0,
+                  "Y": 14.0
+                },
+                "Name": "loading6_8",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -318153346,
+            "Size": {
+              "X": 500.0,
+              "Y": 100.0
+            },
+            "Name": "_panelCon",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "h/load/loading1.png",
+        "h/load/loading2.png",
+        "h/load/loading3.png",
+        "h/load/loading4.png",
+        "h/load/loading5.png",
+        "h/load/loading6.png",
+        "h/load/loading7.png",
+        "h/load/loading8.png",
+        "h/load/Shop_Pic.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

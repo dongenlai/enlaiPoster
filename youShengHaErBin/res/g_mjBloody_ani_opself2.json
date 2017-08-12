@@ -1,0 +1,148 @@
+{
+  "ID": "81c3e3aa-0f64-4c28-b398-38c99c24b20b",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_ani_opself2",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1813,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/Notice_okBtn.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/Notice_okBtn.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 114,
+            "Scale9Height": 51,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 675.7441,
+              "Y": 233.1398
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5066,
+              "Y": 0.3109
+            },
+            "PreSize": {
+              "X": 0.1252,
+              "Y": 0.1
+            },
+            "LeftMargin": 592.2441,
+            "RightMargin": 574.7559,
+            "TopMargin": 479.3602,
+            "BottomMargin": 195.6398,
+            "CallBackType": "Click",
+            "CallBackName": "onSelectOk",
+            "Tag": 1816,
+            "ActionTag": -1369579791,
+            "Size": {
+              "X": 167.0,
+              "Y": 75.0
+            },
+            "Name": "_btnOK",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/ui_swapprop.png",
+              "Plist": ""
+            },
+            "Scale9Width": 372,
+            "Scale9Height": 38,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 672.4778,
+              "Y": 308.3018
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5041,
+              "Y": 0.4111
+            },
+            "PreSize": {
+              "X": 0.2789,
+              "Y": 0.0507
+            },
+            "LeftMargin": 486.4778,
+            "RightMargin": 475.5222,
+            "TopMargin": 422.6982,
+            "BottomMargin": 289.3018,
+            "Tag": 166,
+            "ActionTag": 1741212962,
+            "Size": {
+              "X": 372.0,
+              "Y": 38.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ui/Notice_okBtn.png",
+        "g/mjBloody/ui/ui_swapprop.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "035cd68f-eb99-2b4f-acbc-5a517caf9862++1283",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "035cd68f-eb99-2b4f-acbc-5a517caf9862++1283" : {
+
+    },
+    "035cd68f-eb99-2b4f-acbc-5a517caf9862++4935" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "035cd68f-eb99-2b4f-acbc-5a517caf9862++1283" : 0,
+    "035cd68f-eb99-2b4f-acbc-5a517caf9862++4935" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "92B4D928-D1CF-49C0-B03D-9C286387482F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "035cd68f-eb99-2b4f-acbc-5a517caf9862++1283" : "..\/eMJ\/eMJ",
+    "035cd68f-eb99-2b4f-acbc-5a517caf9862++4935" : "Js\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "eMJ",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "client\/yueLaiMJ\/frameworks\/runtime-src\/proj.ios_mac\/eMJ.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.2.18:81\/svn\/Mobile",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "035cd68f-eb99-2b4f-acbc-5a517caf9862++1283"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.2.18:81\/svn\/Mobile",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "035cd68f-eb99-2b4f-acbc-5a517caf9862++4935"
+    }
+  ]
+}

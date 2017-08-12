@@ -1,0 +1,2283 @@
+{
+  "ID": "268faa45-ddce-4960-a005-856ed56bb611",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_result",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 103,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "hallUi/a/aa.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 41,
+            "ActionTag": 240590317,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "ui_rbg_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/bg2.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1262,
+            "Scale9Height": 162,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 666.2729,
+              "Y": 589.5862
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4995,
+              "Y": 0.7861
+            },
+            "PreSize": {
+              "X": 0.946,
+              "Y": 0.1787
+            },
+            "LeftMargin": 35.2729,
+            "RightMargin": 36.7271,
+            "TopMargin": 93.4138,
+            "BottomMargin": 522.5862,
+            "Tag": 840,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/head.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 47.1158,
+                  "Y": 62.911
+                },
+                "Scale": {
+                  "ScaleX": 0.6446,
+                  "ScaleY": 0.7407
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0373,
+                  "Y": 0.4695
+                },
+                "PreSize": {
+                  "X": 0.0824,
+                  "Y": 0.8358
+                },
+                "LeftMargin": -4.8842,
+                "RightMargin": 1162.8842,
+                "TopMargin": 15.089,
+                "BottomMargin": 6.911,
+                "Tag": 142,
+                "ActionTag": -431802123,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 112.0
+                },
+                "Name": "_head",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "名子",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 250,
+                  "G": 243,
+                  "B": 145
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 110.925,
+                  "Y": 89.7915
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 250,
+                  "G": 243,
+                  "B": 145
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0879,
+                  "Y": 0.6701
+                },
+                "PreSize": {
+                  "X": 0.0539,
+                  "Y": 0.291
+                },
+                "LeftMargin": 110.925,
+                "RightMargin": 1083.0751,
+                "TopMargin": 5.2085,
+                "BottomMargin": 89.7915,
+                "Tag": 151,
+                "ActionTag": -2054573835,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 39.0
+                },
+                "Name": "_nameLabel",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_zhaungmk.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 50,
+                "Scale9Height": 50,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 27.5966,
+                  "Y": 97.3445
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0219,
+                  "Y": 0.7265
+                },
+                "PreSize": {
+                  "X": 0.0396,
+                  "Y": 0.3731
+                },
+                "LeftMargin": 2.5966,
+                "RightMargin": 1209.4033,
+                "TopMargin": 11.6555,
+                "BottomMargin": 72.3445,
+                "Tag": 147,
+                "ActionTag": 1772373995,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 50.0
+                },
+                "Name": "_bankmk",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "内容",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {},
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 229.0509,
+                  "Y": 80.8099
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1815,
+                  "Y": 0.6031
+                },
+                "PreSize": {
+                  "X": 0.0317,
+                  "Y": 0.1716
+                },
+                "LeftMargin": 229.0509,
+                "RightMargin": 992.9491,
+                "TopMargin": 41.6901,
+                "BottomMargin": 69.3099,
+                "Tag": 152,
+                "ActionTag": -1024580509,
+                "Size": {
+                  "X": 40.0,
+                  "Y": 23.0
+                },
+                "Name": "_conLabel",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mjbg.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 47,
+                "Scale9Height": 69,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 111.6516,
+                  "Y": 35.8401
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0885,
+                  "Y": 0.2675
+                },
+                "PreSize": {
+                  "X": 0.0372,
+                  "Y": 0.5149
+                },
+                "LeftMargin": 88.1516,
+                "RightMargin": 1126.8484,
+                "TopMargin": 63.6599,
+                "BottomMargin": 1.3401,
+                "Tag": 153,
+                "ActionTag": 537690287,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 69.0
+                },
+                "Name": "_mjMode",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_humk.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 124,
+                "Scale9Height": 119,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1200.8855,
+                  "Y": 57.0602
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9516,
+                  "Y": 0.4258
+                },
+                "PreSize": {
+                  "X": 0.0983,
+                  "Y": 0.8881
+                },
+                "LeftMargin": 1138.8855,
+                "RightMargin": -0.8855,
+                "TopMargin": 17.4398,
+                "BottomMargin": -2.4398,
+                "ActionTag": -627101104,
+                "Size": {
+                  "X": 124.0,
+                  "Y": 119.0
+                },
+                "Name": "_huMk",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mjbg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1061.1584,
+                  "Y": 35.8401
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8409,
+                  "Y": 0.2675
+                },
+                "PreSize": {
+                  "X": 0.0372,
+                  "Y": 0.5149
+                },
+                "LeftMargin": 1037.6584,
+                "RightMargin": 177.3416,
+                "TopMargin": 63.6599,
+                "BottomMargin": 1.3401,
+                "ActionTag": -1179608993,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 69.0
+                },
+                "Name": "_huCard",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "10\n",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1114.78,
+                  "Y": 39.4193
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 250,
+                  "G": 243,
+                  "B": 145
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8833,
+                  "Y": 0.2942
+                },
+                "PreSize": {
+                  "X": 0.0261,
+                  "Y": 0.5075
+                },
+                "LeftMargin": 1098.28,
+                "RightMargin": 130.72,
+                "TopMargin": 60.5807,
+                "BottomMargin": 5.4193,
+                "Tag": 171,
+                "ActionTag": 1733480848,
+                "Size": {
+                  "X": 33.0,
+                  "Y": 68.0
+                },
+                "Name": "_scoreLable",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/tiao_7.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1060.5023,
+                  "Y": 50.9407
+                },
+                "Scale": {
+                  "ScaleX": 0.4,
+                  "ScaleY": 0.4
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8403,
+                  "Y": 0.3802
+                },
+                "PreSize": {
+                  "X": 0.0761,
+                  "Y": 0.9552
+                },
+                "LeftMargin": 1012.5023,
+                "RightMargin": 153.4977,
+                "TopMargin": 19.0593,
+                "BottomMargin": -13.0593,
+                "ActionTag": 593287046,
+                "Size": {
+                  "X": 96.0,
+                  "Y": 128.0
+                },
+                "Name": "_huValue",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1845604062,
+            "Size": {
+              "X": 1262.0,
+              "Y": 134.0
+            },
+            "Name": "_cellBg0",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/bg2.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1262,
+            "Scale9Height": 162,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 666.2729,
+              "Y": 448.233
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4995,
+              "Y": 0.5976
+            },
+            "PreSize": {
+              "X": 0.946,
+              "Y": 0.1787
+            },
+            "LeftMargin": 35.2729,
+            "RightMargin": 36.7271,
+            "TopMargin": 234.767,
+            "BottomMargin": 381.233,
+            "Tag": 841,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/head.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 47.1158,
+                  "Y": 55.832
+                },
+                "Scale": {
+                  "ScaleX": 0.6446,
+                  "ScaleY": 0.7407
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0373,
+                  "Y": 0.4167
+                },
+                "PreSize": {
+                  "X": 0.0824,
+                  "Y": 0.8358
+                },
+                "LeftMargin": -4.8842,
+                "RightMargin": 1162.8842,
+                "TopMargin": 22.168,
+                "BottomMargin": -0.168,
+                "Tag": 143,
+                "ActionTag": 40973112,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 112.0
+                },
+                "Name": "_head",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "名子",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 250,
+                  "G": 243,
+                  "B": 145
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 110.925,
+                  "Y": 89.8336
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 250,
+                  "G": 243,
+                  "B": 145
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0879,
+                  "Y": 0.6704
+                },
+                "PreSize": {
+                  "X": 0.0539,
+                  "Y": 0.291
+                },
+                "LeftMargin": 110.925,
+                "RightMargin": 1083.0751,
+                "TopMargin": 5.1664,
+                "BottomMargin": 89.8336,
+                "Tag": 173,
+                "ActionTag": -647963220,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 39.0
+                },
+                "Name": "_nameLabel",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_zhaungmk.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 50,
+                "Scale9Height": 50,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 27.5966,
+                  "Y": 87.6357
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0219,
+                  "Y": 0.654
+                },
+                "PreSize": {
+                  "X": 0.0396,
+                  "Y": 0.3731
+                },
+                "LeftMargin": 2.5966,
+                "RightMargin": 1209.4033,
+                "TopMargin": 21.3643,
+                "BottomMargin": 62.6357,
+                "Tag": 148,
+                "ActionTag": -2012628076,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 50.0
+                },
+                "Name": "_bankmk",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mjbg.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 47,
+                "Scale9Height": 69,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 111.6516,
+                  "Y": 35.84
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0885,
+                  "Y": 0.2675
+                },
+                "PreSize": {
+                  "X": 0.0372,
+                  "Y": 0.5149
+                },
+                "LeftMargin": 88.1516,
+                "RightMargin": 1126.8484,
+                "TopMargin": 63.66,
+                "BottomMargin": 1.34,
+                "Tag": 175,
+                "ActionTag": 439638762,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 69.0
+                },
+                "Name": "_mjMode",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mjbg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1059.8029,
+                  "Y": 35.84
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8398,
+                  "Y": 0.2675
+                },
+                "PreSize": {
+                  "X": 0.0372,
+                  "Y": 0.5149
+                },
+                "LeftMargin": 1036.3029,
+                "RightMargin": 178.6971,
+                "TopMargin": 63.66,
+                "BottomMargin": 1.34,
+                "Tag": 1,
+                "ActionTag": 1180330455,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 69.0
+                },
+                "Name": "_huCard",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_humk.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 124,
+                "Scale9Height": 119,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1200.8857,
+                  "Y": 58.3662
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9516,
+                  "Y": 0.4356
+                },
+                "PreSize": {
+                  "X": 0.0983,
+                  "Y": 0.8881
+                },
+                "LeftMargin": 1138.8857,
+                "RightMargin": -0.8857,
+                "TopMargin": 16.1338,
+                "BottomMargin": -1.1338,
+                "Tag": 1,
+                "ActionTag": -794559612,
+                "Size": {
+                  "X": 124.0,
+                  "Y": 119.0
+                },
+                "Name": "_huMk",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "10\n",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1114.78,
+                  "Y": 35.2904
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 250,
+                  "G": 243,
+                  "B": 145
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8833,
+                  "Y": 0.2634
+                },
+                "PreSize": {
+                  "X": 0.0261,
+                  "Y": 0.5075
+                },
+                "LeftMargin": 1098.28,
+                "RightMargin": 130.72,
+                "TopMargin": 64.7096,
+                "BottomMargin": 1.2904,
+                "Tag": 178,
+                "ActionTag": -1934024793,
+                "Size": {
+                  "X": 33.0,
+                  "Y": 68.0
+                },
+                "Name": "_scoreLable",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "内容",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {},
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 229.0509,
+                  "Y": 80.1822
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1815,
+                  "Y": 0.5984
+                },
+                "PreSize": {
+                  "X": 0.0317,
+                  "Y": 0.1716
+                },
+                "LeftMargin": 229.0509,
+                "RightMargin": 992.9491,
+                "TopMargin": 42.3178,
+                "BottomMargin": 68.6822,
+                "Tag": 50,
+                "ActionTag": 913903647,
+                "Size": {
+                  "X": 40.0,
+                  "Y": 23.0
+                },
+                "Name": "_conLabel",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/tiao_7.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5996,
+                  "ScaleY": 0.4234
+                },
+                "Position": {
+                  "X": 1063.6353,
+                  "Y": 48.4412
+                },
+                "Scale": {
+                  "ScaleX": 0.4,
+                  "ScaleY": 0.4
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8428,
+                  "Y": 0.3615
+                },
+                "PreSize": {
+                  "X": 0.0761,
+                  "Y": 0.9552
+                },
+                "LeftMargin": 1006.0742,
+                "RightMargin": 159.9258,
+                "TopMargin": 11.7564,
+                "BottomMargin": -5.7564,
+                "Tag": 1,
+                "ActionTag": -441197677,
+                "Size": {
+                  "X": 96.0,
+                  "Y": 128.0
+                },
+                "Name": "_huValue",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -192161520,
+            "Size": {
+              "X": 1262.0,
+              "Y": 134.0
+            },
+            "Name": "_cellBg1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/bg2.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1262,
+            "Scale9Height": 162,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 666.2729,
+              "Y": 306.876
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4995,
+              "Y": 0.4092
+            },
+            "PreSize": {
+              "X": 0.946,
+              "Y": 0.1787
+            },
+            "LeftMargin": 35.2729,
+            "RightMargin": 36.7271,
+            "TopMargin": 376.124,
+            "BottomMargin": 239.876,
+            "Tag": 842,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/head.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 47.1159,
+                  "Y": 57.0657
+                },
+                "Scale": {
+                  "ScaleX": 0.6446,
+                  "ScaleY": 0.7407
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0373,
+                  "Y": 0.4259
+                },
+                "PreSize": {
+                  "X": 0.0824,
+                  "Y": 0.8358
+                },
+                "LeftMargin": -4.8841,
+                "RightMargin": 1162.8842,
+                "TopMargin": 20.9343,
+                "BottomMargin": 1.0657,
+                "Tag": 144,
+                "ActionTag": 1189856334,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 112.0
+                },
+                "Name": "_head",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_zhaungmk.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 50,
+                "Scale9Height": 50,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 27.5966,
+                  "Y": 97.3034
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0219,
+                  "Y": 0.7261
+                },
+                "PreSize": {
+                  "X": 0.0396,
+                  "Y": 0.3731
+                },
+                "LeftMargin": 2.5966,
+                "RightMargin": 1209.4033,
+                "TopMargin": 11.6966,
+                "BottomMargin": 72.3034,
+                "Tag": 149,
+                "ActionTag": -1191402673,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 50.0
+                },
+                "Name": "_bankmk",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "名子",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 250,
+                  "G": 243,
+                  "B": 145
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 110.925,
+                  "Y": 89.8796
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 250,
+                  "G": 243,
+                  "B": 145
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0879,
+                  "Y": 0.6707
+                },
+                "PreSize": {
+                  "X": 0.0539,
+                  "Y": 0.291
+                },
+                "LeftMargin": 110.925,
+                "RightMargin": 1083.0751,
+                "TopMargin": 5.1204,
+                "BottomMargin": 89.8796,
+                "Tag": 180,
+                "ActionTag": 472332599,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 39.0
+                },
+                "Name": "_nameLabel",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_humk.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 124,
+                "Scale9Height": 119,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1200.8855,
+                  "Y": 59.6761
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9516,
+                  "Y": 0.4453
+                },
+                "PreSize": {
+                  "X": 0.0983,
+                  "Y": 0.8881
+                },
+                "LeftMargin": 1138.8855,
+                "RightMargin": -0.8855,
+                "TopMargin": 14.8239,
+                "BottomMargin": 0.1761,
+                "Tag": 2,
+                "ActionTag": -1699660301,
+                "Size": {
+                  "X": 124.0,
+                  "Y": 119.0
+                },
+                "Name": "_huMk",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mjbg.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 47,
+                "Scale9Height": 69,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 111.6516,
+                  "Y": 35.8399
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0885,
+                  "Y": 0.2675
+                },
+                "PreSize": {
+                  "X": 0.0372,
+                  "Y": 0.5149
+                },
+                "LeftMargin": 88.1516,
+                "RightMargin": 1126.8484,
+                "TopMargin": 63.6601,
+                "BottomMargin": 1.3399,
+                "Tag": 182,
+                "ActionTag": -1563788634,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 69.0
+                },
+                "Name": "_mjMode",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "10\n",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1114.78,
+                  "Y": 31.1666
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 250,
+                  "G": 243,
+                  "B": 145
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8833,
+                  "Y": 0.2326
+                },
+                "PreSize": {
+                  "X": 0.0261,
+                  "Y": 0.5075
+                },
+                "LeftMargin": 1098.28,
+                "RightMargin": 130.72,
+                "TopMargin": 68.8334,
+                "BottomMargin": -2.8334,
+                "Tag": 185,
+                "ActionTag": 1462743506,
+                "Size": {
+                  "X": 33.0,
+                  "Y": 68.0
+                },
+                "Name": "_scoreLable",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mjbg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1059.0742,
+                  "Y": 35.8399
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8392,
+                  "Y": 0.2675
+                },
+                "PreSize": {
+                  "X": 0.0372,
+                  "Y": 0.5149
+                },
+                "LeftMargin": 1035.5742,
+                "RightMargin": 179.4258,
+                "TopMargin": 63.6601,
+                "BottomMargin": 1.3399,
+                "Tag": 2,
+                "ActionTag": -1375748957,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 69.0
+                },
+                "Name": "_huCard",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "内容",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {},
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 229.0509,
+                  "Y": 79.5579
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1815,
+                  "Y": 0.5937
+                },
+                "PreSize": {
+                  "X": 0.0317,
+                  "Y": 0.1716
+                },
+                "LeftMargin": 229.0509,
+                "RightMargin": 992.9491,
+                "TopMargin": 42.9421,
+                "BottomMargin": 68.0579,
+                "Tag": 52,
+                "ActionTag": 1613300678,
+                "Size": {
+                  "X": 40.0,
+                  "Y": 23.0
+                },
+                "Name": "_conLabel",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/tiao_7.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.2631,
+                  "ScaleY": 0.6513
+                },
+                "Position": {
+                  "X": 1049.4065,
+                  "Y": 60.43
+                },
+                "Scale": {
+                  "ScaleX": 0.4,
+                  "ScaleY": 0.4
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8315,
+                  "Y": 0.451
+                },
+                "PreSize": {
+                  "X": 0.0761,
+                  "Y": 0.9552
+                },
+                "LeftMargin": 1024.1484,
+                "RightMargin": 141.8516,
+                "TopMargin": 28.9345,
+                "BottomMargin": -22.9345,
+                "Tag": 2,
+                "ActionTag": 613556093,
+                "Size": {
+                  "X": 96.0,
+                  "Y": 128.0
+                },
+                "Name": "_huValue",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1937104709,
+            "Size": {
+              "X": 1262.0,
+              "Y": 134.0
+            },
+            "Name": "_cellBg2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/bg2.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1262,
+            "Scale9Height": 162,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 666.2729,
+              "Y": 165.518
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4995,
+              "Y": 0.2207
+            },
+            "PreSize": {
+              "X": 0.946,
+              "Y": 0.1787
+            },
+            "LeftMargin": 35.2729,
+            "RightMargin": 36.7271,
+            "TopMargin": 517.482,
+            "BottomMargin": 98.518,
+            "Tag": 843,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/head.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 47.1159,
+                  "Y": 60.4044
+                },
+                "Scale": {
+                  "ScaleX": 0.6446,
+                  "ScaleY": 0.7407
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0373,
+                  "Y": 0.4508
+                },
+                "PreSize": {
+                  "X": 0.0824,
+                  "Y": 0.8358
+                },
+                "LeftMargin": -4.8841,
+                "RightMargin": 1162.8842,
+                "TopMargin": 17.5956,
+                "BottomMargin": 4.4044,
+                "Tag": 145,
+                "ActionTag": 628734937,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 112.0
+                },
+                "Name": "_head",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_zhaungmk.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 50,
+                "Scale9Height": 50,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 27.5966,
+                  "Y": 100.3796
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0219,
+                  "Y": 0.7491
+                },
+                "PreSize": {
+                  "X": 0.0396,
+                  "Y": 0.3731
+                },
+                "LeftMargin": 2.5966,
+                "RightMargin": 1209.4033,
+                "TopMargin": 8.6204,
+                "BottomMargin": 75.3796,
+                "Tag": 150,
+                "ActionTag": -1314383275,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 50.0
+                },
+                "Name": "_bankmk",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "名子",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 250,
+                  "G": 243,
+                  "B": 145
+                },
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 110.925,
+                  "Y": 89.9264
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 250,
+                  "G": 243,
+                  "B": 145
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0879,
+                  "Y": 0.6711
+                },
+                "PreSize": {
+                  "X": 0.0539,
+                  "Y": 0.291
+                },
+                "LeftMargin": 110.925,
+                "RightMargin": 1083.0751,
+                "TopMargin": 5.0736,
+                "BottomMargin": 89.9264,
+                "Tag": 187,
+                "ActionTag": 1637334367,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 39.0
+                },
+                "Name": "_nameLabel",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mjbg.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 47,
+                "Scale9Height": 69,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 111.6516,
+                  "Y": 35.8439
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0885,
+                  "Y": 0.2675
+                },
+                "PreSize": {
+                  "X": 0.0372,
+                  "Y": 0.5149
+                },
+                "LeftMargin": 88.1516,
+                "RightMargin": 1126.8484,
+                "TopMargin": 63.6561,
+                "BottomMargin": 1.3439,
+                "Tag": 189,
+                "ActionTag": -1947011078,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 69.0
+                },
+                "Name": "_mjMode",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mjbg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1062.7344,
+                  "Y": 35.8439
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8421,
+                  "Y": 0.2675
+                },
+                "PreSize": {
+                  "X": 0.0372,
+                  "Y": 0.5149
+                },
+                "LeftMargin": 1039.2344,
+                "RightMargin": 175.7656,
+                "TopMargin": 63.6561,
+                "BottomMargin": 1.3439,
+                "Tag": 3,
+                "ActionTag": 539159780,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 69.0
+                },
+                "Name": "_huCard",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_humk.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 124,
+                "Scale9Height": 119,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1200.8859,
+                  "Y": 60.9871
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9516,
+                  "Y": 0.4551
+                },
+                "PreSize": {
+                  "X": 0.0983,
+                  "Y": 0.8881
+                },
+                "LeftMargin": 1138.8859,
+                "RightMargin": -0.8859,
+                "TopMargin": 13.5129,
+                "BottomMargin": 1.4871,
+                "Tag": 3,
+                "ActionTag": 304394665,
+                "Size": {
+                  "X": 124.0,
+                  "Y": 119.0
+                },
+                "Name": "_huMk",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "10\n",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1114.78,
+                  "Y": 27.0471
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 250,
+                  "G": 243,
+                  "B": 145
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8833,
+                  "Y": 0.2018
+                },
+                "PreSize": {
+                  "X": 0.0261,
+                  "Y": 0.5075
+                },
+                "LeftMargin": 1098.28,
+                "RightMargin": 130.72,
+                "TopMargin": 72.9529,
+                "BottomMargin": -6.9529,
+                "Tag": 192,
+                "ActionTag": 415930705,
+                "Size": {
+                  "X": 33.0,
+                  "Y": 68.0
+                },
+                "Name": "_scoreLable",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "内容",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {},
+                "ShadowOffsetX": 1.0,
+                "ShadowOffsetY": -1.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 229.0509,
+                  "Y": 78.935
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1815,
+                  "Y": 0.5891
+                },
+                "PreSize": {
+                  "X": 0.0317,
+                  "Y": 0.1716
+                },
+                "LeftMargin": 229.0509,
+                "RightMargin": 992.9491,
+                "TopMargin": 43.565,
+                "BottomMargin": 67.435,
+                "Tag": 54,
+                "ActionTag": 1502736180,
+                "Size": {
+                  "X": 40.0,
+                  "Y": 23.0
+                },
+                "Name": "_conLabel",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/tiao_7.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1062.5023,
+                  "Y": 49.9426
+                },
+                "Scale": {
+                  "ScaleX": 0.4,
+                  "ScaleY": 0.4
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8419,
+                  "Y": 0.3727
+                },
+                "PreSize": {
+                  "X": 0.0761,
+                  "Y": 0.9552
+                },
+                "LeftMargin": 1014.5023,
+                "RightMargin": 151.4977,
+                "TopMargin": 20.0574,
+                "BottomMargin": -14.0574,
+                "Tag": 3,
+                "ActionTag": 1802308899,
+                "Size": {
+                  "X": 96.0,
+                  "Y": 128.0
+                },
+                "Name": "_huValue",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -116790330,
+            "Size": {
+              "X": 1262.0,
+              "Y": 134.0
+            },
+            "Name": "_cellBg3",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/bg1.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1009,
+            "Scale9Height": 134,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 211.0349,
+              "Y": 1111.1615
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1582,
+              "Y": 1.4815
+            },
+            "PreSize": {
+              "X": 0.7564,
+              "Y": 0.1787
+            },
+            "LeftMargin": -293.4651,
+            "RightMargin": 618.4651,
+            "TopMargin": -428.1615,
+            "BottomMargin": 1044.1615,
+            "Tag": 839,
+            "ActionTag": 453572353,
+            "Size": {
+              "X": 1009.0,
+              "Y": 134.0
+            },
+            "Name": "bg1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b-4.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "hallUi/common/b-4.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 27,
+            "Scale9Height": 35,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1285.4395,
+              "Y": 702.1618
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9636,
+              "Y": 0.9362
+            },
+            "PreSize": {
+              "X": 0.0562,
+              "Y": 0.1013
+            },
+            "LeftMargin": 1247.9395,
+            "RightMargin": 11.0605,
+            "TopMargin": 9.8382,
+            "BottomMargin": 664.1618,
+            "CallBackType": "Click",
+            "CallBackName": "onCloseClick",
+            "Tag": 145,
+            "ActionTag": 98372526,
+            "Size": {
+              "X": 75.0,
+              "Y": 76.0
+            },
+            "VisibleForFrame": false,
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/r11.png",
+              "Plist": ""
+            },
+            "Scale9Width": 129,
+            "Scale9Height": 69,
+            "AnchorPoint": {
+              "ScaleX": 0.5196,
+              "ScaleY": 0.5261
+            },
+            "Position": {
+              "X": 657.8425,
+              "Y": 703.6263
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4931,
+              "Y": 0.9382
+            },
+            "PreSize": {
+              "X": 0.0967,
+              "Y": 0.092
+            },
+            "LeftMargin": 590.8141,
+            "RightMargin": 614.1859,
+            "TopMargin": 13.6746,
+            "BottomMargin": 667.3254,
+            "Tag": 146,
+            "ActionTag": -439545115,
+            "Size": {
+              "X": 129.0,
+              "Y": 69.0
+            },
+            "Name": "_rsImg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/a3.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/a3.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 190,
+            "Scale9Height": 51,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 656.2521,
+              "Y": 51.2661
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4919,
+              "Y": 0.0684
+            },
+            "PreSize": {
+              "X": 0.1649,
+              "Y": 0.0973
+            },
+            "LeftMargin": 546.2521,
+            "RightMargin": 567.7479,
+            "TopMargin": 662.2339,
+            "BottomMargin": 14.7661,
+            "CallBackType": "Click",
+            "CallBackName": "onContinueClick",
+            "Tag": 193,
+            "ActionTag": 472084686,
+            "Size": {
+              "X": 220.0,
+              "Y": 73.0
+            },
+            "Name": "_btnContinue",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/a2.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/a2.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 190,
+            "Scale9Height": 51,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 701.7141,
+              "Y": 49.6133
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.526,
+              "Y": 0.0662
+            },
+            "PreSize": {
+              "X": 0.1649,
+              "Y": 0.0973
+            },
+            "LeftMargin": 591.7141,
+            "RightMargin": 522.2859,
+            "TopMargin": 663.8867,
+            "BottomMargin": 13.1133,
+            "CallBackType": "Click",
+            "CallBackName": "onAllScoreClick",
+            "Tag": 194,
+            "ActionTag": 501219606,
+            "Size": {
+              "X": 220.0,
+              "Y": 73.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_btnAll",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/a1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/a1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 187,
+            "Scale9Height": 49,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 570.3295,
+              "Y": 49.954
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4275,
+              "Y": 0.0666
+            },
+            "PreSize": {
+              "X": 0.1627,
+              "Y": 0.0947
+            },
+            "LeftMargin": 461.8295,
+            "RightMargin": 655.1705,
+            "TopMargin": 664.546,
+            "BottomMargin": 14.454,
+            "CallBackType": "Click",
+            "CallBackName": "onScreenCutClick",
+            "Tag": 195,
+            "ActionTag": 473331804,
+            "Size": {
+              "X": 217.0,
+              "Y": 71.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_btn1",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ui/a1.png",
+        "g/mjBloody/ui/a2.png",
+        "g/mjBloody/ui/a3.png",
+        "g/mjBloody/ui/bg1.png",
+        "g/mjBloody/ui/bg2.png",
+        "g/mjBloody/ui/head.png",
+        "g/mjBloody/ui/mjbg.png",
+        "g/mjBloody/ui/r11.png",
+        "g/mjBloody/ui/tiao_7.png",
+        "g/mjBloody/ui/ui_humk.png",
+        "g/mjBloody/ui/ui_zhaungmk.png",
+        "hallUi/a/aa.jpg",
+        "hallUi/common/b-4.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

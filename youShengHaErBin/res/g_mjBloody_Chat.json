@@ -1,0 +1,2522 @@
+{
+  "ID": "662e8945-c921-46de-84f5-a025d213beaf",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_Chat",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1074,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/chat/tk.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 825.2563,
+              "Y": 343.011
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6186,
+              "Y": 0.4573
+            },
+            "PreSize": {
+              "X": 0.401,
+              "Y": 0.72
+            },
+            "LeftMargin": 557.7563,
+            "RightMargin": 241.2437,
+            "TopMargin": 136.989,
+            "BottomMargin": 73.011,
+            "Tag": 1076,
+            "Children": [
+              {
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 11.0,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.1103,
+                  "ScaleY": 1.1166
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0206,
+                  "Y": 0.037
+                },
+                "PreSize": {
+                  "X": 0.7495,
+                  "Y": 0.8519
+                },
+                "LeftMargin": 11.0,
+                "RightMargin": 123.0,
+                "TopMargin": 60.0,
+                "BottomMargin": 20.0,
+                "Tag": 1381,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.7053,
+                      "Y": 406.4422
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1639,
+                      "Y": 0.8836
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 42.7053,
+                    "RightMargin": 312.2947,
+                    "TopMargin": 35.5578,
+                    "BottomMargin": 388.4422,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "ActionTag": 1180346131,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 162.3968,
+                      "Y": 406.4421
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.405,
+                      "Y": 0.8836
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 139.3968,
+                    "RightMargin": 215.6032,
+                    "TopMargin": 35.5579,
+                    "BottomMargin": 388.4421,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 1,
+                    "ActionTag": -1633936428,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 259.0885,
+                      "Y": 406.4421
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6461,
+                      "Y": 0.8836
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 236.0885,
+                    "RightMargin": 118.9115,
+                    "TopMargin": 35.5579,
+                    "BottomMargin": 388.4421,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 2,
+                    "ActionTag": -2106912804,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 352.1777,
+                      "Y": 406.4421
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8782,
+                      "Y": 0.8836
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 329.1777,
+                    "RightMargin": 25.8223,
+                    "TopMargin": 35.5579,
+                    "BottomMargin": 388.4421,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 3,
+                    "ActionTag": -1366263125,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.7053,
+                      "Y": 313.9224
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1639,
+                      "Y": 0.6824
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 42.7053,
+                    "RightMargin": 312.2947,
+                    "TopMargin": 128.0776,
+                    "BottomMargin": 295.9224,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 4,
+                    "ActionTag": 1812753063,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 162.3968,
+                      "Y": 313.9222
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.405,
+                      "Y": 0.6824
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 139.3968,
+                    "RightMargin": 215.6032,
+                    "TopMargin": 128.0778,
+                    "BottomMargin": 295.9222,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 5,
+                    "ActionTag": -182815969,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 259.0885,
+                      "Y": 313.9222
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6461,
+                      "Y": 0.6824
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 236.0885,
+                    "RightMargin": 118.9115,
+                    "TopMargin": 128.0778,
+                    "BottomMargin": 295.9222,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 6,
+                    "ActionTag": -1482073984,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 352.1777,
+                      "Y": 313.9222
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8782,
+                      "Y": 0.6824
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 329.1777,
+                    "RightMargin": 25.8223,
+                    "TopMargin": 128.0778,
+                    "BottomMargin": 295.9222,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 7,
+                    "ActionTag": 278784803,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.7053,
+                      "Y": 228.6843
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1639,
+                      "Y": 0.4971
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 42.7053,
+                    "RightMargin": 312.2947,
+                    "TopMargin": 213.3157,
+                    "BottomMargin": 210.6843,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 8,
+                    "ActionTag": 529083300,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 162.3968,
+                      "Y": 228.684
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.405,
+                      "Y": 0.4971
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 139.3968,
+                    "RightMargin": 215.6032,
+                    "TopMargin": 213.316,
+                    "BottomMargin": 210.684,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 9,
+                    "ActionTag": 1233573689,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 259.0885,
+                      "Y": 228.684
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6461,
+                      "Y": 0.4971
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 236.0885,
+                    "RightMargin": 118.9115,
+                    "TopMargin": 213.316,
+                    "BottomMargin": 210.684,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 10,
+                    "ActionTag": -895561048,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 352.1777,
+                      "Y": 228.684
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8782,
+                      "Y": 0.4971
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 329.1777,
+                    "RightMargin": 25.8223,
+                    "TopMargin": 213.316,
+                    "BottomMargin": 210.684,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 11,
+                    "ActionTag": 1577628926,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.7053,
+                      "Y": 142.0853
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1639,
+                      "Y": 0.3089
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 42.7053,
+                    "RightMargin": 312.2947,
+                    "TopMargin": 299.9147,
+                    "BottomMargin": 124.0853,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 12,
+                    "ActionTag": 1422873123,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 162.3968,
+                      "Y": 142.0852
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.405,
+                      "Y": 0.3089
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 139.3968,
+                    "RightMargin": 215.6032,
+                    "TopMargin": 299.9148,
+                    "BottomMargin": 124.0852,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 13,
+                    "ActionTag": -867483801,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 259.0885,
+                      "Y": 142.0852
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6461,
+                      "Y": 0.3089
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 236.0885,
+                    "RightMargin": 118.9115,
+                    "TopMargin": 299.9148,
+                    "BottomMargin": 124.0852,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 14,
+                    "ActionTag": 2062118122,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 352.1777,
+                      "Y": 142.0852
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8782,
+                      "Y": 0.3089
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 329.1777,
+                    "RightMargin": 25.8223,
+                    "TopMargin": 299.9148,
+                    "BottomMargin": 124.0852,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 15,
+                    "ActionTag": -827418935,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.7053,
+                      "Y": 48.1904
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1639,
+                      "Y": 0.1048
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 42.7053,
+                    "RightMargin": 312.2947,
+                    "TopMargin": 393.8096,
+                    "BottomMargin": 30.1904,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 16,
+                    "ActionTag": -1394073023,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 162.3968,
+                      "Y": 48.1904
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.405,
+                      "Y": 0.1048
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 139.3968,
+                    "RightMargin": 215.6032,
+                    "TopMargin": 393.8096,
+                    "BottomMargin": 30.1904,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 17,
+                    "ActionTag": 65248818,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 259.0885,
+                      "Y": 48.1904
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6461,
+                      "Y": 0.1048
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 236.0885,
+                    "RightMargin": 118.9115,
+                    "TopMargin": 393.8096,
+                    "BottomMargin": 30.1904,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 18,
+                    "ActionTag": 977069613,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "Scale9Enable": true,
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 352.1777,
+                      "Y": 48.1904
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8782,
+                      "Y": 0.1048
+                    },
+                    "PreSize": {
+                      "X": 0.1147,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 329.1777,
+                    "RightMargin": 25.8223,
+                    "TopMargin": 393.8096,
+                    "BottomMargin": 30.1904,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnFaceClick",
+                    "Tag": 19,
+                    "ActionTag": 645256235,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_expressBtn",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 273621395,
+                "Size": {
+                  "X": 401.0,
+                  "Y": 460.0
+                },
+                "Name": "_Panel_1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 10.9994,
+                  "Y": 20.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.1103,
+                  "ScaleY": 1.1166
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0206,
+                  "Y": 0.037
+                },
+                "PreSize": {
+                  "X": 0.7495,
+                  "Y": 0.8519
+                },
+                "LeftMargin": 10.9994,
+                "RightMargin": 123.0006,
+                "TopMargin": 59.9999,
+                "BottomMargin": 20.0001,
+                "Tag": 1382,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/t.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 199.0366,
+                      "Y": 390.7289
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4964,
+                      "Y": 0.8494
+                    },
+                    "PreSize": {
+                      "X": 0.9975,
+                      "Y": 0.0043
+                    },
+                    "LeftMargin": -0.9634,
+                    "RightMargin": 1.9634,
+                    "TopMargin": 68.2711,
+                    "BottomMargin": 389.7289,
+                    "ActionTag": -1706664673,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 2.0
+                    },
+                    "Name": "line_1",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/t.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 199.0343,
+                      "Y": 330.4099
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4963,
+                      "Y": 0.7183
+                    },
+                    "PreSize": {
+                      "X": 0.9975,
+                      "Y": 0.0043
+                    },
+                    "LeftMargin": -0.9657,
+                    "RightMargin": 1.9656,
+                    "TopMargin": 128.5901,
+                    "BottomMargin": 329.4099,
+                    "Tag": 1,
+                    "ActionTag": 844235594,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 2.0
+                    },
+                    "Name": "line_2",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/t.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 199.0343,
+                      "Y": 268.7417
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4963,
+                      "Y": 0.5842
+                    },
+                    "PreSize": {
+                      "X": 0.9975,
+                      "Y": 0.0043
+                    },
+                    "LeftMargin": -0.9657,
+                    "RightMargin": 1.9656,
+                    "TopMargin": 190.2583,
+                    "BottomMargin": 267.7417,
+                    "Tag": 2,
+                    "ActionTag": -1031356306,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 2.0
+                    },
+                    "Name": "line_3",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/t.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 199.0337,
+                      "Y": 209.196
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4963,
+                      "Y": 0.4548
+                    },
+                    "PreSize": {
+                      "X": 0.9975,
+                      "Y": 0.0043
+                    },
+                    "LeftMargin": -0.9663,
+                    "RightMargin": 1.9662,
+                    "TopMargin": 249.804,
+                    "BottomMargin": 208.196,
+                    "Tag": 3,
+                    "ActionTag": 1651567151,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 2.0
+                    },
+                    "Name": "line_4",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/t.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 199.0337,
+                      "Y": 150.2833
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4963,
+                      "Y": 0.3267
+                    },
+                    "PreSize": {
+                      "X": 0.9975,
+                      "Y": 0.0043
+                    },
+                    "LeftMargin": -0.9663,
+                    "RightMargin": 1.9662,
+                    "TopMargin": 308.7167,
+                    "BottomMargin": 149.2833,
+                    "Tag": 4,
+                    "ActionTag": -1000052469,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 2.0
+                    },
+                    "Name": "line_5",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/t.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 200.6797,
+                      "Y": 88.5105
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5004,
+                      "Y": 0.1924
+                    },
+                    "PreSize": {
+                      "X": 0.9975,
+                      "Y": 0.0043
+                    },
+                    "LeftMargin": 0.6797,
+                    "RightMargin": 0.3203,
+                    "TopMargin": 370.4895,
+                    "BottomMargin": 87.5105,
+                    "Tag": 5,
+                    "ActionTag": 1140796848,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 2.0
+                    },
+                    "Name": "line_6",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/z4.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/z4.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 267,
+                    "Scale9Height": 15,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 195.3114,
+                      "Y": 421.5478
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4871,
+                      "Y": 0.9164
+                    },
+                    "PreSize": {
+                      "X": 0.7406,
+                      "Y": 0.0804
+                    },
+                    "LeftMargin": 46.8114,
+                    "RightMargin": 57.1887,
+                    "TopMargin": 19.9522,
+                    "BottomMargin": 403.0478,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnTextClick",
+                    "ActionTag": -1653465577,
+                    "Size": {
+                      "X": 297.0,
+                      "Y": 37.0
+                    },
+                    "Name": "_bigChatBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/z5.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/z5.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 198,
+                    "Scale9Height": 14,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 197.6413,
+                      "Y": 358.7117
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4929,
+                      "Y": 0.7798
+                    },
+                    "PreSize": {
+                      "X": 0.5686,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 83.6413,
+                    "RightMargin": 89.3587,
+                    "TopMargin": 83.2883,
+                    "BottomMargin": 340.7117,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnTextClick",
+                    "Tag": 1,
+                    "ActionTag": -287894166,
+                    "Size": {
+                      "X": 228.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_bigChatBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/z3.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/z3.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 249,
+                    "Scale9Height": 14,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 197.6398,
+                      "Y": 298.1006
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4929,
+                      "Y": 0.648
+                    },
+                    "PreSize": {
+                      "X": 0.6958,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 58.1398,
+                    "RightMargin": 63.8602,
+                    "TopMargin": 143.8994,
+                    "BottomMargin": 280.1006,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnTextClick",
+                    "Tag": 2,
+                    "ActionTag": 301951194,
+                    "Size": {
+                      "X": 279.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_bigChatBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/z6.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/z6.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 307,
+                    "Scale9Height": 14,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 197.6383,
+                      "Y": 237.1924
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4929,
+                      "Y": 0.5156
+                    },
+                    "PreSize": {
+                      "X": 0.8404,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 29.1383,
+                    "RightMargin": 34.8617,
+                    "TopMargin": 204.8076,
+                    "BottomMargin": 219.1924,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnTextClick",
+                    "Tag": 3,
+                    "ActionTag": -2111650905,
+                    "Size": {
+                      "X": 337.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_bigChatBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/z1.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/z1.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 219,
+                    "Scale9Height": 15,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 202.1415,
+                      "Y": 177.1759
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5041,
+                      "Y": 0.3852
+                    },
+                    "PreSize": {
+                      "X": 0.6209,
+                      "Y": 0.0804
+                    },
+                    "LeftMargin": 77.6415,
+                    "RightMargin": 74.3585,
+                    "TopMargin": 264.3241,
+                    "BottomMargin": 158.6759,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnTextClick",
+                    "Tag": 4,
+                    "ActionTag": 1216575588,
+                    "Size": {
+                      "X": 249.0,
+                      "Y": 37.0
+                    },
+                    "Name": "_bigChatBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/z2.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/z2.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 251,
+                    "Scale9Height": 14,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 207.3973,
+                      "Y": 120.1206
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5172,
+                      "Y": 0.2611
+                    },
+                    "PreSize": {
+                      "X": 0.7007,
+                      "Y": 0.0783
+                    },
+                    "LeftMargin": 66.8973,
+                    "RightMargin": 53.1027,
+                    "TopMargin": 321.8795,
+                    "BottomMargin": 102.1206,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnTextClick",
+                    "Tag": 5,
+                    "ActionTag": 72593847,
+                    "Size": {
+                      "X": 281.0,
+                      "Y": 36.0
+                    },
+                    "Name": "_bigChatBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/k1.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 283,
+                    "Scale9Height": 48,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 145.484,
+                      "Y": 42.0189
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3628,
+                      "Y": 0.0913
+                    },
+                    "PreSize": {
+                      "X": 0.7057,
+                      "Y": 0.1043
+                    },
+                    "LeftMargin": 3.984,
+                    "RightMargin": 114.016,
+                    "TopMargin": 393.9811,
+                    "BottomMargin": 18.0189,
+                    "Tag": 1396,
+                    "Children": [
+                      {
+                        "FontSize": 28,
+                        "IsCustomSize": true,
+                        "LabelText": "",
+                        "PlaceHolderText": "请输入文本",
+                        "MaxLengthEnable": true,
+                        "MaxLengthText": 30,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 141.5,
+                          "Y": 18.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 127,
+                          "G": 127,
+                          "B": 127
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.375
+                        },
+                        "PreSize": {
+                          "X": 0.9894,
+                          "Y": 0.8333
+                        },
+                        "LeftMargin": 1.5,
+                        "RightMargin": 1.5,
+                        "TopMargin": 10.0,
+                        "BottomMargin": -2.0,
+                        "CallBackType": "Touch",
+                        "CallBackName": "worldCallback",
+                        "Tag": 1395,
+                        "ActionTag": -344993567,
+                        "Size": {
+                          "X": 280.0,
+                          "Y": 40.0
+                        },
+                        "Name": "_text",
+                        "ctype": "TextFieldObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "g/mjBloody/chat/k2.png",
+                          "Plist": ""
+                        },
+                        "Scale9Width": 181,
+                        "Scale9Height": 26,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 141.5,
+                          "Y": 24.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.6396,
+                          "Y": 0.5417
+                        },
+                        "LeftMargin": 51.0,
+                        "RightMargin": 51.0,
+                        "TopMargin": 11.0,
+                        "BottomMargin": 11.0,
+                        "CallBackName": "worldCallback",
+                        "Tag": 1398,
+                        "ActionTag": -860738432,
+                        "Size": {
+                          "X": 181.0,
+                          "Y": 26.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "_pleaseInput",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1721485138,
+                    "Size": {
+                      "X": 283.0,
+                      "Y": 48.0
+                    },
+                    "Name": "Image_38",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/k3.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/k3.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 82,
+                    "Scale9Height": 35,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 347.5112,
+                      "Y": 42.0221
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8666,
+                      "Y": 0.0914
+                    },
+                    "PreSize": {
+                      "X": 0.2793,
+                      "Y": 0.1239
+                    },
+                    "LeftMargin": 291.5112,
+                    "RightMargin": -2.5112,
+                    "TopMargin": 389.4779,
+                    "BottomMargin": 13.5221,
+                    "CallBackType": "Click",
+                    "CallBackName": "onBtnSendClick",
+                    "Tag": 1397,
+                    "ActionTag": 30326492,
+                    "Size": {
+                      "X": 112.0,
+                      "Y": 57.0
+                    },
+                    "Name": "_sendBtn",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -1825466467,
+                "Size": {
+                  "X": 401.0,
+                  "Y": 460.0
+                },
+                "Name": "_Panel_2",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/chat/a4.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 64,
+                "Scale9Height": 256,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 491.9904,
+                  "Y": 405.799
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9196,
+                  "Y": 0.7515
+                },
+                "PreSize": {
+                  "X": 0.1196,
+                  "Y": 0.4741
+                },
+                "LeftMargin": 459.9904,
+                "RightMargin": 11.0096,
+                "TopMargin": 6.201,
+                "BottomMargin": 277.799,
+                "CallBackType": "Touch",
+                "CallBackName": "showExpressPanel",
+                "Tag": 1680,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/x1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 32.0,
+                      "Y": 128.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.8125,
+                      "Y": 0.2266
+                    },
+                    "LeftMargin": 6.0,
+                    "RightMargin": 6.0,
+                    "TopMargin": 99.0,
+                    "BottomMargin": 99.0,
+                    "Tag": 1419,
+                    "ActionTag": -1099305699,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 58.0
+                    },
+                    "Name": "_ExpressImage",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1520330093,
+                "Size": {
+                  "X": 64.0,
+                  "Y": 256.0
+                },
+                "Name": "_BqBtn",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/chat/a4.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 64,
+                "Scale9Height": 256,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 491.9901,
+                  "Y": 146.05
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 180.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9196,
+                  "Y": 0.2705
+                },
+                "PreSize": {
+                  "X": 0.1196,
+                  "Y": 0.4741
+                },
+                "LeftMargin": 459.9901,
+                "RightMargin": 11.0099,
+                "TopMargin": 265.95,
+                "BottomMargin": 18.05,
+                "CallBackType": "Touch",
+                "CallBackName": "showTextExpPanel",
+                "Tag": 1681,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "g/mjBloody/chat/x3.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 32.0,
+                      "Y": 128.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 180.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.8125,
+                      "Y": 0.2344
+                    },
+                    "LeftMargin": 6.0,
+                    "RightMargin": 6.0,
+                    "TopMargin": 98.0,
+                    "BottomMargin": 98.0,
+                    "Tag": 1420,
+                    "ActionTag": -568552148,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 60.0
+                    },
+                    "Name": "_ChatImage",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -2078048641,
+                "Size": {
+                  "X": 64.0,
+                  "Y": 256.0
+                },
+                "Name": "_ChatBtn",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1064305577,
+            "Size": {
+              "X": 535.0,
+              "Y": 540.0
+            },
+            "Name": "_parentPanel",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "g/mjBloody/chat/a4.png",
+        "g/mjBloody/chat/k1.png",
+        "g/mjBloody/chat/k2.png",
+        "g/mjBloody/chat/k3.png",
+        "g/mjBloody/chat/t.png",
+        "g/mjBloody/chat/tk.png",
+        "g/mjBloody/chat/x1.png",
+        "g/mjBloody/chat/x3.png",
+        "g/mjBloody/chat/z1.png",
+        "g/mjBloody/chat/z2.png",
+        "g/mjBloody/chat/z3.png",
+        "g/mjBloody/chat/z4.png",
+        "g/mjBloody/chat/z5.png",
+        "g/mjBloody/chat/z6.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,490 @@
+{
+  "ID": "7f3fdc40-be4e-4945-98b3-27d72afa0322",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_ui_swaptip",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 15,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/ui_swapdir3.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 40.1669,
+              "Y": 40.2879
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5021,
+              "Y": 0.5036
+            },
+            "PreSize": {
+              "X": 0.9875,
+              "Y": 0.975
+            },
+            "LeftMargin": 0.6669,
+            "RightMargin": 0.3331,
+            "TopMargin": 0.7121,
+            "BottomMargin": 1.2879,
+            "Tag": 55,
+            "ActionTag": 215827960,
+            "Size": {
+              "X": 79.0,
+              "Y": 78.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_swap0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/ui_swapdir1.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 38.4726,
+              "Y": 40.7114
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4809,
+              "Y": 0.5089
+            },
+            "PreSize": {
+              "X": 0.9875,
+              "Y": 0.975
+            },
+            "LeftMargin": -1.0274,
+            "RightMargin": 2.0274,
+            "TopMargin": 0.2886,
+            "BottomMargin": 1.7114,
+            "Tag": 53,
+            "ActionTag": 1948220176,
+            "Size": {
+              "X": 79.0,
+              "Y": 78.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_swap1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/ui_swapdir2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 40.1668,
+              "Y": 40.2879
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5021,
+              "Y": 0.5036
+            },
+            "PreSize": {
+              "X": 0.9875,
+              "Y": 0.975
+            },
+            "LeftMargin": 0.6668,
+            "RightMargin": 0.3332,
+            "TopMargin": 0.7121,
+            "BottomMargin": 1.2879,
+            "Tag": 54,
+            "ActionTag": -609787713,
+            "Size": {
+              "X": 79.0,
+              "Y": 78.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_swap2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 78.5291,
+              "Y": 5.8853
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9816,
+              "Y": 0.0736
+            },
+            "PreSize": {
+              "X": 1.5,
+              "Y": 1.0
+            },
+            "LeftMargin": 78.5291,
+            "RightMargin": -118.5291,
+            "TopMargin": -5.8853,
+            "BottomMargin": 5.8853,
+            "Tag": 541,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 20.7433,
+                  "Y": 45.2689
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1729,
+                  "Y": 0.5659
+                },
+                "PreSize": {
+                  "X": 0.625,
+                  "Y": 1.35
+                },
+                "LeftMargin": -16.7567,
+                "RightMargin": 61.7567,
+                "TopMargin": -19.2689,
+                "BottomMargin": -8.7311,
+                "Tag": 542,
+                "ActionTag": 184290278,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "mj_bg_148",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 57.375,
+                  "Y": 45.264
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4781,
+                  "Y": 0.5658
+                },
+                "PreSize": {
+                  "X": 0.625,
+                  "Y": 1.35
+                },
+                "LeftMargin": 19.875,
+                "RightMargin": 25.125,
+                "TopMargin": -19.264,
+                "BottomMargin": -8.736,
+                "Tag": 543,
+                "ActionTag": 1377746352,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "mj_bg_149",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/mj_bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 94.873,
+                  "Y": 45.2627
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7906,
+                  "Y": 0.5658
+                },
+                "PreSize": {
+                  "X": 0.625,
+                  "Y": 1.35
+                },
+                "LeftMargin": 57.373,
+                "RightMargin": -12.373,
+                "TopMargin": -19.2627,
+                "BottomMargin": -8.7373,
+                "Tag": 544,
+                "ActionTag": 1959305057,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 108.0
+                },
+                "Name": "mj_bg_150",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/tiao_7.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 96,
+                "Scale9Height": 128,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 19.5011,
+                  "Y": 43.1577
+                },
+                "Scale": {
+                  "ScaleX": 0.38,
+                  "ScaleY": 0.38
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1625,
+                  "Y": 0.5395
+                },
+                "PreSize": {
+                  "X": 0.8,
+                  "Y": 1.6
+                },
+                "LeftMargin": -28.4989,
+                "RightMargin": 52.4989,
+                "TopMargin": -27.1577,
+                "BottomMargin": -20.8423,
+                "Tag": 1513,
+                "ActionTag": -642314446,
+                "Size": {
+                  "X": 96.0,
+                  "Y": 128.0
+                },
+                "Name": "_selCard0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/tiao_7.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 96,
+                "Scale9Height": 128,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 55.5712,
+                  "Y": 43.657
+                },
+                "Scale": {
+                  "ScaleX": 0.38,
+                  "ScaleY": 0.38
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4631,
+                  "Y": 0.5457
+                },
+                "PreSize": {
+                  "X": 0.8,
+                  "Y": 1.6
+                },
+                "LeftMargin": 7.5712,
+                "RightMargin": 16.4288,
+                "TopMargin": -27.657,
+                "BottomMargin": -20.343,
+                "Tag": 1514,
+                "ActionTag": -924438709,
+                "Size": {
+                  "X": 96.0,
+                  "Y": 128.0
+                },
+                "Name": "_selCard1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/tiao_7.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 96,
+                "Scale9Height": 128,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 94.0697,
+                  "Y": 43.3612
+                },
+                "Scale": {
+                  "ScaleX": 0.38,
+                  "ScaleY": 0.38
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7839,
+                  "Y": 0.542
+                },
+                "PreSize": {
+                  "X": 0.8,
+                  "Y": 1.6
+                },
+                "LeftMargin": 46.0697,
+                "RightMargin": -22.0697,
+                "TopMargin": -27.3612,
+                "BottomMargin": -20.6388,
+                "Tag": 1515,
+                "ActionTag": -1860512626,
+                "Size": {
+                  "X": 96.0,
+                  "Y": 128.0
+                },
+                "Name": "_selCard2",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 2050817060,
+            "Size": {
+              "X": 120.0,
+              "Y": 80.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_selCon",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 80.0,
+          "Y": 80.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ui/mj_bg.png",
+        "g/mjBloody/ui/tiao_7.png",
+        "g/mjBloody/ui/ui_swapdir1.png",
+        "g/mjBloody/ui/ui_swapdir2.png",
+        "g/mjBloody/ui/ui_swapdir3.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

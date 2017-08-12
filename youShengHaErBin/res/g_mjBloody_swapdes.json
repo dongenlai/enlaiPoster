@@ -1,0 +1,824 @@
+{
+  "ID": "1ec4fc67-441e-4b0a-9801-5e780df57d0a",
+  "Version": "2.3.3.0",
+  "Name": "g_mjBloody_swapdes",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [
+        {
+          "StartIndex": 0,
+          "EndIndex": 50,
+          "Name": "animation0",
+          "ctype": "AnimationInfoData"
+        }
+      ],
+      "ObjectData": {
+        "Tag": 224,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "g/mjBloody/ui/ui_desbg.png",
+              "Plist": ""
+            },
+            "Scale9Width": 405,
+            "Scale9Height": 147,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 683.1738,
+              "Y": 387.4374
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5121,
+              "Y": 0.5166
+            },
+            "PreSize": {
+              "X": 0.3036,
+              "Y": 0.196
+            },
+            "LeftMargin": 480.6738,
+            "RightMargin": 448.3262,
+            "TopMargin": 289.0626,
+            "BottomMargin": 313.9374,
+            "Tag": 167,
+            "ActionTag": 1839454760,
+            "Size": {
+              "X": 405.0,
+              "Y": 147.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 7,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_jiantou1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 775.5608,
+                  "Y": 288.1005
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5814,
+                  "Y": 0.3841
+                },
+                "PreSize": {
+                  "X": 0.1792,
+                  "Y": 0.288
+                },
+                "LeftMargin": 656.0608,
+                "RightMargin": 438.9392,
+                "TopMargin": 353.8995,
+                "BottomMargin": 180.1005,
+                "Tag": 6,
+                "ActionTag": -1322302848,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 216.0
+                },
+                "Name": "ui_jiantou1_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_jiantou1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 571.4572,
+                  "Y": 311.1
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 90.0,
+                "RotationSkewY": 90.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4284,
+                  "Y": 0.4148
+                },
+                "PreSize": {
+                  "X": 0.1792,
+                  "Y": 0.288
+                },
+                "LeftMargin": 451.9572,
+                "RightMargin": 643.0428,
+                "TopMargin": 330.9,
+                "BottomMargin": 203.1,
+                "Tag": 10,
+                "ActionTag": -1069950586,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 216.0
+                },
+                "Name": "ui_jiantou1_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_jiantou1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 598.5796,
+                  "Y": 501.959
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 180.0,
+                "RotationSkewY": 180.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4487,
+                  "Y": 0.6693
+                },
+                "PreSize": {
+                  "X": 0.1792,
+                  "Y": 0.288
+                },
+                "LeftMargin": 479.0796,
+                "RightMargin": 615.9204,
+                "TopMargin": 140.041,
+                "BottomMargin": 393.959,
+                "Tag": 11,
+                "ActionTag": 498292712,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 216.0
+                },
+                "Name": "ui_jiantou1_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_jiantou1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 800.9341,
+                  "Y": 485.9576
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": -92.5957,
+                "RotationSkewY": -92.5957,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6004,
+                  "Y": 0.6479
+                },
+                "PreSize": {
+                  "X": 0.1792,
+                  "Y": 0.288
+                },
+                "LeftMargin": 681.4341,
+                "RightMargin": 413.5659,
+                "TopMargin": 156.0424,
+                "BottomMargin": 377.9576,
+                "Tag": 12,
+                "ActionTag": 1948701632,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 216.0
+                },
+                "Name": "ui_jiantou1_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_huanpai1.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 258,
+                "Scale9Height": 104,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 685.7133,
+                  "Y": 387.44
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.514,
+                  "Y": 0.5166
+                },
+                "PreSize": {
+                  "X": 0.1934,
+                  "Y": 0.1387
+                },
+                "LeftMargin": 556.7133,
+                "RightMargin": 519.2867,
+                "TopMargin": 310.56,
+                "BottomMargin": 335.44,
+                "Tag": 169,
+                "ActionTag": -107587218,
+                "Size": {
+                  "X": 258.0,
+                  "Y": 104.0
+                },
+                "Name": "tx1",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -650254903,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_tx1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 8,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_jiantou1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 803.3139,
+                  "Y": 319.6484
+                },
+                "Scale": {
+                  "ScaleX": -1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": -88.4419,
+                "RotationSkewY": -88.4366,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6022,
+                  "Y": 0.4262
+                },
+                "PreSize": {
+                  "X": 0.1792,
+                  "Y": 0.288
+                },
+                "LeftMargin": 683.8139,
+                "RightMargin": 411.1861,
+                "TopMargin": 322.3516,
+                "BottomMargin": 211.6484,
+                "Tag": 13,
+                "ActionTag": -2012516202,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 216.0
+                },
+                "Name": "ui_jiantou1_1_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_jiantou1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 592.4226,
+                  "Y": 299.3228
+                },
+                "Scale": {
+                  "ScaleX": -1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewY": 0.007,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4441,
+                  "Y": 0.3991
+                },
+                "PreSize": {
+                  "X": 0.1792,
+                  "Y": 0.288
+                },
+                "LeftMargin": 472.9226,
+                "RightMargin": 622.0774,
+                "TopMargin": 342.6772,
+                "BottomMargin": 191.3228,
+                "Tag": 14,
+                "ActionTag": 598256752,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 216.0
+                },
+                "Name": "ui_jiantou1_2_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_jiantou1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 781.1902,
+                  "Y": 537.8253
+                },
+                "Scale": {
+                  "ScaleX": -1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": -180.6644,
+                "RotationSkewY": -180.675,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5856,
+                  "Y": 0.7171
+                },
+                "PreSize": {
+                  "X": 0.1792,
+                  "Y": 0.288
+                },
+                "LeftMargin": 661.6902,
+                "RightMargin": 433.3098,
+                "TopMargin": 104.1747,
+                "BottomMargin": 429.8253,
+                "Tag": 15,
+                "ActionTag": 1598652602,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 216.0
+                },
+                "Name": "ui_jiantou1_4_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_jiantou1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 564.6996,
+                  "Y": 501.9353
+                },
+                "Scale": {
+                  "ScaleX": -1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": -270.0,
+                "RotationSkewY": -269.986,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4233,
+                  "Y": 0.6692
+                },
+                "PreSize": {
+                  "X": 0.1792,
+                  "Y": 0.288
+                },
+                "LeftMargin": 445.1996,
+                "RightMargin": 649.8004,
+                "TopMargin": 140.0647,
+                "BottomMargin": 393.9353,
+                "Tag": 16,
+                "ActionTag": -409775757,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 216.0
+                },
+                "Name": "ui_jiantou1_3_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_huanpai2.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 258,
+                "Scale9Height": 104,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 685.71,
+                  "Y": 387.44
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.514,
+                  "Y": 0.5166
+                },
+                "PreSize": {
+                  "X": 0.1934,
+                  "Y": 0.1387
+                },
+                "LeftMargin": 556.71,
+                "RightMargin": 519.29,
+                "TopMargin": 310.56,
+                "BottomMargin": 335.44,
+                "Tag": 170,
+                "ActionTag": 1596399268,
+                "Size": {
+                  "X": 258.0,
+                  "Y": 104.0
+                },
+                "Name": "tx2",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1544029061,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_tx2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 1334.0,
+            "TopMargin": 750.0,
+            "Tag": 9,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_huanpai3.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 222,
+                "Scale9Height": 104,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 685.71,
+                  "Y": 387.44
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 574.71,
+                "RightMargin": -796.71,
+                "TopMargin": -439.44,
+                "BottomMargin": 335.44,
+                "Tag": 171,
+                "ActionTag": 1987881758,
+                "Size": {
+                  "X": 222.0,
+                  "Y": 104.0
+                },
+                "Name": "tx3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_jiantou2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 544.4832,
+                  "Y": 410.2668
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 516.9832,
+                "RightMargin": -571.9832,
+                "TopMargin": -511.2668,
+                "BottomMargin": 309.2668,
+                "Tag": 17,
+                "ActionTag": 1586935460,
+                "Size": {
+                  "X": 55.0,
+                  "Y": 202.0
+                },
+                "Name": "ui_jiantou2_9",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "g/mjBloody/ui/ui_jiantou2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 826.381,
+                  "Y": 378.1358
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 180.0,
+                "RotationSkewY": 180.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 798.881,
+                "RightMargin": -853.881,
+                "TopMargin": -479.1358,
+                "BottomMargin": 277.1358,
+                "Tag": 18,
+                "ActionTag": 1156851627,
+                "Size": {
+                  "X": 55.0,
+                  "Y": 202.0
+                },
+                "Name": "ui_jiantou2_9_0",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 668179553,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "VisibleForFrame": false,
+            "Name": "_tx3",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "g/mjBloody/ui/ui_desbg.png",
+        "g/mjBloody/ui/ui_huanpai1.png",
+        "g/mjBloody/ui/ui_huanpai2.png",
+        "g/mjBloody/ui/ui_huanpai3.png",
+        "g/mjBloody/ui/ui_jiantou1.png",
+        "g/mjBloody/ui/ui_jiantou2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
