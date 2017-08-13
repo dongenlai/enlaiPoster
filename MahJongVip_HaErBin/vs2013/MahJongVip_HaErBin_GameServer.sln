@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "commproj", "commproj\commproj.vcxproj", "{552B06CD-BFA3-4415-B675-82DDBD631631}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MahJongVip_HaErBin_AreaMgr", "MahJongVip_HaErBin_AreaMgr\MahJongVip_HaErBin_AreaMgr.vcxproj", "{470301B2-93E1-40B8-8106-358C990A2811}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MahJongVip_HaErBin_DbMgr", "MahJongVip_HaErBin_DbMgr\MahJongVip_HaErBin_DbMgr.vcxproj", "{470301B2-93E1-40B8-8106-358C990A2812}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MahJongVip_HaErBin_GameArea", "MahJongVip_HaErBin_GameArea\MahJongVip_HaErBin_GameArea.vcxproj", "{470301B2-93E1-40B8-8106-358C990A2813}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MahJongVip_HaErBin_ServerCtrl", "MahJongVip_HaErBin_ServerCtrl\MahJongVip_HaErBin_ServerCtrl.vcxproj", "{552B06CD-BFA3-4415-B675-12DDBD631631}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{552B06CD-BFA3-4415-B675-82DDBD631631}.Debug|Win32.ActiveCfg = Debug|Win32
+		{552B06CD-BFA3-4415-B675-82DDBD631631}.Debug|Win32.Build.0 = Debug|Win32
+		{552B06CD-BFA3-4415-B675-82DDBD631631}.Release|Win32.ActiveCfg = Release|Win32
+		{552B06CD-BFA3-4415-B675-82DDBD631631}.Release|Win32.Build.0 = Release|Win32
+		{470301B2-93E1-40B8-8106-358C990A2811}.Debug|Win32.ActiveCfg = Debug|Win32
+		{470301B2-93E1-40B8-8106-358C990A2811}.Debug|Win32.Build.0 = Debug|Win32
+		{470301B2-93E1-40B8-8106-358C990A2811}.Release|Win32.ActiveCfg = Release|Win32
+		{470301B2-93E1-40B8-8106-358C990A2811}.Release|Win32.Build.0 = Release|Win32
+		{470301B2-93E1-40B8-8106-358C990A2812}.Debug|Win32.ActiveCfg = Debug|Win32
+		{470301B2-93E1-40B8-8106-358C990A2812}.Debug|Win32.Build.0 = Debug|Win32
+		{470301B2-93E1-40B8-8106-358C990A2812}.Release|Win32.ActiveCfg = Release|Win32
+		{470301B2-93E1-40B8-8106-358C990A2812}.Release|Win32.Build.0 = Release|Win32
+		{470301B2-93E1-40B8-8106-358C990A2813}.Debug|Win32.ActiveCfg = Debug|Win32
+		{470301B2-93E1-40B8-8106-358C990A2813}.Debug|Win32.Build.0 = Debug|Win32
+		{470301B2-93E1-40B8-8106-358C990A2813}.Release|Win32.ActiveCfg = Release|Win32
+		{470301B2-93E1-40B8-8106-358C990A2813}.Release|Win32.Build.0 = Release|Win32
+		{552B06CD-BFA3-4415-B675-12DDBD631631}.Debug|Win32.ActiveCfg = Debug|Win32
+		{552B06CD-BFA3-4415-B675-12DDBD631631}.Debug|Win32.Build.0 = Debug|Win32
+		{552B06CD-BFA3-4415-B675-12DDBD631631}.Release|Win32.ActiveCfg = Release|Win32
+		{552B06CD-BFA3-4415-B675-12DDBD631631}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

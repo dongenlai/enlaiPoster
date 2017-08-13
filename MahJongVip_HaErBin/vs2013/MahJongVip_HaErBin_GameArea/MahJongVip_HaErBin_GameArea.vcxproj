@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\MahJongVip_HaErBin_GameArea\cfg_area.h" />
+    <ClInclude Include="..\..\MahJongVip_HaErBin_GameArea\epoll_gamearea.h" />
+    <ClInclude Include="..\..\MahJongVip_HaErBin_GameArea\global_var.h" />
+    <ClInclude Include="..\..\MahJongVip_HaErBin_GameArea\mjActionMgr.h" />
+    <ClInclude Include="..\..\MahJongVip_HaErBin_GameArea\mjDataMgr.h" />
+    <ClInclude Include="..\..\MahJongVip_HaErBin_GameArea\mjLogic.h" />
+    <ClInclude Include="..\..\MahJongVip_HaErBin_GameArea\mjTypeDefine.h" />
+    <ClInclude Include="..\..\MahJongVip_HaErBin_GameArea\table_mgr.h" />
+    <ClInclude Include="..\..\MahJongVip_HaErBin_GameArea\type_area.h" />
+    <ClInclude Include="..\..\MahJongVip_HaErBin_GameArea\type_card.h" />
+    <ClInclude Include="..\..\MahJongVip_HaErBin_GameArea\world_gamearea.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\MahJongVip_HaErBin_GameArea\cfg_area.cpp" />
+    <ClCompile Include="..\..\MahJongVip_HaErBin_GameArea\epoll_gamearea.cpp" />
+    <ClCompile Include="..\..\MahJongVip_HaErBin_GameArea\global_var.cpp" />
+    <ClCompile Include="..\..\MahJongVip_HaErBin_GameArea\main_gamearea.cpp" />
+    <ClCompile Include="..\..\MahJongVip_HaErBin_GameArea\mjActionMgr.cpp" />
+    <ClCompile Include="..\..\MahJongVip_HaErBin_GameArea\mjDataMgr.cpp" />
+    <ClCompile Include="..\..\MahJongVip_HaErBin_GameArea\mjLogic.cpp" />
+    <ClCompile Include="..\..\MahJongVip_HaErBin_GameArea\table_mgr.cpp" />
+    <ClCompile Include="..\..\MahJongVip_HaErBin_GameArea\type_area.cpp" />
+    <ClCompile Include="..\..\MahJongVip_HaErBin_GameArea\type_card.cpp" />
+    <ClCompile Include="..\..\MahJongVip_HaErBin_GameArea\world_gamearea.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{470301B2-93E1-40B8-8106-358C990A2813}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Websocket</RootNamespace>
+    <ProjectName>MahJongVip_HaErBin_GameArea</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\..\common;..\..\..\win32\linux;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;__WEBSOCKET_CLIENT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

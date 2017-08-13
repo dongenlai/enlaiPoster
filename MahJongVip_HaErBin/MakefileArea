@@ -1,0 +1,43 @@
+CXX=g++
+
+BIN_PATH = /usr/local/bin
+
+INCLUDE_PATH = /usr/local/include
+
+LIB_PATH = /usr/lib64
+LOCAL_LIB_PATH = /usr/local/lib
+
+CFLAGS=-W -I$(INCLUDE_PATH) -I$(BIN_PATH) \
+		 -Icommon -c -g -std=c++0x \
+		 -D__WEBSOCKET_CLIENT
+LFLAGS=-L$(LIB_PATH) -L$(LOCAL_LIB_PATH) \
+		-ldl -lm  -g -lpthread -lcurl -Wl,-E
+OTHERLIB=$(LOCAL_LIB_PATH)/libssl.a $(LOCAL_LIB_PATH)/libcrypto.a
+
+COMMON_O = common/type_mogo.o common/mailbox.o common/world.o \
+	common/epoll_server.o common/net_util.o common/http.o \
+	common/pluto.o common/util.o common/sha1.o \
+	common/rpc_mogo.o common/json_helper.o \
+	common/logger.o common/cfg_reader.o common/exception.o common/bitcryto.o \
+	common/md5.o common/memory_pool.o common/mutex.o common/debug.o common/cjson.o \
+	common/base64.o
+OTHERS_O=$(COMMON_O)
+
+MahJongVip_HaErBin_GameArea_O = MahJongVip_HaErBin_GameArea/main_gamearea.o MahJongVip_HaErBin_GameArea/epoll_gamearea.o MahJongVip_HaErBin_GameArea/world_gamearea.o \
+        MahJongVip_HaErBin_GameArea/type_area.o MahJongVip_HaErBin_GameArea/cfg_area.o MahJongVip_HaErBin_GameArea/mjLogic.o \
+        MahJongVip_HaErBin_GameArea/table_mgr.o MahJongVip_HaErBin_GameArea/global_var.o MahJongVip_HaErBin_GameArea/type_card.o \
+		MahJongVip_HaErBin_GameArea/mjDataMgr.o MahJongVip_HaErBin_GameArea/mjActionMgr.o
+
+ALL_O = $(OTHERS_O) $(MahJongVip_HaErBin_GameArea_O)
+
+BIN_HOME = ./bin
+APP= $(BIN_HOME)/MahJongVip_HaErBin_GameArea
+
+%.o:%.cpp
+	$(CXX) $(CFLAGS) $< -o $@
+	
+
+all:$(ALL_O)
+	$(CXX) $(LFLAGS) $(OTHERS_O) $(MahJongVip_HaErBin_GameArea_O)       -o $(BIN_HOME)/MahJongVip_HaErBin_GameArea $(OTHERLIB)
+clean:
+	-rm -f $(ALL_O) $(APP)
