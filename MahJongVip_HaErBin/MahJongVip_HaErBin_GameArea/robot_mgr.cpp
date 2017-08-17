@@ -51,7 +51,6 @@ void CRobotMgr::InitCfg(CCfgReader* cfg)
             m_allUserId.push_back(userId);
         }
     }
-
     if (m_allRobot.size() < MAX_TABLE_HANDLE_COUNT * (MAX_TABLE_USER_COUNT - 1))
     {
         LogError("CRobotMgr::InitCfg", "robot too little");

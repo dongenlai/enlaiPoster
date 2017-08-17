@@ -40,6 +40,8 @@ public:
 public:
 	int gameRoomId;
     int area_num;
+	int64_t robot_min_bean;
+	int64_t robot_max_bean;
 	int masterFsId;
     string bean_name;
 	int dealCard_Sec;

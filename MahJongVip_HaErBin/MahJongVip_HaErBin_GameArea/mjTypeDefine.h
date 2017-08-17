@@ -11,6 +11,10 @@ const int MJDATA_TYPE_COUNT = 9 + 9 + 9 + 4 + 3;       //
 const int MJDATA_CARDID_ERROR = 255;                   // 错误的CARDID编号
 const int MJDATA_CARDID_ANY = 254;                     // 代表任意一张牌
 
+
+const int C_TIMER_INTERVAL = 100;
+const int C_TIMER_COUNT_ONE_SECOND = 1000 / C_TIMER_INTERVAL;
+
 enum TMJCardSuit
 {
 	mjcsError = 0,

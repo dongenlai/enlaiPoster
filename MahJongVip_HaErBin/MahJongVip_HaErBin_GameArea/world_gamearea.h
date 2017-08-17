@@ -67,11 +67,13 @@ class CWorldGameArea : public world
         CCalcTimeTick m_checkTaskTime;                          //检测任务超时
         CCalcTimeTick m_reportNumTime;                          //定时上报服务器信息
         CCalcTimeTick m_checkUserTimeoutTime;                   //定时检测用户是否超时无数据包
+		CCalcTimeTick m_checkReadRobotUserInfoTime;             //定时检测是否需要读取机器人信息
 
         CWorldGameArea(const CWorldGameArea&);
         CWorldGameArea& operator=(const CWorldGameArea&);
 
 		bool m_tryReportStart2FS;								// 开启服务器时，上报游戏服务信息给FS
+		
 		bool m_hasReportStart2TableMgr;							// 开启服务时，上报清除该服务器下的所有多开信息
 };
 

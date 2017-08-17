@@ -21,10 +21,11 @@ TTableRuleInfo::TTableRuleInfo(TTableRuleInfo& other)
     isAnKeJiaFen = other.isAnKeJiaFen;
     isKaiPaiZha = other.isKaiPaiZha;
     isBaoZhongBao = other.isBaoZhongBao;
-    isHEBorDQ = other.isHEBorDQ;
+	isHEBorHeiLongJiang = other.isHEBorHeiLongJiang;
+	isJiQiRen = other.isJiQiRen;
 }
 
-void TTableRuleInfo::setTableRule(bool chunjia, bool hongzhongBao, bool guadafeng, bool sanqijia, bool dandiaojia, bool zhiduijia, bool zhanli, bool menqing, bool anke, bool kaipaizha, bool baozhongbao, int haerbinOrdaqing)
+void TTableRuleInfo::setTableRule(bool chunjia, bool hongzhongBao, bool guadafeng, bool sanqijia, bool dandiaojia, bool zhiduijia, bool zhanli, bool menqing, bool anke, bool kaipaizha, bool baozhongbao, int haerbinOrheilongjiang, int isJiQiRen)
 {
     isChunJia = chunjia;
     isLaizi = hongzhongBao;
@@ -37,16 +38,17 @@ void TTableRuleInfo::setTableRule(bool chunjia, bool hongzhongBao, bool guadafen
     isAnKeJiaFen = anke;
     isKaiPaiZha = kaipaizha;
     isBaoZhongBao = baozhongbao;
-    isHEBorDQ = haerbinOrdaqing;
+	isHEBorHeiLongJiang = haerbinOrheilongjiang;
+	isJiQiRen = isJiQiRen;
 
-    LogInfo("TTableRuleInfo::setTableRule", "isChunJia:%d - isLaizi:%d - isGuaDaFeng:%d - isSanQiJia:%d - isDanDiaoJia:%d - isZhiDuiJia:%d - isZhanLiHu:%d - isMenQingJiaFen:%d - isAnKeJiaFen:%d - isKaiPaiZha:%d - isBaoZhongBao:%d- isHEBorDQ:%d",
-                                                isChunJia, isLaizi, isGuaDaFeng, isSanQiJia, isDanDiaoJia, isZhiDuiJia, isZhanLiHu, isMenQingJiaFen, isAnKeJiaFen, isKaiPaiZha, isBaoZhongBao,  isHEBorDQ);//try
+    LogInfo("TTableRuleInfo::setTableRule", "isChunJia:%d - isLaizi:%d - isGuaDaFeng:%d - isSanQiJia:%d - isDanDiaoJia:%d - isZhiDuiJia:%d - isZhanLiHu:%d - isMenQingJiaFen:%d - isAnKeJiaFen:%d - isKaiPaiZha:%d - isBaoZhongBao:%d- isHEBorHeiLongJiang:%d",
+                                                isChunJia, isLaizi, isGuaDaFeng, isSanQiJia, isDanDiaoJia, isZhiDuiJia, isZhanLiHu, isMenQingJiaFen, isAnKeJiaFen, isKaiPaiZha, isBaoZhongBao,  isHEBorHeiLongJiang);//try
 }
 
 void TTableRuleInfo::WriteTableRuleToPluto(CPluto& u)
 {
     u << int32_t(isChunJia) << int32_t(isLaizi) << int32_t(isGuaDaFeng) << int32_t(isSanQiJia) << int32_t(isDanDiaoJia) << int32_t(isZhiDuiJia) << int32_t(isZhanLiHu)
-        << isMenQingJiaFen << isAnKeJiaFen << isKaiPaiZha << isBaoZhongBao << isHEBorDQ;
+		<< isMenQingJiaFen << isAnKeJiaFen << isKaiPaiZha << isBaoZhongBao << isHEBorHeiLongJiang << isJiQiRen;
 }
 
 

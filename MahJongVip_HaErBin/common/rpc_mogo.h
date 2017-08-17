@@ -9,6 +9,9 @@
 
 enum MSGID_ENUM_TYPE
 {
+	//机器人读取用户信息特殊类型
+	MSGID_ROBOT_READ_USERINFO = 8888,
+
     //area发给客户端的包
     MSGID_CLIENT_LOGIN_RESP                 = 1,                                    //账号登录结果
     MSGID_CLIENT_UPDATE_USERINFO_RESP       = 2,                                    //刷新用户信息结果

@@ -264,7 +264,7 @@ void CGameTable::DoUserDisbandTable(CTableUser* pTUser, int ctrlCode, int isAgre
 		}
 		else
 		{
-			m_decTimeQuestDisband = g_config_area->wait_answer_disband_sec;
+			m_decTimeQuestDisband = C_TIMER_COUNT_ONE_SECOND * g_config_area->wait_answer_disband_sec;
 			m_questDisbandUserId = pTUser->userInfo.baseInfo.userId;
 			pTUser->lastQuestDisbandTick = GetNowMsTick();
 			m_isQuestDisband = true;
@@ -679,9 +679,9 @@ bool CGameTable::CheckRunTime()
 {
     if (m_isActive)
     {
-        if (m_lastRunTick.GetPassMsTick() >= 1000)
+        if (m_lastRunTick.GetPassMsTick() >= C_TIMER_INTERVAL)
         {
-            m_lastRunTick.AddMsTick(1000);
+			m_lastRunTick.AddMsTick(C_TIMER_INTERVAL);
             RobotAction();
             RunTime();
         }
@@ -738,7 +738,70 @@ void CGameTable::SetNotActive()
     }
 }
 
-bool CGameTable::EnterTable(SUserInfo* pUser, int chairIndex)
+void CGameTable::RobotEnterTable(){
+	//SConfigRoomParam* roomParam = (g_config_area->RoomParamCfg.find(m_gameRoomID))->second;
+	//// 添加机器人,每隔3秒添加一次机器人
+	//m_robotEnterTick.SetNowTime();
+	//int len = 0;
+	//int emptyChairAry[MAX_TABLE_USER_COUNT];
+	//len = GetEmptyChairAry(emptyChairAry);
+	//int addRobotNum = GetRandomRange(0, len);
+	//int sitRobotNum = g_table_mgr->getSitRobotNum(m_gameRoomID);
+	//int canSitRobotNum = roomParam->maxRobotNum - sitRobotNum;
+	//if (canSitRobotNum < 0)
+	//{
+	//	canSitRobotNum = 0;
+	//}
+	// 根据想要添加的机器人数量（addRobotNum）和能够添加的机器人的数量（canSitRobotNum），选择其中的小值进行机器人的添加
+	int addRobotNum = 3; 
+	LogInfo("CGameTable::RobotEnterTable", "addRobotNum=%d", addRobotNum);
+	for (int i = 0; i < addRobotNum; ++i)
+	{
+		int emptyIndex = this->GetEmptyChairIndex();
+		if (emptyIndex < 0)
+		{
+			LogError("CGameTable::RunTime", "emptyIndex < 0");
+			return;
+		}
+		SUserInfo* pUserToAdded = g_robot_mgr->AllocRobotUser(0);
+		if (pUserToAdded)
+		{
+			if (!this->EnterTable(pUserToAdded, emptyIndex, true))
+			{
+				g_robot_mgr->FreeRobotUser(pUserToAdded->baseInfo.userId);
+				continue;
+			}
+			else
+			{
+				LogInfo("CGameTable::RobotEnterTable", "机器人入座");
+			}
+		}
+		else
+		{
+			LogInfo("CGameTable::RobotEnterTable", "机器人用户没有找到");
+			break;
+		}
+	}
+}
+
+int CGameTable::GetEmptyChairIndex()
+{
+	int maxLen = m_userList.size();
+	LogInfo("CGameTable::GetEmptyChairIndex", "机器人入座%d", maxLen);
+	// 优先进入空位置
+	for (int i = 0; i < maxLen; ++i)
+	{
+		CTableUser* pItem = m_userList[i];
+		if (tusNone == pItem->ustate)
+		{
+			return i;
+		}
+	}
+	return -1;
+}
+
+
+bool CGameTable::EnterTable(SUserInfo* pUser, int chairIndex, bool isRobot)
 {
     CTableUser* pTOldUser = FindUserById(pUser->baseInfo.userId);
     CTableUser* pTSitUser = FindUserByChairIndex(chairIndex);
@@ -747,6 +810,7 @@ bool CGameTable::EnterTable(SUserInfo* pUser, int chairIndex)
         LogError("CGameTable::EnterTable", "cannot find chairIndex");
         return false;
     }
+
 
     if(pTOldUser)
     {
@@ -764,9 +828,10 @@ bool CGameTable::EnterTable(SUserInfo* pUser, int chairIndex)
 
         SetIsActive();
         LogInfo("CGameTable::EnterTable", "offline return success userId= %d", pUser->baseInfo.userId);
-        AddUser(pUser, chairIndex);
+		AddUser(pUser, chairIndex, isRobot);
         pTOldUser->ustate = tusNomal;
         pTOldUser->userInfo.CopyFrom(*pUser);
+		pTSitUser->isRobot = isRobot;
 
         // 通知他人用户状态变化
         SendUserStateNotify(pUser->baseInfo.userId, chairIndex,  pTOldUser->ustate, pUser->baseInfo.bean);
@@ -798,10 +863,19 @@ bool CGameTable::EnterTable(SUserInfo* pUser, int chairIndex)
             pTSitUser->ustate = tusNomal;
         }
 
-        SetIsActive();
-        LogInfo("CGameTable::EnterTable", "sit success userId= %d handle=%d chairIndex=%d", pUser->baseInfo.userId, m_handle, chairIndex);
-        AddUser(pUser, chairIndex);
+		if (!isRobot){
+			SetIsActive();
+		}
+      
+		if (!isRobot)
+		{
+			LogInfo("CGameTable::EnterTable", "sit success userId= %d handle=%d chairIndex=%d, isRobot=%d, userId: %d",
+				pUser->baseInfo.userId, m_handle, chairIndex, isRobot, pUser->baseInfo.userId);
+		}
+
+		AddUser(pUser, chairIndex, isRobot);
         pTSitUser->userInfo.CopyFrom(*pUser);
+		pTSitUser->isRobot = isRobot;
         pTSitUser->userInfo.activeInfo.enterTableTick = GetNowMsTick();
 
 		if (m_createUserId == pUser->baseInfo.userId)
@@ -945,6 +1019,8 @@ void CGameTable::SendStartGameNotify(int chairIndex)
 		int decTimeCount = m_decTimeCount;
 		if (m_tstate == tbsDiscard)
 			decTimeCount = m_mjActionMgr.getDecTimeCount();
+		decTimeCount /= C_TIMER_COUNT_ONE_SECOND;
+
 		// 通知完整信息 开始游戏和用户列表已经发送的数据就不用重复了
         int isMoBao = (m_mjDataMgr.FBaoPaiCardID != MJDATA_CARDID_ERROR) ? 1 : 0;
 		CPluto* puSyn = new CPluto();
@@ -1015,8 +1091,9 @@ void CGameTable::SendStartGameNotify(int chairIndex)
 		if (pTUser->agreeEnd == 0)
 		{
 			CPluto* puNotify = new CPluto();
+			int32_t decTimeQuestDisband = m_decTimeQuestDisband / C_TIMER_COUNT_ONE_SECOND;
 			(*puNotify).Encode(MSGID_CLIENT_DISBAND_TABLE_NOTIFY) << 0 << m_questDisbandUserId <<
-				0 << m_decTimeQuestDisband << EndPluto;
+				0 << decTimeQuestDisband << EndPluto;
 			SendPlutoToUser(puNotify, pTUser);
 		}
 	}
@@ -1093,12 +1170,23 @@ void CGameTable::RunTime()
     {
     case tbsNone:
         {
+			//if (FParentTable->m_tableRule.isJiQiRen == 1){
+				//if (m_sitUserList.size() != 4){
+					//LogInfo("TABLE_MGR::Runtime", "机器人入场%d", m_tableRule.isJiQiRen);
+					//RobotEnterTable();
+				//}
+			//}
 			--m_decTimeCount;
 			int readyCount = 0;
 			for (map<int, CTableUser*>::iterator iter = m_sitUserList.begin(); iter != m_sitUserList.end(); ++iter)
 			{
-				if (iter->second->isReady)
+				//机器人自动准备
+				if (iter->second->isReady || iter->second->isRobot){
+					if (iter->second->isRobot){
+						iter->second->isReady = true;
+					}
 					++readyCount;
+				}
 			}
 			bool isEnd = readyCount >= MIN_TABLE_USER_COUNT;
 			if (m_decTimeCount <= 0)
@@ -1112,6 +1200,7 @@ void CGameTable::RunTime()
 			}
 			if (isEnd)
 			{
+				
 				CheckCanDealCard();
 				// 所有人准备，向cis上报桌子游戏已经开始的状态
 				ReportTableStartState();
@@ -1317,7 +1406,7 @@ void CGameTable::AddGameRound()
     }
 }
 
-void CGameTable::AddUser(SUserInfo* pUser, int chairIndex)
+void CGameTable::AddUser(SUserInfo* pUser, int chairIndex, bool isRobot)
 {
     pUser->activeInfo.userState = EUS_INTABLE;
     pUser->activeInfo.tableHandle = m_handle;
@@ -1373,6 +1462,8 @@ void CGameTable::ClearUser(CTableUser* pTUser)
 	int place = pTUser->userInfo.activeInfo.chairIndex;
     m_sitUserList.erase(userId);
     g_table_mgr->RemoveSitUser(userId);
+	if (pTUser->isRobot)
+		g_robot_mgr->FreeRobotUser(userId);
 
 	// 放在这里不知道对不对！！
 	UnlockUser(pTUser);
@@ -1396,7 +1487,7 @@ void CGameTable::ClearUser(CTableUser* pTUser)
         if (m_curRound <= 0)
             m_clearRemainSec = 0;
         else
-            m_clearRemainSec = g_config_area->table_remain_sec;
+            m_clearRemainSec = C_TIMER_COUNT_ONE_SECOND * g_config_area->table_remain_sec;
     }
 
     LogInfo("CGameTable::ClearUser", "userId=%d left user count=%d", userId, m_sitUserList.size());
@@ -1556,7 +1647,7 @@ void CGameTable::DoUserTrust(CTableUser* pTUser, int isTrust, int ignoreUserId)
     if(pTUser->isTrust != isTrust)
     {
         pTUser->isTrust = isTrust;
-
+		LogInfo("CGameTable::DoUserTrust", "trust state ing");
         int userId = pTUser->userInfo.baseInfo.userId;
         CPluto* pu = new CPluto();
         (*pu).Encode(MSGID_CLIENT_G_OTHER_TRUST_NOTIFY) << userId << isTrust << EndPluto;
@@ -1617,7 +1708,7 @@ void CGameTable::CheckCanDealCard()
     }
 
     m_tstate = tbsDealCard;
-	m_decTimeCount = g_config_area->dealCard_Sec; 
+	m_decTimeCount = C_TIMER_COUNT_ONE_SECOND * g_config_area->dealCard_Sec; 
 
 	// dice dealCards
 	{
@@ -1701,7 +1792,7 @@ void CGameTable::StartDiscard()
 {
 	LogInfo("StartDiscard", "开始出牌");
     m_tstate = tbsDiscard;
-	m_decTimeCount = g_config_area->discard_sec;
+	m_decTimeCount = C_TIMER_COUNT_ONE_SECOND * g_config_area->discard_sec;
 
 	m_mjActionMgr.beginXingPai();
 
@@ -1711,12 +1802,13 @@ void CGameTable::StartDiscard()
 		{
 			tmpVector.push_back((*it)->selDelSuit);
 		}
+		int32_t decTimeCount = m_mjActionMgr.getDecTimeCount() / C_TIMER_COUNT_ONE_SECOND;
 
 		for (auto it = m_userList.begin(); it != m_userList.end(); it++)
 		{
 			CPluto* pu = new CPluto();
 			(*pu).Encode(MSGID_CLIENT_G_SEL_DEL_SUIT_NOTIFY) << tmpVector[0] << tmpVector[1] <<
-				tmpVector[2] << tmpVector[3] << m_mjDataMgr.FCurrPlace << m_mjActionMgr.getDecTimeCount();
+				tmpVector[2] << tmpVector[3] << m_mjDataMgr.FCurrPlace << decTimeCount;
 			m_mjActionMgr.writeUserAction2Pluto((*it)->userInfo.activeInfo.chairIndex, pu);
 			(*pu) << EndPluto;
 			SendPlutoToUser(pu, (*it));
@@ -2010,7 +2102,7 @@ void CGameTable::endXingPaiCalcResult()
 		CTableUser* pTUser = m_userList[i];
 		for (auto itt = pTUser->huPaiInfo.begin(); itt != pTUser->huPaiInfo.end(); itt++)
 		{
-            (*itt).calcScores(m_tableRule.isHEBorDQ);
+			(*itt).calcScores(m_tableRule.isHEBorHeiLongJiang);
 			TMJHuPaiInfoItem huPaiItem = (*itt);
             {
                 // try 测试番种信息
@@ -2078,7 +2170,7 @@ void CGameTable::endXingPaiCalcResult()
 	// 积分上报
 	//StartReportScore();
 	m_tstate = tbsShowTheLastCard;
-	m_decTimeCount = g_config_area->showLastCard_Sec;
+	m_decTimeCount = C_TIMER_COUNT_ONE_SECOND * g_config_area->showLastCard_Sec;
 
 	// 游戏结束时再扣房卡
 	StartConsumeSpecialGold();
@@ -2181,8 +2273,8 @@ void CGameTable::GenerateOptionStr()
 {
 	m_optionStr.clear();
 	char buffer[256];
-	snprintf(buffer, sizeof(buffer), "{gameRoomId: %d, isChunJia: %d, isLaizi: %d, isGuaDaFeng: %d, isSanQiJia: %d, isDanDiaoJia: %d, isZhiDuiJia: %d,isZhanLiHu:%d,isMenQing:%d,isAnKe:%d,isKaiPaiZha:%d,isBaoZhongBao:%d,isHEBorDQ:%d,vipRoomType: %d}",
-		g_config_area->gameRoomId, m_tableRule.isChunJia, m_tableRule.isLaizi, m_tableRule.isGuaDaFeng, m_tableRule.isSanQiJia, m_tableRule.isDanDiaoJia, m_tableRule.isZhiDuiJia, m_tableRule.isZhanLiHu, m_tableRule.isMenQingJiaFen, m_tableRule.isAnKeJiaFen, m_tableRule.isKaiPaiZha, m_tableRule.isBaoZhongBao, m_tableRule.isHEBorDQ,m_vipRoomType);
+	snprintf(buffer, sizeof(buffer), "{gameRoomId: %d, isChunJia: %d, isLaizi: %d, isGuaDaFeng: %d, isSanQiJia: %d, isDanDiaoJia: %d, isZhiDuiJia: %d,isZhanLiHu:%d,isMenQing:%d,isAnKe:%d,isKaiPaiZha:%d,isBaoZhongBao:%d,isHEBorHeiLongJiang:%d,vipRoomType: %d}",
+		g_config_area->gameRoomId, m_tableRule.isChunJia, m_tableRule.isLaizi, m_tableRule.isGuaDaFeng, m_tableRule.isSanQiJia, m_tableRule.isDanDiaoJia, m_tableRule.isZhiDuiJia, m_tableRule.isZhanLiHu, m_tableRule.isMenQingJiaFen, m_tableRule.isAnKeJiaFen, m_tableRule.isKaiPaiZha, m_tableRule.isBaoZhongBao, m_tableRule.isHEBorHeiLongJiang, m_vipRoomType);
 	m_optionStr = buffer;
 }
 

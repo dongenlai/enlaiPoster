@@ -32,6 +32,9 @@ void CConfigArea::InitCfg(CCfgReader* cfg)
 	gameRoomId = atoi(cfg->GetValue("params", "gameRoomId").c_str());
 	masterFsId = atoi(cfg->GetValue("params", "master_fs_id").c_str());
 	area_num = atoi(cfg->GetValue("params", "area_num").c_str());
+	robot_min_bean = atoll(cfg->GetValue("robotscore", "robot_min_bean").c_str());
+	robot_max_bean = atoll(cfg->GetValue("robotscore", "robot_max_bean").c_str());
+
 	if (area_num < 0)
 		area_num = 0;
 	if (area_num > 999)

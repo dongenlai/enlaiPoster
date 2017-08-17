@@ -46,5 +46,6 @@ int main(int argc, char* argv[])
     delete g_pTheWorld;
     delete g_config_area;
     delete g_table_mgr;
+	delete g_robot_mgr;
     delete g_logic_mgr;
 }

@@ -27,6 +27,8 @@ int CWorldGameArea::init(const char* pszEtcFile)
     try
     {
         g_config_area->InitCfg(m_cfg);
+	    //try rebot
+		g_robot_mgr->InitCfg(m_cfg);
     }
     catch (CException & ex)
     {
@@ -341,6 +343,14 @@ void CWorldGameArea::OnThreadRun()
 		}
 		CheckTaskListTimeOut();
 	}
+	//try rebot
+	/*if (m_checkReadRobotUserInfoTime.GetPassMsTick() > 1015)
+	{
+		LogInfo("cWorldGameArea::OnThreadRun", "创建机器人任务");
+		m_checkReadRobotUserInfoTime.SetNowTime();
+		g_robot_mgr->CheckStartReadUserInfo();
+	}*/
+
 	if (m_reportNumTime.GetPassMsTick() > 5013)
 	{
 		if (!m_hasReportStart2TableMgr)
@@ -417,6 +427,15 @@ int CWorldGameArea::ProcClientLogin(T_VECTOR_OBJECT* p, int srcFd)
             ClientLoginResponse(srcFd, ERROR_CODE_VERSION_TOO_LITTLE, "您的客户端版本太低，请升级后再登录");
             return 0;
         }
+
+		//try rebot
+		/*if (!g_robot_mgr->GetIsInit())
+		{
+			LogWarning("CWorldGameArea::ProcClientLogin", "!g_robot_mgr->GetIsInit()");
+			ClientLoginResponse(srcFd, 100, "服务器维护中");
+		}*/
+
+
         //创建任务
         CAreaTaskReadUserInfo* task = new CAreaTaskReadUserInfo(MSGID_CLIENT_LOGIN, srcFd);
         m_taskList.insert(make_pair(task->GetTaskId(), task));
@@ -518,7 +537,12 @@ int CWorldGameArea::ProcReadUserInfoCallback(T_VECTOR_OBJECT* p)
     string& retErrorMsg = VOBJECT_GET_SSTR((*p)[index++]);
     SUserBaseInfo baseInfo;
     baseInfo.ReadFromVObj(*p, index);
-
+	//try rebot
+	//if (MSGID_ROBOT_READ_USERINFO == task->GetMsgId())
+	//{
+	//	g_robot_mgr->ReadUserInfoCallback(retCode, retErrorMsg.c_str(), clientFd, baseInfo);
+	//	return 0;
+	//}
     CMailBox* mb = GetServer()->GetFdMailbox(clientFd);
     if(!mb)
     {
@@ -550,6 +574,14 @@ int CWorldGameArea::ProcReadUserInfoCallback(T_VECTOR_OBJECT* p)
 					retErrorMsg = "服务器爆满";
 					return ClientLoginResponse(clientFd, retCode, retErrorMsg.c_str());
 				}
+
+
+				// try rebot  机器人不让登录，否则会错乱
+				if (g_robot_mgr->IsRobot(baseInfo.userId))
+				{
+					return ClientLoginResponse(clientFd, 1003, "帐号不存在");
+				}
+
                 if(EUS_NONE != pUser->activeInfo.userState)
                 {
                     LogInfo("CWorldGameArea::ProcReadUserInfoCallback", "EUS_NONE != pUser->ativeInfo.userState");
@@ -593,7 +625,7 @@ int CWorldGameArea::ProcReadUserInfoCallback(T_VECTOR_OBJECT* p)
                     pTable = g_table_mgr->GetUserTable(userId, chairIndex);
                     if(pTable)
                     {
-                        isOfflineRet = pTable->EnterTable(pUser, chairIndex);
+                        isOfflineRet = pTable->EnterTable(pUser, chairIndex, false);
                         if(!isOfflineRet)
                         {
                             LogError("CWorldGameArea::ProcReadUserInfoCallback", "EnterTable failed");
@@ -995,7 +1027,7 @@ void CWorldGameArea::ClientSitResponse(int retCode, int tableHandle, int clientF
 		if (emptyCount < 1)
 			ThrowException(11, "牌局已满");
 		enterChair = emptyChairAry[0];
-		if (!pEnterTable->EnterTable(pUser, enterChair))
+		if (!pEnterTable->EnterTable(pUser, enterChair, false))
 			ThrowException(12, "入坐失败");
 
 	}
@@ -1051,7 +1083,7 @@ int CWorldGameArea::ProcClientOnTick(T_VECTOR_OBJECT* p, int srcFd)
 
 int CWorldGameArea::ProcClientSit(T_VECTOR_OBJECT* p, int srcFd)
 {
-	if (p->size() != 19)
+	if (p->size() != 20)
     {
         LogWarning("CWorldGameArea::ProcClientSit", "p->size() error");
         return -1;
@@ -1076,15 +1108,16 @@ int CWorldGameArea::ProcClientSit(T_VECTOR_OBJECT* p, int srcFd)
     int32_t isAnke = (*p)[index++]->vv.i32;
     int32_t isKaiPaiZha = (*p)[index++]->vv.i32;
     int32_t isBZB = (*p)[index++]->vv.i32;
-    int32_t isHaOrDa = (*p)[index++]->vv.i32;
+    int32_t isHaOrHeiLongJiang = (*p)[index++]->vv.i32;
+	int32_t isJiQiRen = (*p)[index++]->vv.i32;
 
     string tableNum = *(*p)[index++]->vv.s;
     
     LogInfo("ProcClientSit", "fd=%d, jingDu=%f, weiDu=%f, isFind=%d, selScore=%d totalRound=%d, tableNum=%s ", 
 		srcFd, jingDu, weiDu, isFind, selScore, totalRound, tableNum.c_str());
 
-    LogInfo("ProcClientSit", "isChunJia=%d, isLaizi=%d, isGuaDaFeng=%d, isSanQiJia=%d, isDanDiaoJia=%d isZhiDuiJia=%d, isZhanLiHu=%d, isBaoZhongBao=%d, isHEBorDQ=%d",
-        isChunJia, isLaizi, isGuaDaFeng, isSanQiJia, isDanDiaoJia, isZhiDuiJia, isZhanLiHu,isBZB,isHaOrDa);
+    LogInfo("ProcClientSit", "isChunJia=%d, isLaizi=%d, isGuaDaFeng=%d, isSanQiJia=%d, isDanDiaoJia=%d isZhiDuiJia=%d, isZhanLiHu=%d, isBaoZhongBao=%d, isHEBorHeiLongJiang=%d",
+		isChunJia, isLaizi, isGuaDaFeng, isSanQiJia, isDanDiaoJia, isZhiDuiJia, isZhanLiHu, isBZB, isHaOrHeiLongJiang);
 
     SUserInfo* pUser = FindUserByFd(srcFd);
     if(!pUser)
@@ -1140,13 +1173,13 @@ int CWorldGameArea::ProcClientSit(T_VECTOR_OBJECT* p, int srcFd)
                 ThrowException(1010, "参数错误");
             if ((isMenQing == 1) && (isZhanLiHu != 1))
                 ThrowException(1011, "参数错误");
-            if ((isHaOrDa != 0) && (isHaOrDa != 1))
+			if ((isHaOrHeiLongJiang != 0) && (isHaOrHeiLongJiang != 1))
                 ThrowException(1012, "参数错误");
             if ((isBZB != 0) && (isBZB != 1))
                 ThrowException(1013, "参数错误");
-            if ((isHaOrDa == 1) && (isMenQing == 1)) // 大庆玩法无门清选项
+			if ((isHaOrHeiLongJiang == 1) && (isMenQing == 1)) // 大庆玩法无门清选项
                 ThrowException(1014, "参数错误");
-            if ((isHaOrDa == 1) && (isAnke == 1))
+			if ((isHaOrHeiLongJiang == 1) && (isAnke == 1))
                 ThrowException(1015, "参数错误");    // 大庆玩法无暗刻选项
             int userId = pUser->baseInfo.userId;
             // 检测是否可以换桌
@@ -1164,7 +1197,7 @@ int CWorldGameArea::ProcClientSit(T_VECTOR_OBJECT* p, int srcFd)
                 ThrowException(2, "您正在游戏中, 不能创建牌局");
 
             TTableRuleInfo tableRule;
-            tableRule.setTableRule(isChunJia, isLaizi, isGuaDaFeng, isSanQiJia, isDanDiaoJia, isZhiDuiJia, isZhanLiHu, isMenQing, isAnke, isKaiPaiZha, isBZB, isHaOrDa);
+			tableRule.setTableRule(isChunJia, isLaizi, isGuaDaFeng, isSanQiJia, isDanDiaoJia, isZhiDuiJia, isZhanLiHu, isMenQing, isAnke, isKaiPaiZha, isBZB, isHaOrHeiLongJiang, isJiQiRen);
 
             int errCode = 0;
             string errMsg = "";
@@ -1235,7 +1268,7 @@ int CWorldGameArea::ProcClientSit(T_VECTOR_OBJECT* p, int srcFd)
         if (emptyCount < 1)
             ThrowException(11, "牌局已满");
         enterChair = emptyChairAry[0];
-        if (!pEnterTable->EnterTable(pUser, enterChair))
+        if (!pEnterTable->EnterTable(pUser, enterChair, false))
             ThrowException(12, "入坐失败");
     }
     catch (CException& ex)
@@ -1445,6 +1478,14 @@ void CWorldGameArea::CheckTaskListTimeOut()
 			{
 				CAreaTaskReportTableStart* itemR = (CAreaTaskReportTableStart*)item;
 				LogWarning("CWorldGameArea::CheckTaskListTimeOut", "上报桌子开始状态超时 tableHandle = %d", itemR->GetTableHandle());
+				break;
+			}
+
+			case MSGID_ROBOT_READ_USERINFO:
+			{
+				CAreaTaskReadUserInfo* itemR = (CAreaTaskReadUserInfo*)item;
+				SUserBaseInfo baseInfo;
+				g_robot_mgr->ReadUserInfoCallback(101, "读机器人超时", itemR->GetClientFd(), baseInfo);
 				break;
 			}
             default:

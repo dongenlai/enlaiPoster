@@ -67,6 +67,7 @@ public:
 	int getPiaoType();
 public:
     int ustate;
+	bool isRobot;
     int isReady;                    // 定义成int为了方便发包
     int isTrust;
 	int manualTrust;				// 玩家主动点击的托管
@@ -136,13 +137,15 @@ public:
 
     bool CheckRunTime();
     void SetNotActive();
-    bool EnterTable(SUserInfo* pUser, int chairIndex);            // 入座，可能是断线返回
+	bool EnterTable(SUserInfo* pUser, int chairIndex, bool isRobot);            // 入座，可能是断线返回
+	void RobotEnterTable();							                    // 机器人 进入房间
     bool LeaveTable(int userId);                                                // 离开座位，可能引起断线
     CTableUser* OnlyNomalLeaveTable(int userId, bool& mayOffline);              // 只可以正常离开，不会引起断线
 
     void ClientUpdateUserInfo(SUserBaseInfo& baseInfo, int chairIndex);
     void SendStartGameNotify(int chairIndex);
     int GetEmptyChairAry(int* chairAry);
+	int GetEmptyChairIndex();
 
 	void DoUserTrust(CTableUser* pTUser, int isTrust, int ignoreUserId);
 	void endXingPaiCalcResult();
@@ -296,7 +299,7 @@ private:
     void NoUserClearData();
     void RoundStopClearData();
     void AddGameRound();
-    void AddUser(SUserInfo* pUser, int chairIndex);
+	void AddUser(SUserInfo* pUser, int chairIndex, bool isRebot);
     void ClearUser(CTableUser* pTUser);                     // 清理用户，彻底离开桌子  外层不能用m_sitUserList循环
     CMailBox* GetTUserMailBox(CTableUser* pTUser);          // 获得mailbox，机器人和断线用户是NULL
     void ClearTotalScore();

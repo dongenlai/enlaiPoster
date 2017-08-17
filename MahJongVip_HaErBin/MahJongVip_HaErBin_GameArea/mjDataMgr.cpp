@@ -330,7 +330,7 @@ bool CMJDataMgr::canPengPai(CTableUser* pTUser, int cardId) const
 bool CMJDataMgr::canDaMingGang(CTableUser* pTUser, int cardId) const
 {
     // 大庆玩法不带杠
-    if (FParentTable->m_tableRule.isHEBorDQ == 1)
+	if (FParentTable->m_tableRule.isHEBorHeiLongJiang == 1)
         return false;
 
 	int place = pTUser->userInfo.activeInfo.chairIndex;
@@ -363,7 +363,7 @@ bool CMJDataMgr::canDaMingGang(CTableUser* pTUser, int cardId) const
 bool CMJDataMgr::canJiaGang(CTableUser* pTUser, int cardId) const
 {
     // 大庆玩法不带杠
-    if (FParentTable->m_tableRule.isHEBorDQ == 1)
+	if (FParentTable->m_tableRule.isHEBorHeiLongJiang == 1)
         return false;
 
 	bool result;
@@ -379,7 +379,7 @@ bool CMJDataMgr::canJiaGang(CTableUser* pTUser, int cardId) const
 bool CMJDataMgr::canAnGang(CTableUser* pTUser, int cardId) const
 {
     // 大庆玩法不带杠
-    if (FParentTable->m_tableRule.isHEBorDQ == 1)
+	if (FParentTable->m_tableRule.isHEBorHeiLongJiang == 1)
         return false;
 
 	int place = pTUser->userInfo.activeInfo.chairIndex;
@@ -622,7 +622,7 @@ bool CMJDataMgr::canTingPai(CTableUser* pTUser, int decCardId, bool needExpandSt
                     vector<vector<int>> shouPaiCards;
                     g_logic_mgr->getZuHeList(shouPaiCards);
                     calcFanZhongInfo(place, place, true, huType, i, allCardCountAry, shouPaiMjCountAry, shouPaiCards, fanZhongInfo, FParentTable->m_tableRule);
-                    int scores = g_logic_mgr->calcScores(fanZhongInfo, FParentTable->m_tableRule.isHEBorDQ);
+					int scores = g_logic_mgr->calcScores(fanZhongInfo, FParentTable->m_tableRule.isHEBorHeiLongJiang);
 					int remaindCount = getRemaindCount(place, i);
 					if (tingCount > 0)
 						tmpStream << ",";
@@ -763,7 +763,7 @@ bool CMJDataMgr::canTingAfterChiPai(CTableUser* pTUser, int cardId, int cardId00
                     vector<vector<int>> shouPaiCards;
                     g_logic_mgr->getZuHeList(shouPaiCards);
                     calcFanZhongInfo(place, place, true, huType, i, allCardCountAry, shouPaiMjCountAry, shouPaiCards, fanZhongInfo, FParentTable->m_tableRule);
-                    int scores = g_logic_mgr->calcScores(fanZhongInfo, FParentTable->m_tableRule.isHEBorDQ);
+					int scores = g_logic_mgr->calcScores(fanZhongInfo, FParentTable->m_tableRule.isHEBorHeiLongJiang);
                     int remaindCount = getRemaindCount(place, i);
                     if (tingCount > 0)
                         tmpStream << ",";
@@ -878,7 +878,7 @@ bool CMJDataMgr::canTingAfterPengPai(CTableUser* pTUser, int cardId, int decCard
                     vector<vector<int>> shouPaiCards;
                     g_logic_mgr->getZuHeList(shouPaiCards);
                     calcFanZhongInfo(place, place, true, huType, i, allCardCountAry, shouPaiMjCountAry, shouPaiCards, fanZhongInfo, FParentTable->m_tableRule);
-                    int scores = g_logic_mgr->calcScores(fanZhongInfo, FParentTable->m_tableRule.isHEBorDQ);
+					int scores = g_logic_mgr->calcScores(fanZhongInfo, FParentTable->m_tableRule.isHEBorHeiLongJiang);
                     int remaindCount = getRemaindCount(place, i);
                     if (tingCount > 0)
                         tmpStream << ",";
@@ -985,7 +985,7 @@ void CMJDataMgr::calcTingInfo(CTableUser* pTUser)
                 vector<vector<int>> shouPaiCards;
                 g_logic_mgr->getZuHeList(shouPaiCards);
                 calcFanZhongInfo(place, place, true, huType, i, allCardCountAry, shouPaiMjCountAry, shouPaiCards, fanZhongInfo, FParentTable->m_tableRule);
-				int scores = g_logic_mgr->calcScores(fanZhongInfo,FParentTable->m_tableRule.isHEBorDQ);
+				int scores = g_logic_mgr->calcScores(fanZhongInfo, FParentTable->m_tableRule.isHEBorHeiLongJiang);
 				TMJTingPaiInfoItem tingItem(i, scores);
 				pTUser->tingPaiInfoArr.push_back(tingItem);
                 tingCount++;
@@ -1645,7 +1645,7 @@ void CMJDataMgr::RoundStopClearData()
 void CMJDataMgr::addAHuPaiInfo(int winnerPlace, int paoPlace, bool isZiMo, int cardId, const vector<int>& fanZhongList)
 {
     // 哈尔滨玩法
-    if (FParentTable->m_tableRule.isHEBorDQ == 0)
+	if (FParentTable->m_tableRule.isHEBorHeiLongJiang == 0)
     {
         // 是否为上听时点炮（上听出的牌点炮也包三家）
         bool isShangTingPao = ((FMJActionMgr->FLastActionName == mjaTing) || (FMJActionMgr->FLastActionName == mjaTingChi) || (FMJActionMgr->FLastActionName == mjaTingPeng)) && (!isZiMo);
@@ -1873,7 +1873,7 @@ void CMJDataMgr::calcFanZhongInfo(int place, int paoPlace, bool isZiMo, int huTy
 	}
 
     // 哈尔滨玩法
-    if (FParentTable->m_tableRule.isHEBorDQ == 0)
+	if (FParentTable->m_tableRule.isHEBorHeiLongJiang == 0)
     {
 
         if (FLastCardID == FBaoPaiCardID && find(pTUser->willHuCardID.begin(), pTUser->willHuCardID.end(), FBaoPaiCardID) != pTUser->willHuCardID.end() && isZiMo && FParentTable->m_tableRule.isBaoZhongBao)

@@ -88,7 +88,7 @@ void CMJActionMgr::DoActionStateAnimation()
             {
                 // 等待玩家出牌
                 FCurrActionState = asWaitChuPai;
-                FDecTimeCount = g_config_area->discard_sec;
+				FDecTimeCount = C_TIMER_COUNT_ONE_SECOND * g_config_area->discard_sec;
             }
 		}
         else if ((FLastActionName == mjaChu) || (FLastActionName == mjaTing) || (FLastActionName == mjaTingChi) || (FLastActionName == mjaTingPeng))
@@ -101,14 +101,14 @@ void CMJActionMgr::DoActionStateAnimation()
 			else
 			{
 				FCurrActionState = asWaitDongZuo;
-				FDecTimeCount = g_config_area->waitDongZuo_sec;
+				FDecTimeCount = C_TIMER_COUNT_ONE_SECOND * g_config_area->waitDongZuo_sec;
 			}
 		}
         else if ((FLastActionName == mjaChi) || (FLastActionName == mjaPeng))
 		{
 			// 等待玩家出牌
 			FCurrActionState = asWaitChuPai;
-			FDecTimeCount = g_config_area->discard_sec;
+			FDecTimeCount = C_TIMER_COUNT_ONE_SECOND * g_config_area->discard_sec;
 		}
 		else if ((FLastActionName == mjaDaMingGang) || (FLastActionName == mjaAnGang))
 		{
@@ -121,7 +121,7 @@ void CMJActionMgr::DoActionStateAnimation()
 			if (hasHuPaiAciton())
 			{
 				FCurrActionState = asWaitDongZuo;
-				FDecTimeCount = g_config_area->waitDongZuo_sec;
+				FDecTimeCount = C_TIMER_COUNT_ONE_SECOND * g_config_area->waitDongZuo_sec;
 			}
 			else
 			{
@@ -147,8 +147,10 @@ void CMJActionMgr::DoActionStateWaitDongZuo()
 {
 	// 检查出牌后的动作  -- 胡、明杠、碰、吃、摸牌。
 	// 到时间,处理具有相对最高优先级的动作
-	return; 
-	trustProcAciton(-1);
+	//return; 
+	trustProcAciton(FMJDataMgr->FCurrPlace);
+	//test
+	//trustProcAciton(-1);
 	FDecTimeCount--;
 	if (FDecTimeCount == -1)
 	{
@@ -158,7 +160,7 @@ void CMJActionMgr::DoActionStateWaitDongZuo()
 
 void CMJActionMgr::DoActionStateWaitChu()
 {
-	return;
+	//return;
 	CTableUser* pTUser = FParentTable->FindUserByChairIndex(FMJDataMgr->FCurrPlace);
 	if (pTUser->isTrust || (pTUser->ustate > tusNomal))
 	{
@@ -438,8 +440,7 @@ bool CMJActionMgr::procAction(vector<TPlayerMJAction>::iterator itProc)
 void CMJActionMgr::calcDecTimeCount4Animi()
 {
 	// todo: 各个动作的等待时间
-	FDecTimeCount = 1;
-
+	FDecTimeCount = C_TIMER_COUNT_ONE_SECOND/2;
 	// 先检测是否有自动胡牌(胡牌后再次胡牌，不需要等待玩家选择)
 	for (auto it = FCurrActionList.begin(); it != FCurrActionList.end(); it++)
 	{
@@ -483,8 +484,38 @@ void CMJActionMgr::trustProcAciton(int place)
 					}
 					else
 					{
-						if (applyAction((*it).Place, mjaPass, ""))
+						//try rebot
+						if (mjAction == mjaChi){
+							applyAction((*it).Place, mjaChi, (*it).ExpandStr);
 							break;
+						}
+						else if (mjAction == mjaPeng){
+							applyAction((*it).Place, mjaPeng, (*it).ExpandStr);
+							break;
+						}
+						else if (mjAction == mjaDaMingGang){
+							applyAction((*it).Place, mjaDaMingGang, (*it).ExpandStr);
+							break;
+						}
+						else if (mjAction == mjaTing){
+							applyAction((*it).Place, mjaTing, (*it).ExpandStr);
+							break;
+						}
+						else if (mjAction == mjaTingChi){
+							applyAction((*it).Place, mjaTingChi, (*it).ExpandStr);
+							break;
+						}
+						else if (mjAction == mjaTingPeng){
+							applyAction((*it).Place, mjaTingPeng, (*it).ExpandStr);
+							break;
+						}
+						else{
+							applyAction((*it).Place, mjaPass, "");
+							break;
+						}
+
+					/*	if (applyAction((*it).Place, mjaPass, ""))
+							break;*/
 					}
 				}
 			}
@@ -746,7 +777,7 @@ void CMJActionMgr::beginXingPai()
 {
 	FCurrActionState = asWaitChuPai;
 	FTimerState = tsWaitChuPai;
-	FDecTimeCount = g_config_area->discard_sec;
+	FDecTimeCount = C_TIMER_COUNT_ONE_SECOND * g_config_area->discard_sec;
 	FLastActionName = mjaError;
 	FCurrProcAciton = mjaError;
 	FBIsGangBu = false;

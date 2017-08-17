@@ -56,12 +56,13 @@ struct TTableRuleInfo
     bool isAnKeJiaFen;              // 是否暗刻加分     
     bool isKaiPaiZha;               // 是否开牌炸
     bool isBaoZhongBao;             // 是否带宝中宝
-    int  isHEBorDQ;                 // 0:哈尔滨玩法 1：大庆玩法
+	int  isHEBorHeiLongJiang;       // 0:哈尔滨玩法 1：黑龙江玩法
+	int isJiQiRen;                 // 是否是机器人
 
     TTableRuleInfo(){};
     TTableRuleInfo(TTableRuleInfo& other);
     // 初始化麻将规则
-    void setTableRule(bool chunjia, bool hongzhongBao, bool guadafeng, bool sanqijia, bool dandiaojia, bool zhiduijia, bool zhanli, bool menqing, bool anke, bool kaipaizha, bool baozhongbao, int haerbinOrdaqing);
+	void setTableRule(bool chunjia, bool hongzhongBao, bool guadafeng, bool sanqijia, bool dandiaojia, bool zhiduijia, bool zhanli, bool menqing, bool anke, bool kaipaizha, bool baozhongbao, int haerbinOrheiLongJiang, int isJiQiRen);
     // 发送当前桌子麻将规则
     void WriteTableRuleToPluto(CPluto& u);
 };

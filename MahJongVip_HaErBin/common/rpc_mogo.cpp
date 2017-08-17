@@ -211,7 +211,7 @@ void CRpcUtil::InitInnerMethods()
         p->PushPack(V_INT32, "isAnKe");                  // 是否带暗刻
         p->PushPack(V_INT32, "isKaiPaiZha");             // 是否带开牌炸
         p->PushPack(V_INT32, "isBaoZhongBao");           // 是否带宝中宝
-        p->PushPack(V_INT32, "isHEBorDQ");               // 0：哈尔滨 or 1：大庆玩法 
+        p->PushPack(V_INT32, "isHEBorHeiLongJiang");               // 0：哈尔滨 or 1：大庆玩法 
         m_methodsToWsClient.insert(make_pair(MSGID_CLIENT_BEGINGAME_NOTIFY, p));
 
         p = new _SEntityDefMethods;
@@ -681,9 +681,10 @@ void CRpcUtil::InitInnerMethods()
         p->PushPack(V_INT32, "isAnKe");                 // 是否带站立胡
         p->PushPack(V_INT32, "isKaiPaiZha");            // 是否带站立胡
         p->PushPack(V_INT32, "isBaoZhongBao");           // 是否带宝中宝
-        p->PushPack(V_INT32, "isHEBorDQ");               // 0:哈尔滨玩法 1：大庆玩法
+        p->PushPack(V_INT32, "isHEBorHeiLongJiang");     // 0:哈尔滨玩法 1：黑龙江玩法
+		p->PushPack(V_INT32, "isJiQiRen");
 
-		p->PushPack(V_STR, "tableNum");                 // 查找的桌子序号
+		p->PushPack(V_STR, "tableNum");                  // 查找的桌子序号
 		m_methods.insert(make_pair(MSGID_CLIENT_SIT, p));
 
         //p = new _SEntityDefMethods;
